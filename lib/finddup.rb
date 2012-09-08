@@ -11,6 +11,11 @@ class DupAnalyze
     @lines = out.split("\n").map(&:chomp)
   end
 
+  def self.x(v)
+    puts v
+    %x[#{v}]
+  end
+
   def self.exec(from, to)
     s = SimOpts.new
     simian='./lib/jars/simian-2.3.33.jar'
@@ -19,6 +24,7 @@ class DupAnalyze
     simname = s.name
     simfile = "sim/bak/#{simname}/#{from.gsub('src/','')}.#{to.gsub('src/','')}.sim"
     simfile2 = "sim/bak/#{simname}/#{to.gsub('src/','')}.#{from.gsub('src/','')}.sim"
+    puts simfile
     if File.exist?(simfile)
       return File.open(simfile).read
     end
@@ -27,7 +33,7 @@ class DupAnalyze
     end
     %x[mkdir -p sim/bak/#{simname}]
     javaopts="-Xss16m -Xmx1024m"
-    %x[find #{from} #{to} -name \*.java \
+    x %[find #{from} #{to} -name \*.java \
       |./bin/xa java #{javaopts} -XX:-UseConcMarkSweepGC -jar #{simian} #{simopts} | tee #{simfile}]
   end
 
@@ -81,7 +87,9 @@ class DupAnalyze
   end
 
   def get_base(f)
-    f.split('/')[0]
+    # look for first src, the next one is base
+    s = f.split('/')
+    s[s.index('src') + 1]
   end
 
   def processdup(c, count, xx)
@@ -121,7 +129,7 @@ if __FILE__ == $0
     d.show()
     i = 0
     dir = 'sim/dups/'+ from.split('/')[1]+'.'+to.split('/')[1]
-    exit(0) if File.exists?(dir)
+    %x[rm -rf #{dir}]
     Dir.mkdir(dir)
     d.result().each do |p|
       r = p[:files]
