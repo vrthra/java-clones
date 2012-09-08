@@ -11,18 +11,7 @@ class DupAnalyze
 
   def self.exec(from, to)
     simian='./tools/simian/bin/simian-2.3.33.jar'
-    simopts="-reportDuplicateText \
-             -ignoreCharacters \
-             -ignoreCurlyBraces \
-             -ignoreIdentifiers \
-             -ignoreLiterals \
-             -ignoreModifiers \
-             -ignoreNumbers \
-             -ignoreStrings \
-             -ignoreSubtypeNames \
-             -ignoreVariableNames \
-             -threshold=6"
-
+    simopts = File.read('.simopts').read.gsub("\n", " ")
     javaopts="-Xss16m -Xmx1024m"
     %x[find #{from} #{to} -name \*.java \
       |./bin/xa java #{javaopts} -XX:-UseConcMarkSweepGC -jar #{simian} #{simopts} | tee /tmp/simian.out]
