@@ -41,6 +41,7 @@ def compare_to_best_cov(cproj)
   # First populate dups/ dir
   # -----------------------------------------------------------
   best_covered_100.each do |bproj|
+    next if bproj == cproj
     populate_dup ("src/%s" % bproj), ("src/%s" % cproj)
   end
   # -----------------------------------------------------------
