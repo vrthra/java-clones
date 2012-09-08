@@ -17,7 +17,7 @@ class DupAnalyze
 
     simopts = s.opts
     simname = s.name
-    simfile = "sim/bak/#{simname}/#{from.gsub('src/','')}.#{to.gsub('src/','')}sim"
+    simfile = "sim/bak/#{simname}/#{from.gsub('src/','')}.#{to.gsub('src/','')}.sim"
     simfile2 = "sim/bak/#{simname}/#{to.gsub('src/','')}.#{from.gsub('src/','')}.sim"
     if File.exist?(simfile)
       return File.open(simfile).read

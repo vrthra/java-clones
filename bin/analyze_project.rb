@@ -34,7 +34,6 @@ def populate_dup(from, to)
 end
 
 def compare_to_best_cov(cproj)
-  @s = SimOpts.new
   best_covered_100 = File.open('cov.lst').readlines.reverse[0..99].map{|x| x.split(' ')[0]}
   %x[mkdir -p #{$dupdir}]
   # -----------------------------------------------------------
