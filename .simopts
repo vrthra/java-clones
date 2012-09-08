@@ -1,0 +1,12 @@
+-reportDuplicateText
+-ignoreCharacters
+-ignoreCurlyBraces
+-ignoreIdentifiers
+-ignoreLiterals
+-ignoreModifiers
+-ignoreNumbers
+-ignoreStrings
+-ignoreSubtypeNames
+-ignoreVariableNames
+-threshold=6
+
