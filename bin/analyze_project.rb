@@ -50,6 +50,7 @@ def compare_to_best_cov(cproj)
   # -----------------------------------------------------------
   return
   best_covered_100.each do |bproj|
+    next if bproj == cproj
     lines = %x[cat %s/%s.%s/*] % [dupdir, bproj,cproj].split("\n")\
       .map(&:chomp).sort.uniq.select_if{|l|
       l.start_with?(bproj) && l.end_with?('java')}
