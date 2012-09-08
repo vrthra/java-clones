@@ -32,7 +32,7 @@ class DupAnalyze
     end
     %x[mkdir -p sim/bak/#{simname}]
     javaopts="-Xss16m -Xmx1024m"
-    x %[find #{from} #{to} -name \*.java \
+    %x[find #{from} #{to} -name \*.java \
       |./bin/xa java #{javaopts} -XX:-UseConcMarkSweepGC -jar #{simian} #{simopts} | tee #{simfile}]
   end
 
