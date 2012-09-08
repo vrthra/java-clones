@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
 require 'lib/simopts'
-puts SimOpts.new.name
+puts "rm sim.now"
+puts "ln -s %s sim.now" % SimOpts.new.name
 
