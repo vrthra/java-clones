@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # This is to be run exclusively if we get time.
 
-$:.push 'bin'
+$:.push 'lib'
 require 'findtests'
 require 'find'
 

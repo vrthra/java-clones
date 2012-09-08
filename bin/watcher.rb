@@ -9,9 +9,10 @@ while true
   if nxt != 0 && nxt == now
     puts "kill #{nxt}"
     %x[kill -9 #{nxt}]
+  else
+    puts "#{now} != #{nxt}"
   end
   sleep limit
-  puts now
   now = nxt
 end
 
