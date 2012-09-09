@@ -1,9 +1,11 @@
 #!/bin/zsh
-find sim.tight/ | grep '\.m\.' | while read a;
+# find ./sim.tight > found
+cat found | grep '\.m\.' | while read a;
 do
-  echo cat $a
+  cat $a | more
   echo cat $(echo $a | sed -e 's/\.m\./.i./g')
+  echo cat $a
   #env i_LABEL='for' exit="pkill -9 $0" zsh -i
   # use kill -9 % to exit
-  kill -s STOP $$
+  #kill -s STOP $$
 done
