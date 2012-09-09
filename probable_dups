@@ -1,0 +1,1210 @@
+#- simian options
+-reportDuplicateText
+-threshold=6
+
+=====================================================================
+sim.tight/JTailPlus.Moneychanger/7.i.0 : Javax construction.
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(OTPasswordDialog.class.getName()).log(java.util.logging.Level.SEVERE,
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(OTPasswordDialog.class.getName()).log(java.util.logging.Level.SEVERE,
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(OTPasswordDialog.class.getName()).log(java.util.logging.Level.SEVERE,
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(OTPasswordDialog.class.getName()).log(java.util.logging.Level.SEVERE,
+        }
+
+=====================================================================
+sim.tight/springfaces.jpatterns/7.i.0
+
+    public static String readFileAsString(String filePath)
+            throws java.io.IOException {
+        StringBuilder fileData = new StringBuilder(1000);
+        BufferedReader reader = new BufferedReader(new FileReader(filePath));
+        char[] buf = new char[1024];
+        int numRead = 0;
+        while ((numRead = reader.read(buf)) != -1) {
+            String readData = String.valueOf(buf, 0, numRead);
+            fileData.append(readData);
+            buf = new char[1024];
+        }
+        reader.close();
+        return fileData.toString();
+    }
+
+=====================================================================
+sim.tight/pangool.trevni/6.i.0
+
+  public void readBytes(DataInputStream input, ITuple tuple, int index) throws IOException {
+    int length = WritableUtils.readVInt(input);
+    ByteBuffer old = (ByteBuffer) tuple.get(index);
+    ByteBuffer result;
+    if(old != null && length <= old.capacity()) {
+      result = old;
+      result.clear();
+    } else {
+      result = ByteBuffer.allocate(length);
+      tuple.set(index, result);
+    }
+    input.readFully(result.array(), result.position(), length);
+    result.limit(length);
+  }
+
+=====================================================================
+sim.tight/leveldb.leveldbjni/14.i.0
+    public static byte[] bytes(String value) {
+        if( value == null) {
+            return null;
+        }
+        try {
+            return value.getBytes("UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String asString(byte value[]) {
+        if( value == null) {
+            return null;
+        }
+        try {
+            return new String(value, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    static {
+        String v="unknown";
+        InputStream is = Iq80DBFactory.class.getResourceAsStream("version.txt");
+        try {
+            v = new BufferedReader(new InputStreamReader(is, "UTF-8")).readLine();
+        } catch (Throwable e) {
+        } finally {
+            try {
+                is.close();
+            } catch (Throwable e) {
+            }
+        }
+        VERSION = v;
+    }
+
+=====================================================================
+sim.tight/fastjson.skmclauncher/56.m.0 +++ 
+=====================================================================
+sim.tight/MarkdownPapers.cdk/9.i.0
+    public void dump(String prefix) {
+        System.out.println(toString(prefix));
+        if (children != null) {
+            for (int i = 0; i < children.length; ++i) {
+                SimpleNode n = (SimpleNode) children[i];
+                if (n != null) {
+                    n.dump(prefix + " ");
+                }
+            }
+        }
+    }
+   + jjtAddChild
+=====================================================================
+sim.tight/fastjson.skmclauncher/51.m.0
+    public void jjtOpen() {    }
+
+    public void jjtClose() {
+    }
+
+    public void jjtSetParent(Node n) {
+        parent = n;
+    }
+
+    public Node jjtGetParent() {
+        return parent;
+    }
+
+    public void jjtAddChild(Node n, int i) {
+        if (children == null) {
+            children = new Node[i + 1];
+        } else if (i >= children.length) {
+            Node c[] = new Node[i + 1];
+            System.arraycopy(children, 0, c, 0, children.length);
+            children = c;
+        }
+        children[i] = n;
+
+=====================================================================
+cat sim.tight/springfaces.jpatterns/7.i.0
+cat sim.tight/springfaces.jpatterns/7.m.0
+            dArr[dLen - 4] = (byte) CA[i >> 12];            dArr[dLen - 3] = (byte) CA[(i >>> 6) & 0x3f];
+            dArr[dLen - 2] = left == 2 ? (byte) CA[i & 0x3f] : (byte) '=';
+            dArr[dLen - 1] = '=';
+        }
+        return dArr;
+    }
+
+    /**
+     * Decodes a BASE64 encoded byte array. All illegal characters will be
+     * ignored and can handle both arrays with and without line separators.
+     * 
+     * @param sArr
+     *            The source array. Length 0 will return an empty array.
+     *            <code>null</code> will throw an exception.
+     * @return The decoded array of bytes. May be of length 0. Will be
+     *         <code>null</code> if the legal characters (including '=') isn't
+     *         divideable by 4. (I.e. definitely corrupted).
+     */
+    public final static byte[] decode(byte[] sArr) {
+        // Check special case
+        int sLen = sArr.length;
+
+        // Count illegal characters (including '\r', '\n') to know what size the
+        // returned array will be,
+        // so we don't have to reallocate & copy it later.
+        int sepCnt = 0; // Number of separator characters. (Actually illegal
+                        // characters, but that's a bonus...)
+        for (int i = 0; i < sLen; i++)
+            // If input is "pure" (I.e. no line separators or illegal chars)
+            // base64 this loop can be commented out.
+            if (IA[sArr[i] & 0xff] < 0)
+                sepCnt++;
+
+        // Check so that legal chars (including '=') are evenly divideable by 4
+        // as specified in RFC 2045.
+        if ((sLen - sepCnt) % 4 != 0)
+            return null;
+
+        int pad = 0;
+        for (int i = sLen; i > 1 && IA[sArr[--i] & 0xff] <= 0;)
+            if (sArr[i] == '=')
+                pad++;
+
+        int len = ((sLen - sepCnt) * 6 >> 3) - pad;
+
+        byte[] dArr = new byte[len]; // Preallocate byte[] of exact length
+
+        for (int s = 0, d = 0; d < len;) {
+            // Assemble three bytes into an int from four "valid" characters.
+            int i = 0;
+            for (int j = 0; j < 4; j++) { // j only increased if a valid char
+                                          // was found.
+                int c = IA[sArr[s++] & 0xff];
+                if (c >= 0)
+                    i |= c << (18 - j * 6);
+                else
+                    j--;
+            }
+
+            // Add the bytes
+            dArr[d++] = (byte) (i >> 16);
+            if (d < len) {
+                dArr[d++] = (byte) (i >> 8);
+                if (d < len)
+                    dArr[d++] = (byte) i;
+            }
+        }
+
+        return dArr;
+    }
+
+    /**
+     * Decodes a BASE64 encoded byte array that is known to be resonably well
+     * formatted. The method is about twice as fast as {@link #decode(byte[])}.
+     * The preconditions are:<br>
+     * + The array must have a line length of 76 chars OR no line separators at
+     * all (one line).<br>
+     * + Line separator must be "\r\n", as specified in RFC 2045 + The array
+     * must not contain illegal characters within the encoded string<br>
+     * + The array CAN have illegal characters at the beginning and end, those
+     * will be dealt with appropriately.<br>
+     * 
+     * @param sArr
+     *            The source array. Length 0 will return an empty array.
+     *            <code>null</code> will throw an exception.
+     * @return The decoded array of bytes. May be of length 0.
+     */
+    public final static byte[] decodeFast(byte[] sArr) {
+        // Check special case
+        int sLen = sArr.length;
+        if (sLen == 0)
+            return new byte[0];
+
+        int sIx = 0, eIx = sLen - 1; // Start and end index after trimming.
+
+        // Trim illegal chars from start
+        while (sIx < eIx && IA[sArr[sIx] & 0xff] < 0)
+            sIx++;
+
+        // Trim illegal chars from end
+        while (eIx > 0 && IA[sArr[eIx] & 0xff] < 0)
+            eIx--;
+
+        // get the padding count (=) (0, 1 or 2)
+        int pad = sArr[eIx] == '=' ? (sArr[eIx - 1] == '=' ? 2 : 1) : 0; // Count
+                                                                         // '='
+                                                                         // at
+                                                                         // end.
+        int cCnt = eIx - sIx + 1; // Content count including possible separators
+        int sepCnt = sLen > 76 ? (sArr[76] == '\r' ? cCnt / 78 : 0) << 1 : 0;
+
+        int len = ((cCnt - sepCnt) * 6 >> 3) - pad; // The number of decoded
+                                                    // bytes
+        byte[] dArr = new byte[len]; // Preallocate byte[] of exact length
+
+        // Decode all but the last 0 - 2 bytes.
+        int d = 0;
+        for (int cc = 0, eLen = (len / 3) * 3; d < eLen;) {
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/49.i.0
+cat sim.tight/fastjson.skmclauncher/49.m.0
+            if (sepCnt > 0 && ++cc == 19) {                sIx += 2;
+                cc = 0;
+            }
+        }
+
+        if (d < len) {
+            // Decode last 1-3 bytes (incl '=') into 1-3 bytes
+            int i = 0;
+            for (int j = 0; sIx <= eIx - pad; j++)
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/6.i.0
+cat sim.tight/fastjson.skmclauncher/6.m.0
+            dArr[d++] = (byte) (i >> 16);            dArr[d++] = (byte) (i >> 8);
+            dArr[d++] = (byte) i;
+
+            // If line separator, jump over it.
+            if (sepCnt > 0 && ++cc == 19) {
+                sIx += 2;
+                cc = 0;
+            }
+        }
+
+        if (d < len) {
+            // Decode last 1-3 bytes (incl '=') into 1-3 bytes
+            int i = 0;
+            for (int j = 0; sIx <= eIx - pad; j++)
+                i |= IA[sArr[sIx++]] << (18 - j * 6);
+
+            for (int r = 16; d < len; r -= 8)
+                dArr[d++] = (byte) (i >> r);
+        }
+
+        return dArr;
+    }
+
+    // ****************************************************************************************
+    // * byte[] version
+    // ****************************************************************************************
+
+    /**
+     * Encodes a raw byte array into a BASE64 <code>byte[]</code> representation
+     * i accordance with RFC 2045.
+     * 
+     * @param sArr
+     *            The bytes to convert. If <code>null</code> or length 0 an
+     *            empty array will be returned.
+     * @param lineSep
+     *            Optional "\r\n" after 76 characters, unless end of file.<br>
+     *            No line separator will be in breach of RFC 2045 which
+     *            specifies max 76 per line but will be a little faster.
+     * @return A BASE64 encoded array. Never <code>null</code>.
+     */
+    public final static byte[] encodeToByte(byte[] sArr, boolean lineSep) {
+        // Check special case
+        int sLen = sArr != null ? sArr.length : 0;
+        if (sLen == 0)
+            return new byte[0];
+
+        int eLen = (sLen / 3) * 3; // Length of even 24-bits.
+        int cCnt = ((sLen - 1) / 3 + 1) << 2; // Returned character count
+        int dLen = cCnt + (lineSep ? (cCnt - 1) / 76 << 1 : 0); // Length of
+                                                                // returned
+                                                                // array
+        byte[] dArr = new byte[dLen];
+
+        // Encode even 24-bits
+        for (int s = 0, d = 0, cc = 0; s < eLen;) {
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/22.i.0
+cat sim.tight/fastjson.skmclauncher/22.m.0
+            dArr[d++] = (byte) (i >> 16);            dArr[d++] = (byte) (i >> 8);
+            dArr[d++] = (byte) i;
+
+            // If line separator, jump over it.
+            if (sepCnt > 0 && ++cc == 19) {
+                sIx += 2;
+                cc = 0;
+            }
+        }
+
+        if (d < len) {
+            // Decode last 1-3 bytes (incl '=') into 1-3 bytes
+            int i = 0;
+            for (int j = 0; sIx <= eIx - pad; j++)
+                i |= IA[sArr[sIx++]] << (18 - j * 6);
+
+            for (int r = 16; d < len; r -= 8)
+                dArr[d++] = (byte) (i >> r);
+        }
+
+        return dArr;
+    }
+
+    // ****************************************************************************************
+    // * String version
+    // ****************************************************************************************
+
+    /**
+     * Encodes a raw byte array into a BASE64 <code>String</code> representation
+     * i accordance with RFC 2045.
+     * 
+     * @param sArr
+     *            The bytes to convert. If <code>null</code> or length 0 an
+     *            empty array will be returned.
+     * @param lineSep
+     *            Optional "\r\n" after 76 characters, unless end of file.<br>
+     *            No line separator will be in breach of RFC 2045 which
+     *            specifies max 76 per line but will be a little faster.
+     * @return A BASE64 encoded array. Never <code>null</code>.
+     */
+    public final static String encodeToString(byte[] sArr, boolean lineSep) {
+        // Reuse char[] since we can't create a String incrementally anyway and
+        // StringBuffer/Builder would be slower.
+        return new String(encodeToChar(sArr, lineSep));
+    }
+
+    /**
+     * Decodes a BASE64 encoded <code>String</code>. All illegal characters will
+     * be ignored and can handle both strings with and without line separators.<br>
+     * <b>Note!</b> It can be up to about 2x the speed to call
+     * <code>decode(str.toCharArray())</code> instead. That will create a
+     * temporary array though. This version will use <code>str.charAt(i)</code>
+     * to iterate the string.
+     * 
+     * @param str
+     *            The source string. <code>null</code> or length 0 will return
+     *            an empty array.
+     * @return The decoded array of bytes. May be of length 0. Will be
+     *         <code>null</code> if the legal characters (including '=') isn't
+     *         divideable by 4. (I.e. definitely corrupted).
+     */
+    public final static byte[] decode(String str) {
+        // Check special case
+        int sLen = str != null ? str.length() : 0;
+        if (sLen == 0)
+            return new byte[0];
+
+        // Count illegal characters (including '\r', '\n') to know what size the
+        // returned array will be,
+        // so we don't have to reallocate & copy it later.
+        int sepCnt = 0; // Number of separator characters. (Actually illegal
+                        // characters, but that's a bonus...)
+        for (int i = 0; i < sLen; i++)
+            // If input is "pure" (I.e. no line separators or illegal chars)
+            // base64 this loop can be commented out.
+            if (IA[str.charAt(i)] < 0)
+                sepCnt++;
+
+        // Check so that legal chars (including '=') are evenly divideable by 4
+        // as specified in RFC 2045.
+        if ((sLen - sepCnt) % 4 != 0)
+            return null;
+
+        // Count '=' at end
+        int pad = 0;
+        for (int i = sLen; i > 1 && IA[str.charAt(--i)] <= 0;)
+            if (str.charAt(i) == '=')
+                pad++;
+
+        int len = ((sLen - sepCnt) * 6 >> 3) - pad;
+
+        byte[] dArr = new byte[len]; // Preallocate byte[] of exact length
+
+        for (int s = 0, d = 0; d < len;) {
+            // Assemble three bytes into an int from four "valid" characters.
+            int i = 0;
+            for (int j = 0; j < 4; j++) { // j only increased if a valid char
+                                          // was found.
+                int c = IA[str.charAt(s++)];
+                if (c >= 0)
+                    i |= c << (18 - j * 6);
+                else
+                    j--;
+            }
+            // Add the bytes
+            dArr[d++] = (byte) (i >> 16);
+            if (d < len) {
+                dArr[d++] = (byte) (i >> 8);
+                if (d < len)
+                    dArr[d++] = (byte) i;
+            }
+        }
+        return dArr;
+    }
+
+    /**
+     * Decodes a BASE64 encoded string that is known to be resonably well
+     * formatted. The method is about twice as fast as {@link #decode(String)}.
+     * The preconditions are:<br>
+     * + The array must have a line length of 76 chars OR no line separators at
+     * all (one line).<br>
+     * + Line separator must be "\r\n", as specified in RFC 2045 + The array
+     * must not contain illegal characters within the encoded string<br>
+     * + The array CAN have illegal characters at the beginning and end, those
+     * will be dealt with appropriately.<br>
+     * 
+     * @param s
+     *            The source string. Length 0 will return an empty array.
+     *            <code>null</code> will throw an exception.
+     * @return The decoded array of bytes. May be of length 0.
+     */
+    public final static byte[] decodeFast(String s) {
+        // Check special case
+        int sLen = s.length();
+        if (sLen == 0)
+            return new byte[0];
+
+        int sIx = 0, eIx = sLen - 1; // Start and end index after trimming.
+
+        // Trim illegal chars from start
+        while (sIx < eIx && IA[s.charAt(sIx) & 0xff] < 0)
+            sIx++;
+
+        // Trim illegal chars from end
+        while (eIx > 0 && IA[s.charAt(eIx) & 0xff] < 0)
+            eIx--;
+
+        // get the padding count (=) (0, 1 or 2)
+        int pad = s.charAt(eIx) == '=' ? (s.charAt(eIx - 1) == '=' ? 2 : 1) : 0; // Count
+                                                                                 // '='
+                                                                                 // at
+                                                                                 // end.
+        int cCnt = eIx - sIx + 1; // Content count including possible separators
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/56.i.0
+cat sim.tight/fastjson.skmclauncher/56.m.0
+            dArr[d++] = (byte) (i >> 16);            dArr[d++] = (byte) (i >> 8);
+            dArr[d++] = (byte) i;
+
+            // If line separator, jump over it.
+            if (sepCnt > 0 && ++cc == 19) {
+                sIx += 2;
+                cc = 0;
+            }
+        }
+
+        if (d < len) {
+            // Decode last 1-3 bytes (incl '=') into 1-3 bytes
+            int i = 0;
+            for (int j = 0; sIx <= eIx - pad; j++)
+                i |= IA[s.charAt(sIx++)] << (18 - j * 6);
+
+            for (int r = 16; d < len; r -= 8)
+                dArr[d++] = (byte) (i >> r);
+        }
+
+        return dArr;
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/13.i.0
+cat sim.tight/fastjson.skmclauncher/13.m.0
+	private static final int[] IA = new int[256];	static {
+		Arrays.fill(IA, -1);
+		for (int i = 0, iS = CA.length; i < iS; i++)
+			IA[CA[i]] = i;
+		IA['='] = 0;
+	}
+
+	// ****************************************************************************************
+	// *  char[] version
+	// ****************************************************************************************
+
+	/** Encodes a raw byte array into a BASE64 <code>char[]</code> representation i accordance with RFC 2045.
+	 * @param sArr The bytes to convert. If <code>null</code> or length 0 an empty array will be returned.
+	 * @param lineSep Optional "\r\n" after 76 characters, unless end of file.<br>
+	 * No line separator will be in breach of RFC 2045 which specifies max 76 per line but will be a
+	 * little faster.
+	 * @return A BASE64 encoded array. Never <code>null</code>.
+	 */
+	public final static char[] encodeToChar(byte[] sArr, boolean lineSep)
+	{
+		// Check special case
+		int sLen = sArr != null ? sArr.length : 0;
+		if (sLen == 0)
+			return new char[0];
+
+		int eLen = (sLen / 3) * 3;              // Length of even 24-bits.
+		int cCnt = ((sLen - 1) / 3 + 1) << 2;   // Returned character count
+		int dLen = cCnt + (lineSep ? (cCnt - 1) / 76 << 1 : 0); // Length of returned array
+		char[] dArr = new char[dLen];
+
+		// Encode even 24-bits
+		for (int s = 0, d = 0, cc = 0; s < eLen;) {
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/14.i.0
+cat sim.tight/fastjson.skmclauncher/14.m.0
+			dArr[d++] = CA[(i >>> 18) & 0x3f];			dArr[d++] = CA[(i >>> 12) & 0x3f];
+			dArr[d++] = CA[(i >>> 6) & 0x3f];
+			dArr[d++] = CA[i & 0x3f];
+
+			// Add optional line separator
+			if (lineSep && ++cc == 19 && d < dLen - 2) {
+				dArr[d++] = '\r';
+				dArr[d++] = '\n';
+				cc = 0;
+			}
+		}
+
+		// Pad and encode last bits if source isn't even 24 bits.
+		int left = sLen - eLen; // 0 - 2.
+		if (left > 0) {
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/10.i.0
+cat sim.tight/fastjson.skmclauncher/10.m.0
+			dArr[dLen - 4] = CA[i >> 12];			dArr[dLen - 3] = CA[(i >>> 6) & 0x3f];
+			dArr[dLen - 2] = left == 2 ? CA[i & 0x3f] : '=';
+			dArr[dLen - 1] = '=';
+		}
+		return dArr;
+	}
+
+	/** Decodes a BASE64 encoded char array. All illegal characters will be ignored and can handle both arrays with
+	 * and without line separators.
+	 * @param sArr The source array. <code>null</code> or length 0 will return an empty array.
+	 * @return The decoded array of bytes. May be of length 0. Will be <code>null</code> if the legal characters
+	 * (including '=') isn't divideable by 4.  (I.e. definitely corrupted).
+	 */
+	public final static byte[] decode(char[] sArr)
+	{
+		// Check special case
+		int sLen = sArr != null ? sArr.length : 0;
+		if (sLen == 0)
+			return new byte[0];
+
+		// Count illegal characters (including '\r', '\n') to know what size the returned array will be,
+		// so we don't have to reallocate & copy it later.
+		int sepCnt = 0; // Number of separator characters. (Actually illegal characters, but that's a bonus...)
+		for (int i = 0; i < sLen; i++)  // If input is "pure" (I.e. no line separators or illegal chars) base64 this loop can be commented out.
+			if (IA[sArr[i]] < 0)
+				sepCnt++;
+
+		// Check so that legal chars (including '=') are evenly divideable by 4 as specified in RFC 2045.
+		if ((sLen - sepCnt) % 4 != 0)
+			return null;
+
+		int pad = 0;
+		for (int i = sLen; i > 1 && IA[sArr[--i]] <= 0;)
+			if (sArr[i] == '=')
+				pad++;
+
+		int len = ((sLen - sepCnt) * 6 >> 3) - pad;
+
+		byte[] dArr = new byte[len];       // Preallocate byte[] of exact length
+
+		for (int s = 0, d = 0; d < len;) {
+			// Assemble three bytes into an int from four "valid" characters.
+			int i = 0;
+			for (int j = 0; j < 4; j++) {   // j only increased if a valid char was found.
+				int c = IA[sArr[s++]];
+				if (c >= 0)
+				    i |= c << (18 - j * 6);
+				else
+					j--;
+			}
+			// Add the bytes
+			dArr[d++] = (byte) (i >> 16);
+			if (d < len) {
+				dArr[d++]= (byte) (i >> 8);
+				if (d < len)
+					dArr[d++] = (byte) i;
+			}
+		}
+		return dArr;
+	}
+
+	/** Decodes a BASE64 encoded char array that is known to be resonably well formatted. The method is about twice as
+	 * fast as {@link #decode(char[])}. The preconditions are:<br>
+	 * + The array must have a line length of 76 chars OR no line separators at all (one line).<br>
+	 * + Line separator must be "\r\n", as specified in RFC 2045
+	 * + The array must not contain illegal characters within the encoded string<br>
+	 * + The array CAN have illegal characters at the beginning and end, those will be dealt with appropriately.<br>
+	 * @param sArr The source array. Length 0 will return an empty array. <code>null</code> will throw an exception.
+	 * @return The decoded array of bytes. May be of length 0.
+	 */
+	public final static byte[] decodeFast(char[] sArr)
+	{
+		// Check special case
+		int sLen = sArr.length;
+		if (sLen == 0)
+			return new byte[0];
+
+		int sIx = 0, eIx = sLen - 1;    // Start and end index after trimming.
+
+		// Trim illegal chars from start
+		while (sIx < eIx && IA[sArr[sIx]] < 0)
+			sIx++;
+
+		// Trim illegal chars from end
+		while (eIx > 0 && IA[sArr[eIx]] < 0)
+			eIx--;
+
+		// get the padding count (=) (0, 1 or 2)
+		int pad = sArr[eIx] == '=' ? (sArr[eIx - 1] == '=' ? 2 : 1) : 0;  // Count '=' at end.
+		int cCnt = eIx - sIx + 1;   // Content count including possible separators
+		int sepCnt = sLen > 76 ? (sArr[76] == '\r' ? cCnt / 78 : 0) << 1 : 0;
+
+		int len = ((cCnt - sepCnt) * 6 >> 3) - pad; // The number of decoded bytes
+		byte[] dArr = new byte[len];       // Preallocate byte[] of exact length
+
+		// Decode all but the last 0 - 2 bytes.
+		int d = 0;
+		for (int cc = 0, eLen = (len / 3) * 3; d < eLen;) {
+=====================================================================
+cat sim.tight/fastjson.skmclauncher/51.i.0
+cat sim.tight/fastjson.skmclauncher/51.m.0
+    protected void verifyException(Throwable e, String... matches)    {
+        String msg = e.getMessage();
+        String lmsg = (msg == null) ? "" : msg.toLowerCase();
+        for (String match : matches) {
+            String lmatch = match.toLowerCase();
+            if (lmsg.indexOf(lmatch) >= 0) {
+                return;
+            }
+        }
+        fail("Expected an exception with one of substrings ("+Arrays.asList(matches)+"): got one with message \""+msg+"\"");
+=====================================================================
+cat sim.tight/low-gc-membuffers.java-classmate/8.i.0
+cat sim.tight/low-gc-membuffers.java-classmate/8.m.0
+        if (id == null) {            if (other.id != null) {
+                return false;
+            }
+        } else if (!id.equals(other.id)) {
+            return false;
+        }
+        return true;
+=====================================================================
+cat sim.tight/JDBM3.hector-jpa/6.i.0
+cat sim.tight/JDBM3.hector-jpa/6.m.0
+                writer.writeStartElement(GraphMLTokens.KEY);                writer.writeAttribute(GraphMLTokens.ID, key);
+                writer.writeAttribute(GraphMLTokens.FOR, GraphMLTokens.EDGE);
+                writer.writeAttribute(GraphMLTokens.ATTR_NAME, key);
+                writer.writeAttribute(GraphMLTokens.ATTR_TYPE, edgeKeyTypes.get(key));
+                writer.writeEndElement();
+=====================================================================
+cat sim.tight/blueprints.nosql-unit/6.i.0
+cat sim.tight/blueprints.nosql-unit/6.m.0
+    private static Object typeCastValue(String key, String value, Map<String, String> keyTypes) {        String type = keyTypes.get(key);
+        if (null == type || type.equals(GraphMLTokens.STRING))
+            return value;
+        else if (type.equals(GraphMLTokens.FLOAT))
+            return Float.valueOf(value);
+        else if (type.equals(GraphMLTokens.INT))
+            return Integer.valueOf(value);
+        else if (type.equals(GraphMLTokens.DOUBLE))
+            return Double.valueOf(value);
+        else if (type.equals(GraphMLTokens.BOOLEAN))
+            return Boolean.valueOf(value);
+        else if (type.equals(GraphMLTokens.LONG))
+            return Long.valueOf(value);
+        else
+            return value;
+=====================================================================
+cat sim.tight/blueprints.nosql-unit/16.i.0
+cat sim.tight/blueprints.nosql-unit/16.m.0
+			while (reader.hasNext()) {
+				Integer eventType = reader.next();
+				if (eventType.equals(XMLEvent.START_ELEMENT)) {
+
+					String elementName = reader.getName().getLocalPart();
+
+					if (elementName.equals(GraphMLTokens.KEY)) {
+
+						String id = reader.getAttributeValue(null, GraphMLTokens.ID);
+						String attributeName = reader.getAttributeValue(null, GraphMLTokens.ATTR_NAME);
+						String attributeType = reader.getAttributeValue(null, GraphMLTokens.ATTR_TYPE);
+						keyIdMap.put(id, attributeName);
+=====================================================================
+cat sim.tight/blueprints.nosql-unit/9.i.0
+cat sim.tight/blueprints.nosql-unit/9.m.0
+				writer.writeStartElement(GraphMLTokens.DATA);				writer.writeAttribute(GraphMLTokens.KEY, key);
+				Object value = edge.getProperty(key);
+				if (null != value) {
+					writer.writeCharacters(value.toString());
+				}
+				writer.writeEndElement();
+			}
+			writer.writeEndElement();
+=====================================================================
+cat sim.tight/blueprints.nosql-unit/7.i.0
+cat sim.tight/blueprints.nosql-unit/7.m.0
+	public static String getStringType(final Object object) {		if (object instanceof String) {
+			return GraphMLTokens.STRING;
+		} else if (object instanceof Integer) {
+			return GraphMLTokens.INT;
+		} else if (object instanceof Long) {
+			return GraphMLTokens.LONG;
+		} else if (object instanceof Float) {
+			return GraphMLTokens.FLOAT;
+		} else if (object instanceof Double) {
+			return GraphMLTokens.DOUBLE;
+		} else if (object instanceof Boolean) {
+			return GraphMLTokens.BOOLEAN;
+		} else {
+			return GraphMLTokens.STRING;
+=====================================================================
+cat sim.tight/blueprints.nosql-unit/15.i.0
+cat sim.tight/blueprints.nosql-unit/15.m.0
+                        for (String key : edge.getPropertyKeys()) {                            writer.writeStartElement(GraphMLTokens.DATA);
+                            writer.writeAttribute(GraphMLTokens.KEY, key);
+                            Object value = edge.getProperty(key);
+                            if (null != value) {
+                                writer.writeCharacters(value.toString());
+                            }
+                            writer.writeEndElement();
+                        }
+                        writer.writeEndElement();
+=====================================================================
+cat sim.tight/blueprints.nosql-unit/8.i.0
+cat sim.tight/blueprints.nosql-unit/8.m.0
+			maxNextCharInd += i;			return;
+		} catch (java.io.IOException e) {
+			--bufpos;
+			backup(0);
+			if (tokenBegin == -1)
+				tokenBegin = bufpos;
+			throw e;
+		}
+	}
+
+	public char BeginToken() throws java.io.IOException {
+		tokenBegin = -1;
+		char c = readChar();
+		tokenBegin = bufpos;
+		return c;
+	}
+
+	protected void UpdateLineColumn(char c) {
+		column++;
+		if (prevCharIsLF) {
+			prevCharIsLF = false;
+			line += (column = 1);
+		} else if (prevCharIsCR) {
+			prevCharIsCR = false;
+			if (c == '\n') {
+				prevCharIsLF = true;
+			} else
+				line += (column = 1);
+		}
+		switch (c) {
+		case '\r':
+			prevCharIsCR = true;
+			break;
+		case '\n':
+			prevCharIsLF = true;
+			break;
+		case '\t':
+			column--;
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/33.i.0
+cat sim.tight/MarkdownPapers.wolips/33.m.0
+         } while(i != startsAt);      }
+      if (kind != 0x7fffffff)
+      {
+         jjmatchedKind = kind;
+         jjmatchedPos = curPos;
+         kind = 0x7fffffff;
+      }
+      ++curPos;
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/6.i.0
+cat sim.tight/MarkdownPapers.wolips/6.m.0
+		inputStream = dstream;		line = startline;
+		column = startcolumn - 1;
+		if (buffer == null || buffersize != buffer.length) {
+			available = bufsize = buffersize;
+			buffer = new char[buffersize];
+			bufline = new int[buffersize];
+			bufcolumn = new int[buffersize];
+		}
+		prevCharIsLF = prevCharIsCR = false;
+		tokenBegin = inBuf = maxNextCharInd = 0;
+		bufpos = -1;
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/11.i.0
+cat sim.tight/MarkdownPapers.wolips/11.m.0
+protected char curChar;/** Constructor. */
+public ParserTokenManager(SimpleCharStream stream){
+   if (SimpleCharStream.staticFlag)
+      throw new Error("ERROR: Cannot use a static CharStream class with a non-static lexical analyzer.");
+   input_stream = stream;
+}
+
+/** Constructor. */
+public ParserTokenManager(SimpleCharStream stream, int lexState){
+   this(stream);
+   SwitchTo(lexState);
+}
+
+/** Reinitialise parser. */
+public void ReInit(SimpleCharStream stream)
+{
+   jjmatchedPos = jjnewStateCnt = 0;
+   curLexState = defaultLexState;
+   input_stream = stream;
+   ReInitRounds();
+}
+private void ReInitRounds()
+{
+   int i;
+   jjround = 0x80000001;
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/16.i.0
+cat sim.tight/MarkdownPapers.wolips/16.m.0
+		return retval;	}
+
+	/**
+	 * The end of line string for this machine.
+	 */
+	protected String eol = System.getProperty("line.separator", "\n");
+
+	/**
+	 * Used to convert raw characters to their escaped version when these raw
+	 * version cannot be used as part of an ASCII string literal.
+	 */
+	protected String add_escapes(String str) {
+		StringBuffer retval = new StringBuffer();
+		char ch;
+		for (int i = 0; i < str.length(); i++) {
+			switch (str.charAt(i)) {
+			case 0:
+				continue;
+			case '\b':
+				retval.append("\\b");
+				continue;
+			case '\t':
+				retval.append("\\t");
+				continue;
+			case '\n':
+				retval.append("\\n");
+				continue;
+			case '\f':
+				retval.append("\\f");
+				continue;
+			case '\r':
+				retval.append("\\r");
+				continue;
+			case '\"':
+				retval.append("\\\"");
+				continue;
+			case '\'':
+				retval.append("\\\'");
+				continue;
+			case '\\':
+				retval.append("\\\\");
+				continue;
+			default:
+				if ((ch = str.charAt(i)) < 0x20 || ch > 0x7e) {
+					String s = "0000" + Integer.toString(ch, 16);
+					retval.append("\\u" + s.substring(s.length() - 4, s.length()));
+				} else {
+					retval.append(ch);
+				}
+				continue;
+			}
+		}
+		return retval.toString();
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/41.i.0
+cat sim.tight/MarkdownPapers.wolips/41.m.0
+		inputStream = dstream;		line = startline;
+		column = startcolumn - 1;
+		available = bufsize = buffersize;
+		buffer = new char[buffersize];
+		bufline = new int[buffersize];
+		bufcolumn = new int[buffersize];
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/7.i.0
+cat sim.tight/MarkdownPapers.wolips/7.m.0
+  protected void ExpandBuff(boolean wrapAround)  {
+    char[] newbuffer = new char[bufsize + 2048];
+    int newbufline[] = new int[bufsize + 2048];
+    int newbufcolumn[] = new int[bufsize + 2048];
+
+    try
+    {
+      if (wrapAround)
+      {
+        System.arraycopy(buffer, tokenBegin, newbuffer, 0, bufsize - tokenBegin);
+        System.arraycopy(buffer, 0, newbuffer, bufsize - tokenBegin, bufpos);
+        buffer = newbuffer;
+
+        System.arraycopy(bufline, tokenBegin, newbufline, 0, bufsize - tokenBegin);
+        System.arraycopy(bufline, 0, newbufline, bufsize - tokenBegin, bufpos);
+        bufline = newbufline;
+
+        System.arraycopy(bufcolumn, tokenBegin, newbufcolumn, 0, bufsize - tokenBegin);
+        System.arraycopy(bufcolumn, 0, newbufcolumn, bufsize - tokenBegin, bufpos);
+        bufcolumn = newbufcolumn;
+
+        maxNextCharInd = (bufpos += (bufsize - tokenBegin));
+      }
+      else
+      {
+        System.arraycopy(buffer, tokenBegin, newbuffer, 0, bufsize - tokenBegin);
+        buffer = newbuffer;
+
+        System.arraycopy(bufline, tokenBegin, newbufline, 0, bufsize - tokenBegin);
+        bufline = newbufline;
+
+        System.arraycopy(bufcolumn, tokenBegin, newbufcolumn, 0, bufsize - tokenBegin);
+        bufcolumn = newbufcolumn;
+
+        maxNextCharInd = (bufpos -= tokenBegin);
+      }
+    }
+    catch (Throwable t)
+    {
+      throw new Error(t.getMessage());
+    }
+
+
+    bufsize += 2048;
+    available = bufsize;
+    tokenBegin = 0;
+  }
+
+  protected void FillBuff() throws java.io.IOException
+  {
+    if (maxNextCharInd == available)
+    {
+      if (available == bufsize)
+      {
+        if (tokenBegin > 2048)
+        {
+          bufpos = maxNextCharInd = 0;
+          available = tokenBegin;
+        }
+        else if (tokenBegin < 0)
+          bufpos = maxNextCharInd = 0;
+        else
+          ExpandBuff(false);
+      }
+      else if (available > tokenBegin)
+        available = bufsize;
+      else if ((tokenBegin - available) < 2048)
+        ExpandBuff(true);
+      else
+        available = tokenBegin;
+    }
+
+    int i;
+    try {
+      if ((i = inputStream.read(buffer, maxNextCharInd, available - maxNextCharInd)) == -1)
+      {
+        inputStream.close();
+        throw new java.io.IOException();
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/50.i.0
+cat sim.tight/MarkdownPapers.wolips/50.m.0
+  public int getLine() {    return bufline[bufpos];
+  }
+
+  /** Get token end column number. */
+  public int getEndColumn() {
+    return bufcolumn[bufpos];
+  }
+
+  /** Get token end line number. */
+  public int getEndLine() {
+     return bufline[bufpos];
+  }
+
+  /** Get token beginning column number. */
+  public int getBeginColumn() {
+    return bufcolumn[tokenBegin];
+  }
+
+  /** Get token beginning line number. */
+  public int getBeginLine() {
+    return bufline[tokenBegin];
+  }
+
+/** Backup a number of characters. */
+  public void backup(int amount) {
+
+    inBuf += amount;
+    if ((bufpos -= amount) < 0)
+      bufpos += bufsize;
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/14.i.0
+cat sim.tight/MarkdownPapers.wolips/14.m.0
+	private final void jjCheckNAdd(int state) {		if (jjrounds[state] != jjround) {
+			jjstateSet[jjnewStateCnt++] = state;
+			jjrounds[state] = jjround;
+		}
+	}
+
+	private final void jjAddStates(int start, int end) {
+		do {
+			jjstateSet[jjnewStateCnt++] = jjnextStates[start];
+		} while (start++ != end);
+	}
+
+	private final void jjCheckNAddTwoStates(int state1, int state2) {
+		jjCheckNAdd(state1);
+		jjCheckNAdd(state2);
+	}
+
+	private final void jjCheckNAddStates(int start, int end) {
+		do {
+			jjCheckNAdd(jjnextStates[start]);
+		} while (start++ != end);
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/15.i.0
+cat sim.tight/MarkdownPapers.wolips/15.m.0
+  static final int LEXICAL_ERROR = 0;
+  /**
+   * An attempt was made to create a second instance of a static token manager.
+   */
+  static final int STATIC_LEXER_ERROR = 1;
+
+  /**
+   * Tried to change to an invalid lexical state.
+   */
+  static final int INVALID_LEXICAL_STATE = 2;
+
+  /**
+   * Detected (and bailed out of) an infinite loop in the token manager.
+   */
+  static final int LOOP_DETECTED = 3;
+
+  /**
+   * Indicates the reason why the exception is thrown. It will have
+   * one of the above 4 values.
+   */
+  int errorCode;
+
+  /**
+   * Replaces unprintable characters by their escaped (or unicode escaped)
+   * equivalents in the given string
+   */
+  protected static final String addEscapes(String str) {
+    StringBuffer retval = new StringBuffer();
+    char ch;
+    for (int i = 0; i < str.length(); i++) {
+      switch (str.charAt(i))
+      {
+        case 0 :
+          continue;
+        case '\b':
+          retval.append("\\b");
+          continue;
+        case '\t':
+          retval.append("\\t");
+          continue;
+        case '\n':
+          retval.append("\\n");
+          continue;
+        case '\f':
+          retval.append("\\f");
+          continue;
+        case '\r':
+          retval.append("\\r");
+          continue;
+        case '\"':
+          retval.append("\\\"");
+          continue;
+        case '\'':
+          retval.append("\\\'");
+          continue;
+        case '\\':
+          retval.append("\\\\");
+          continue;
+        default:
+          if ((ch = str.charAt(i)) < 0x20 || ch > 0x7e) {
+            String s = "0000" + Integer.toString(ch, 16);
+            retval.append("\\u" + s.substring(s.length() - 4, s.length()));
+          } else {
+            retval.append(ch);
+          }
+          continue;
+      }
+    }
+    return retval.toString();
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/44.i.0
+cat sim.tight/MarkdownPapers.wolips/44.m.0
+   int i = 1;   jjstateSet[0] = startState;
+   int kind = 0x7fffffff;
+   for (;;)
+   {
+      if (++jjround == 0x7fffffff)
+         ReInitRounds();
+      if (curChar < 64)
+      {
+         long l = 1L << curChar;
+=====================================================================
+cat sim.tight/MarkdownPapers.wolips/8.i.0
+cat sim.tight/MarkdownPapers.wolips/8.m.0
+      private int memoizedSerializedSize = -1;      public int getSerializedSize() {
+        int size = memoizedSerializedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        {
+          int dataSize = 0;
+=====================================================================
+cat sim.tight/jgit.OSM-binary/6.i.0
+cat sim.tight/jgit.OSM-binary/6.m.0
+    private byte memoizedIsInitialized = -1;    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+      
+      memoizedIsInitialized = 1;
+      return true;
+    }
+    
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+=====================================================================
+cat sim.tight/jgit.OSM-binary/9.i.0
+cat sim.tight/jgit.OSM-binary/9.m.0
+    private int memoizedSerializedSize = -1;    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+    
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+=====================================================================
+cat sim.tight/jgit.OSM-binary/7.i.0
+cat sim.tight/jgit.OSM-binary/7.m.0
+      private byte memoizedIsInitialized = -1;      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized != -1) return isInitialized == 1;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        getSerializedSize();
+        if (((bitField0_ & 0x00000001) == 0x00000001)) {
+=====================================================================
+cat sim.tight/jgit.OSM-binary/10.i.0
+cat sim.tight/jgit.OSM-binary/10.m.0
+          java.io.InputStream input,          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        Builder builder = newBuilder();
+        if (builder.mergeDelimitedFrom(input, extensionRegistry)) {
+          return builder.buildParsed();
+        } else {
+          return null;
+=====================================================================
+cat sim.tight/jgit.OSM-binary/8.i.0
+cat sim.tight/jgit.OSM-binary/8.m.0
