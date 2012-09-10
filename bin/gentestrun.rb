@@ -18,7 +18,7 @@ class TestRun
     return cov
   end
 
-  def initialize(proj, alltests=false)
+  def initialize(proj, alltests=false, test=nil)
     @proj = proj
     if alltests
       if File.exist? "coverage/update/#{proj}/@all"
@@ -26,6 +26,10 @@ class TestRun
       else
         doalltest(proj)
       end
+      return
+    end
+    unless test.nil?
+      dotest(test, proj)
       return
     end
     FindTests.new('src/' + proj).show.each do |t|
@@ -74,12 +78,14 @@ cov = File.open('coverage/cov.lst').readlines.each do |x|
   TestRun.new($1.chomp)
   end
 end
-when /-one/
+when /-each/
   TestRun.new(ARGV[1].chomp.split('/')[1])
+when /-one/
+  TestRun.new(ARGV[1].chomp.split('/')[1], false, ARGV[2])
 when /-chunk/
   TestRun.new(ARGV[1].chomp.split('/')[1], true)
 else
   puts <<EOF
-$0 -all | -one src/xxx | -chunk src/xxx"
+$0 -all | -each src/xxx | -chunk src/xxx | -one src/xxx test"
 EOF
 end
