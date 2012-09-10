@@ -2,8 +2,16 @@
 -reportDuplicateText
 -threshold=6
 
-=====================================================================
+Legend:
+x - not covered
+t - was part of a test
+i - indirect coverage
+g - generated sources
+d - almost colmplete duplicate, but not covered
+
+x=====================================================================
 sim.tight/JTailPlus.Moneychanger/7.i.0 : Javax construction.
+sim.bak/JTailPlus.Moneychanger.sim : Javax construction.
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -21,8 +29,9 @@ sim.tight/JTailPlus.Moneychanger/7.i.0 : Javax construction.
             java.util.logging.Logger.getLogger(OTPasswordDialog.class.getName()).log(java.util.logging.Level.SEVERE,
         }
 
-=====================================================================
-sim.tight/springfaces.jpatterns/7.i.0
+t=====================================================================
+sim.tight/snacktory.encog-java-workbench/8.i.0
+sim.tight/snacktory.encog-java-workbench/8.m.0
 
     public static String readFileAsString(String filePath)
             throws java.io.IOException {
@@ -39,8 +48,11 @@ sim.tight/springfaces.jpatterns/7.i.0
         return fileData.toString();
     }
 
-=====================================================================
+i=====================================================================
 sim.tight/pangool.trevni/6.i.0
+sim.tight/pangool.trevni/6.m.0
+
++ com.datasalt.pangool.tuplemr.serialization.TestTupleSerialization
 
   public void readBytes(DataInputStream input, ITuple tuple, int index) throws IOException {
     int length = WritableUtils.readVInt(input);
@@ -57,8 +69,9 @@ sim.tight/pangool.trevni/6.i.0
     result.limit(length);
   }
 
-=====================================================================
+t=====================================================================
 sim.tight/leveldb.leveldbjni/14.i.0
+sim.tight/leveldb.leveldbjni/14.m.0
     public static byte[] bytes(String value) {
         if( value == null) {
             return null;
@@ -96,10 +109,13 @@ sim.tight/leveldb.leveldbjni/14.i.0
         VERSION = v;
     }
 
-=====================================================================
-sim.tight/fastjson.skmclauncher/56.m.0 +++ 
-=====================================================================
+d=====================================================================
+sim.tight/fastjson.skmclauncher/56.i.0
+sim.tight/fastjson.skmclauncher/56.m.0
+d=====================================================================
+# complete copy of SimpleNode.java but no coverage.
 sim.tight/MarkdownPapers.cdk/9.i.0
+sim.tight/MarkdownPapers.cdk/9.m.0
     public void dump(String prefix) {
         System.out.println(toString(prefix));
         if (children != null) {
@@ -112,8 +128,9 @@ sim.tight/MarkdownPapers.cdk/9.i.0
         }
     }
    + jjtAddChild
-=====================================================================
-sim.tight/fastjson.skmclauncher/51.m.0
+x=====================================================================
+sim.tight/MarkdownPapers.cdk/14.i.0
+sim.tight/MarkdownPapers.cdk/14.m.0
     public void jjtOpen() {    }
 
     public void jjtClose() {
@@ -137,9 +154,9 @@ sim.tight/fastjson.skmclauncher/51.m.0
         }
         children[i] = n;
 
-=====================================================================
-cat sim.tight/springfaces.jpatterns/7.i.0
-cat sim.tight/springfaces.jpatterns/7.m.0
+t=====================================================================
+sim.tight/springfaces.jpatterns/7.i.0
+sim.tight/springfaces.jpatterns/7.m.0
             dArr[dLen - 4] = (byte) CA[i >> 12];            dArr[dLen - 3] = (byte) CA[(i >>> 6) & 0x3f];
             dArr[dLen - 2] = left == 2 ? (byte) CA[i & 0x3f] : (byte) '=';
             dArr[dLen - 1] = '=';
@@ -258,9 +275,17 @@ cat sim.tight/springfaces.jpatterns/7.m.0
         // Decode all but the last 0 - 2 bytes.
         int d = 0;
         for (int cc = 0, eLen = (len / 3) * 3; d < eLen;) {
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/49.i.0
-cat sim.tight/fastjson.skmclauncher/49.m.0
+t=====================================================================
+sim.tight/fastjson.skmclauncher/49.i.0
+sim.tight/fastjson.skmclauncher/49.m.0
+----------------------------------------------------------------------
+
+c=====================================================================
+sim.tight/fastjson.skmclauncher/6.i.0
+sim.tight/fastjson.skmclauncher/6.m.0
+Base64.java
+Base64Test.java
+
             if (sepCnt > 0 && ++cc == 19) {                sIx += 2;
                 cc = 0;
             }
@@ -270,9 +295,8 @@ cat sim.tight/fastjson.skmclauncher/49.m.0
             // Decode last 1-3 bytes (incl '=') into 1-3 bytes
             int i = 0;
             for (int j = 0; sIx <= eIx - pad; j++)
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/6.i.0
-cat sim.tight/fastjson.skmclauncher/6.m.0
+
+----------------------------------------------------------------------
             dArr[d++] = (byte) (i >> 16);            dArr[d++] = (byte) (i >> 8);
             dArr[d++] = (byte) i;
 
@@ -328,9 +352,9 @@ cat sim.tight/fastjson.skmclauncher/6.m.0
 
         // Encode even 24-bits
         for (int s = 0, d = 0, cc = 0; s < eLen;) {
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/22.i.0
-cat sim.tight/fastjson.skmclauncher/22.m.0
+t=====================================================================
+sim.tight/fastjson.skmclauncher/22.i.0
+sim.tight/fastjson.skmclauncher/22.m.0
             dArr[d++] = (byte) (i >> 16);            dArr[d++] = (byte) (i >> 8);
             dArr[d++] = (byte) i;
 
@@ -484,9 +508,9 @@ cat sim.tight/fastjson.skmclauncher/22.m.0
                                                                                  // at
                                                                                  // end.
         int cCnt = eIx - sIx + 1; // Content count including possible separators
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/56.i.0
-cat sim.tight/fastjson.skmclauncher/56.m.0
+t=====================================================================
+sim.tight/fastjson.skmclauncher/56.i.0
+sim.tight/fastjson.skmclauncher/56.m.0
             dArr[d++] = (byte) (i >> 16);            dArr[d++] = (byte) (i >> 8);
             dArr[d++] = (byte) i;
 
@@ -508,9 +532,9 @@ cat sim.tight/fastjson.skmclauncher/56.m.0
         }
 
         return dArr;
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/13.i.0
-cat sim.tight/fastjson.skmclauncher/13.m.0
++=====================================================================
+sim.tight/fastjson.skmclauncher/13.i.0
+sim.tight/fastjson.skmclauncher/13.m.0
 	private static final int[] IA = new int[256];	static {
 		Arrays.fill(IA, -1);
 		for (int i = 0, iS = CA.length; i < iS; i++)
@@ -543,9 +567,9 @@ cat sim.tight/fastjson.skmclauncher/13.m.0
 
 		// Encode even 24-bits
 		for (int s = 0, d = 0, cc = 0; s < eLen;) {
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/14.i.0
-cat sim.tight/fastjson.skmclauncher/14.m.0
+t=====================================================================
+sim.tight/fastjson.skmclauncher/14.i.0
+sim.tight/fastjson.skmclauncher/14.m.0
 			dArr[d++] = CA[(i >>> 18) & 0x3f];			dArr[d++] = CA[(i >>> 12) & 0x3f];
 			dArr[d++] = CA[(i >>> 6) & 0x3f];
 			dArr[d++] = CA[i & 0x3f];
@@ -561,9 +585,9 @@ cat sim.tight/fastjson.skmclauncher/14.m.0
 		// Pad and encode last bits if source isn't even 24 bits.
 		int left = sLen - eLen; // 0 - 2.
 		if (left > 0) {
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/10.i.0
-cat sim.tight/fastjson.skmclauncher/10.m.0
+t=====================================================================
+sim.tight/fastjson.skmclauncher/10.i.0
+sim.tight/fastjson.skmclauncher/10.m.0
 			dArr[dLen - 4] = CA[i >> 12];			dArr[dLen - 3] = CA[(i >>> 6) & 0x3f];
 			dArr[dLen - 2] = left == 2 ? CA[i & 0x3f] : '=';
 			dArr[dLen - 1] = '=';
@@ -662,9 +686,9 @@ cat sim.tight/fastjson.skmclauncher/10.m.0
 		// Decode all but the last 0 - 2 bytes.
 		int d = 0;
 		for (int cc = 0, eLen = (len / 3) * 3; d < eLen;) {
-=====================================================================
-cat sim.tight/fastjson.skmclauncher/51.i.0
-cat sim.tight/fastjson.skmclauncher/51.m.0
+t=====================================================================
+sim.tight/fastjson.skmclauncher/51.i.0
+sim.tight/fastjson.skmclauncher/51.m.0
     protected void verifyException(Throwable e, String... matches)    {
         String msg = e.getMessage();
         String lmsg = (msg == null) ? "" : msg.toLowerCase();
@@ -675,9 +699,9 @@ cat sim.tight/fastjson.skmclauncher/51.m.0
             }
         }
         fail("Expected an exception with one of substrings ("+Arrays.asList(matches)+"): got one with message \""+msg+"\"");
-=====================================================================
-cat sim.tight/low-gc-membuffers.java-classmate/8.i.0
-cat sim.tight/low-gc-membuffers.java-classmate/8.m.0
+t=====================================================================
+sim.tight/low-gc-membuffers.java-classmate/8.i.0
+sim.tight/low-gc-membuffers.java-classmate/8.m.0
         if (id == null) {            if (other.id != null) {
                 return false;
             }
@@ -685,17 +709,27 @@ cat sim.tight/low-gc-membuffers.java-classmate/8.m.0
             return false;
         }
         return true;
-=====================================================================
-cat sim.tight/JDBM3.hector-jpa/6.i.0
-cat sim.tight/JDBM3.hector-jpa/6.m.0
+t=====================================================================
+sim.tight/JDBM3.hector-jpa/6.i.0
+sim.tight/JDBM3.hector-jpa/6.m.0
+----------------------------------------------------------------------
+c=====================================================================
+sim.tight/blueprints.nosql-unit/6.i.0
+sim.tight/blueprints.nosql-unit/6.m.0
+
+(some similarity)
+GraphMLWriter
+GraphMLWriterTest
                 writer.writeStartElement(GraphMLTokens.KEY);                writer.writeAttribute(GraphMLTokens.ID, key);
                 writer.writeAttribute(GraphMLTokens.FOR, GraphMLTokens.EDGE);
                 writer.writeAttribute(GraphMLTokens.ATTR_NAME, key);
                 writer.writeAttribute(GraphMLTokens.ATTR_TYPE, edgeKeyTypes.get(key));
-                writer.writeEndElement();
-=====================================================================
-cat sim.tight/blueprints.nosql-unit/6.i.0
-cat sim.tight/blueprints.nosql-unit/6.m.0
+
++=====================================================================
+sim.tight/blueprints.nosql-unit/16.i.0
+sim.tight/blueprints.nosql-unit/16.m.0
+               writer.writeEndElement();
+
     private static Object typeCastValue(String key, String value, Map<String, String> keyTypes) {        String type = keyTypes.get(key);
         if (null == type || type.equals(GraphMLTokens.STRING))
             return value;
@@ -711,9 +745,11 @@ cat sim.tight/blueprints.nosql-unit/6.m.0
             return Long.valueOf(value);
         else
             return value;
-=====================================================================
-cat sim.tight/blueprints.nosql-unit/16.i.0
-cat sim.tight/blueprints.nosql-unit/16.m.0
+
++=====================================================================
+sim.tight/blueprints.nosql-unit/9.i.0
+sim.tight/blueprints.nosql-unit/9.m.0
+
 			while (reader.hasNext()) {
 				Integer eventType = reader.next();
 				if (eventType.equals(XMLEvent.START_ELEMENT)) {
@@ -726,9 +762,9 @@ cat sim.tight/blueprints.nosql-unit/16.m.0
 						String attributeName = reader.getAttributeValue(null, GraphMLTokens.ATTR_NAME);
 						String attributeType = reader.getAttributeValue(null, GraphMLTokens.ATTR_TYPE);
 						keyIdMap.put(id, attributeName);
-=====================================================================
-cat sim.tight/blueprints.nosql-unit/9.i.0
-cat sim.tight/blueprints.nosql-unit/9.m.0
++=====================================================================
+sim.tight/blueprints.nosql-unit/7.i.0
+sim.tight/blueprints.nosql-unit/7.m.0
 				writer.writeStartElement(GraphMLTokens.DATA);				writer.writeAttribute(GraphMLTokens.KEY, key);
 				Object value = edge.getProperty(key);
 				if (null != value) {
@@ -737,9 +773,11 @@ cat sim.tight/blueprints.nosql-unit/9.m.0
 				writer.writeEndElement();
 			}
 			writer.writeEndElement();
-=====================================================================
-cat sim.tight/blueprints.nosql-unit/7.i.0
-cat sim.tight/blueprints.nosql-unit/7.m.0
++=====================================================================
+sim.tight/blueprints.nosql-unit/15.i.0
+sim.tight/blueprints.nosql-unit/15.m.0
+
+
 	public static String getStringType(final Object object) {		if (object instanceof String) {
 			return GraphMLTokens.STRING;
 		} else if (object instanceof Integer) {
@@ -754,9 +792,9 @@ cat sim.tight/blueprints.nosql-unit/7.m.0
 			return GraphMLTokens.BOOLEAN;
 		} else {
 			return GraphMLTokens.STRING;
-=====================================================================
-cat sim.tight/blueprints.nosql-unit/15.i.0
-cat sim.tight/blueprints.nosql-unit/15.m.0
++=====================================================================
+sim.tight/blueprints.nosql-unit/8.i.0
+sim.tight/blueprints.nosql-unit/8.m.0
                         for (String key : edge.getPropertyKeys()) {                            writer.writeStartElement(GraphMLTokens.DATA);
                             writer.writeAttribute(GraphMLTokens.KEY, key);
                             Object value = edge.getProperty(key);
@@ -766,9 +804,11 @@ cat sim.tight/blueprints.nosql-unit/15.m.0
                             writer.writeEndElement();
                         }
                         writer.writeEndElement();
-=====================================================================
-cat sim.tight/blueprints.nosql-unit/8.i.0
-cat sim.tight/blueprints.nosql-unit/8.m.0
+g=====================================================================
+cat sim.tight/MarkdownPapers.wolips/33.i.0
+cat sim.tight/MarkdownPapers.wolips/33.m.0
+
+
 			maxNextCharInd += i;			return;
 		} catch (java.io.IOException e) {
 			--bufpos;
@@ -807,9 +847,11 @@ cat sim.tight/blueprints.nosql-unit/8.m.0
 			break;
 		case '\t':
 			column--;
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/33.i.0
-cat sim.tight/MarkdownPapers.wolips/33.m.0
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/6.i.0
+sim.tight/MarkdownPapers.wolips/6.m.0
+
+
          } while(i != startsAt);      }
       if (kind != 0x7fffffff)
       {
@@ -818,9 +860,11 @@ cat sim.tight/MarkdownPapers.wolips/33.m.0
          kind = 0x7fffffff;
       }
       ++curPos;
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/6.i.0
-cat sim.tight/MarkdownPapers.wolips/6.m.0
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/11.i.0
+sim.tight/MarkdownPapers.wolips/11.m.0
+
+
 		inputStream = dstream;		line = startline;
 		column = startcolumn - 1;
 		if (buffer == null || buffersize != buffer.length) {
@@ -832,9 +876,10 @@ cat sim.tight/MarkdownPapers.wolips/6.m.0
 		prevCharIsLF = prevCharIsCR = false;
 		tokenBegin = inBuf = maxNextCharInd = 0;
 		bufpos = -1;
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/11.i.0
-cat sim.tight/MarkdownPapers.wolips/11.m.0
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/16.i.0
+sim.tight/MarkdownPapers.wolips/16.m.0
+
 protected char curChar;/** Constructor. */
 public ParserTokenManager(SimpleCharStream stream){
    if (SimpleCharStream.staticFlag)
@@ -860,9 +905,11 @@ private void ReInitRounds()
 {
    int i;
    jjround = 0x80000001;
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/16.i.0
-cat sim.tight/MarkdownPapers.wolips/16.m.0
+
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/41.i.0
+sim.tight/MarkdownPapers.wolips/41.m.0
+
 		return retval;	}
 
 	/**
@@ -916,18 +963,23 @@ cat sim.tight/MarkdownPapers.wolips/16.m.0
 			}
 		}
 		return retval.toString();
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/41.i.0
-cat sim.tight/MarkdownPapers.wolips/41.m.0
+
+
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/7.i.0
+sim.tight/MarkdownPapers.wolips/7.m.0
+
 		inputStream = dstream;		line = startline;
 		column = startcolumn - 1;
 		available = bufsize = buffersize;
 		buffer = new char[buffersize];
 		bufline = new int[buffersize];
 		bufcolumn = new int[buffersize];
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/7.i.0
-cat sim.tight/MarkdownPapers.wolips/7.m.0
+
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/50.i.0
+sim.tight/MarkdownPapers.wolips/50.m.0
+
   protected void ExpandBuff(boolean wrapAround)  {
     char[] newbuffer = new char[bufsize + 2048];
     int newbufline[] = new int[bufsize + 2048];
@@ -1006,9 +1058,10 @@ cat sim.tight/MarkdownPapers.wolips/7.m.0
       {
         inputStream.close();
         throw new java.io.IOException();
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/50.i.0
-cat sim.tight/MarkdownPapers.wolips/50.m.0
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/14.i.0
+sim.tight/MarkdownPapers.wolips/14.m.0
+
   public int getLine() {    return bufline[bufpos];
   }
 
@@ -1038,9 +1091,12 @@ cat sim.tight/MarkdownPapers.wolips/50.m.0
     inBuf += amount;
     if ((bufpos -= amount) < 0)
       bufpos += bufsize;
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/14.i.0
-cat sim.tight/MarkdownPapers.wolips/14.m.0
+
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/15.i.0
+sim.tight/MarkdownPapers.wolips/15.m.0
+
+
 	private final void jjCheckNAdd(int state) {		if (jjrounds[state] != jjround) {
 			jjstateSet[jjnewStateCnt++] = state;
 			jjrounds[state] = jjround;
@@ -1062,9 +1118,10 @@ cat sim.tight/MarkdownPapers.wolips/14.m.0
 		do {
 			jjCheckNAdd(jjnextStates[start]);
 		} while (start++ != end);
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/15.i.0
-cat sim.tight/MarkdownPapers.wolips/15.m.0
+g=====================================================================
+sim.tight/MarkdownPapers.wolips/44.i.0
+sim.tight/MarkdownPapers.wolips/44.m.0
+
   static final int LEXICAL_ERROR = 0;
   /**
    * An attempt was made to create a second instance of a static token manager.
@@ -1134,9 +1191,10 @@ cat sim.tight/MarkdownPapers.wolips/15.m.0
       }
     }
     return retval.toString();
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/44.i.0
-cat sim.tight/MarkdownPapers.wolips/44.m.0
+g=====================================================================
+- ParserTokenManager
+sim.tight/MarkdownPapers.wolips/8.i.0
+sim.tight/MarkdownPapers.wolips/8.m.0
    int i = 1;   jjstateSet[0] = startState;
    int kind = 0x7fffffff;
    for (;;)
@@ -1146,58 +1204,11 @@ cat sim.tight/MarkdownPapers.wolips/44.m.0
       if (curChar < 64)
       {
          long l = 1L << curChar;
-=====================================================================
-cat sim.tight/MarkdownPapers.wolips/8.i.0
-cat sim.tight/MarkdownPapers.wolips/8.m.0
-      private int memoizedSerializedSize = -1;      public int getSerializedSize() {
-        int size = memoizedSerializedSize;
-        if (size != -1) return size;
 
-        size = 0;
-        {
-          int dataSize = 0;
-=====================================================================
-cat sim.tight/jgit.OSM-binary/6.i.0
-cat sim.tight/jgit.OSM-binary/6.m.0
-    private byte memoizedIsInitialized = -1;    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      memoizedIsInitialized = 1;
-      return true;
-    }
-    
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      getSerializedSize();
-=====================================================================
-cat sim.tight/jgit.OSM-binary/9.i.0
-cat sim.tight/jgit.OSM-binary/9.m.0
-    private int memoizedSerializedSize = -1;    public int getSerializedSize() {
-      int size = memoizedSerializedSize;
-      if (size != -1) return size;
-    
-      size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        size += com.google.protobuf.CodedOutputStream
-=====================================================================
-cat sim.tight/jgit.OSM-binary/7.i.0
-cat sim.tight/jgit.OSM-binary/7.m.0
-      private byte memoizedIsInitialized = -1;      public final boolean isInitialized() {
-        byte isInitialized = memoizedIsInitialized;
-        if (isInitialized != -1) return isInitialized == 1;
 
-        memoizedIsInitialized = 1;
-        return true;
-      }
-
-      public void writeTo(com.google.protobuf.CodedOutputStream output)
-                          throws java.io.IOException {
-        getSerializedSize();
-        if (((bitField0_ & 0x00000001) == 0x00000001)) {
-=====================================================================
-cat sim.tight/jgit.OSM-binary/10.i.0
-cat sim.tight/jgit.OSM-binary/10.m.0
+g=====================================================================
+sim.tight/jgit.OSM-binary/8.i.0
+sim.tight/jgit.OSM-binary/8.m.0
           java.io.InputStream input,          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         Builder builder = newBuilder();
@@ -1205,6 +1216,4 @@ cat sim.tight/jgit.OSM-binary/10.m.0
           return builder.buildParsed();
         } else {
           return null;
-=====================================================================
-cat sim.tight/jgit.OSM-binary/8.i.0
-cat sim.tight/jgit.OSM-binary/8.m.0
+
