@@ -10,5 +10,5 @@
 -ignoreVariableNames
 -balanceCurlyBraces
 -balanceParentheses
--balanceSquareBrackets
 -threshold=6
+
