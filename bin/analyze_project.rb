@@ -34,7 +34,7 @@ def populate_dup(from, to)
 end
 
 def compare_to_best_cov(cproj)
-  best_covered_100 = File.open('cov.lst').readlines.reverse[0..99].map{|x| x.split(' ')[0]}
+  best_covered_100 = File.open('coverage/cov.lst').readlines.reverse[0..99].map{|x| x.split(' ')[0]}
   %x[mkdir -p #{$dupdir}]
   # -----------------------------------------------------------
   # First populate dups/ dir
