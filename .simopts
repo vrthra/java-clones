@@ -8,5 +8,7 @@
 -ignoreStrings
 -ignoreSubtypeNames
 -ignoreVariableNames
+-balanceCurlyBraces
+-balanceParentheses
+-balanceSquareBrackets
 -threshold=6
-
