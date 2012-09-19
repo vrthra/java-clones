@@ -1,0 +1,8 @@
+================================================================
+Smack 3.0.2  
+Version:  3.0.2
+Released: 05/03/2007
+WebSite:  http://www.igniterealtime.org/projects/smack/
+License:  Apache License 2.0 / Copyright 2002-2007 Jive Software.
+Libs:     smack.jar, smackx.jar
+================================================================
