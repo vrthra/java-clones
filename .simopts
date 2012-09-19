@@ -1,6 +1,5 @@
 -reportDuplicateText
 -ignoreCharacters
--ignoreCurlyBraces
 -ignoreIdentifiers
 -ignoreLiterals
 -ignoreModifiers
@@ -9,6 +8,7 @@
 -ignoreSubtypeNames
 -ignoreVariableNames
 -balanceCurlyBraces
+-balanceSquareBrackets
 -balanceParentheses
 -threshold=6
 

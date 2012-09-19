@@ -21,7 +21,7 @@ class TestRun
   def initialize(proj, alltests=false, test=nil)
     @proj = proj
     if alltests
-      if File.exist? "coverage/update/#{proj}/@all"
+      if File.exist? "coverage/update/#{proj}/@all" and ENV['overwrite'] != 'yes'
         puts "coverage/update/#{proj}/@all"
       else
         doalltest(proj)
@@ -33,7 +33,7 @@ class TestRun
       return
     end
     FindTests.new('src/' + proj).show.each do |t|
-      next if File.exist? "coverage/update/#{proj}/#{t}"
+      next if File.exist? "coverage/update/#{proj}/#{t}" and ENV['overwrite'] != 'yes'
       dotest(t, proj)
     end
   end
@@ -42,13 +42,15 @@ class TestRun
     puts t
     puts "==================================="
     puts %[cd src/#{proj}; mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma]
-    puts %x[cd src/#{proj}; mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma]
+    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
+    %x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma | ../../bin/ub > ./build.out]
     runemma(t,proj)
   end
   def doalltest(proj)
     puts "==================================="
     puts %[cd src/#{proj}; mvn -DfailIfNoTests=false emma:emma]
-    puts %x[cd src/#{proj}; mvn -DfailIfNoTests=false emma:emma]
+    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
+    %x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -DfailIfNoTests=false emma:emma | ../../bin/ub > ./build.out]
     runemma('@all',proj)
   end
 
