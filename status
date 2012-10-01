@@ -1,0 +1,11 @@
+Results with tighter criteria: 6 lines context on 130 rand x 100 best
+-------------------------------
+
+186 equals/hashcodes
+8 arrays
+679 trivial (get/set construct)
+
+One dup with tests Base64.java
+One refactored dup with tests GraphMLWriter
+One readFileAsString : no tests
+
