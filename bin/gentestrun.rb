@@ -18,6 +18,11 @@ class TestRun
     return cov
   end
 
+  def x(v)
+    puts v
+    %x[#{v}]
+  end
+
   def initialize(proj, alltests=false, test=nil)
     @proj = proj
     if alltests
@@ -28,44 +33,45 @@ class TestRun
       end
       return
     end
+    x %[mkdir -p testrun/#{proj}]
     unless test.nil?
-      dotest(test, proj)
+      dotest(test.strip, proj)
       return
     end
     FindTests.new('src/' + proj).show.each do |t|
       next if File.exist? "coverage/update/#{proj}/#{t}" and ENV['overwrite'] != 'yes'
-      dotest(t, proj)
+      dotest(t.strip, proj)
     end
   end
   def dotest(t, proj)
     y = t.chomp
-    puts t
+    puts y
     puts "==================================="
     puts %[cd src/#{proj}; mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma]
-    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
-    %x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma | ../../bin/ub > ./build.out]
-    runemma(t,proj)
+    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
+    x %[(cd src/#{proj}; ../../bin/checkrun -t 3000 mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma) | ./bin/ub > ./testrun/#{proj}/#{y}.build.out]
+    runemma(y,proj)
   end
   def doalltest(proj)
     puts "==================================="
     puts %[cd src/#{proj}; mvn -DfailIfNoTests=false emma:emma]
-    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
-    %x[cd src/#{proj}; ../../bin/checkrun -t 300 /usr/bin/mvn -DfailIfNoTests=false emma:emma | ../../bin/ub > ./build.out]
+    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 mvn -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
+    x %[(cd src/#{proj}; ../../bin/checkrun -t 3000 mvn -DfailIfNoTests=false emma:emma) | ./bin/ub > ./testrun/#{proj}.build.out]
     runemma('@all',proj)
   end
 
   def runemma(t,proj)
-    puts %x[mkdir -p coverage/update/#{proj}]
+    x %[mkdir -p coverage/update/#{proj};]
     emmalst = findemma()
     emmalst.each do |cov|
       case cov
       when /(.*target.site.emma)$/
         emma = $1
         emmaname = emma.gsub("src/#{proj}/",'').gsub(/\//,'%')
-        %x[mkdir -p coverage/update/#{proj}/#{t}/]
+        x %[mkdir -p coverage/update/#{proj}/#{t}/;]
         puts %[cp -r #{emma} coverage/update/#{proj}/#{t}/#{emmaname}]
         puts "==================================="
-        puts %x[cp -r #{emma} coverage/update/#{proj}/#{t}/#{emmaname}]
+        x %[cp -r #{emma} coverage/update/#{proj}/#{t}/#{emmaname}]
       end
     end
   end

@@ -54,7 +54,53 @@ run R -q and choose a project
 New Procedure
 =====================
 
-Run the command
+- Ensure .simopts has the correct options, and has a newline at the end.
+  Full relaxation is given by
+
+      -reportDuplicateText
+      -ignoreCharacters
+      -ignoreCurlyBraces
+      -ignoreIdentifiers
+      -ignoreLiterals
+      -ignoreModifiers
+      -ignoreNumbers
+      -ignoreStrings
+      -ignoreSubtypeNames
+      -ignoreVariableNames
+      -balanceCurlyBraces
+      -balanceParentheses
+      -balanceSquareBrackets
+      -threshold=6
+
+- Run
+
+    ./bin/analyze_project.rb <proj>
+
+  to generate similarity statistics between
+  (best-covered 100 of coverage/cov.lst) and <proj>
+
+  For 100 random, the invocaton would be:
+
+    for i in `cat names/rand.100`;
+    do
+         echo $i;
+          ./bin/analyze_project.rb $i;
+    done
+
+
+- Run
+
+    ./bin/simname | sh
+
+  to ensure that sim.now is a link to the complete simops sim dir.
+  (or use any other short link name)
+
+- Run
+
+    find ./sim.now/ | sort > found
+
+  We collect things in found so that we can remove stuff from it as we work.
+
 
     ./bin/fortemplate.sh > raw_dups
 
@@ -108,3 +154,42 @@ if you know the test
 Or
 
     find ./src/myproj -name \*.java | grep test | xargs grep -c MyClass | grep -v ':0$'
+
+
+
+
+LEGEND
+-------
+
+src/build.out : build output
+src/err.build : build failed
+src/err.mvn   : maven dependency failed
+
+IN CASE OF BUILD FAILURE OF TEST RUN
+------------------------------
+
+This command finds a project then it means a build failure occured
+
+    ./sh/finderr.sh | grep err
+
+run this to find cause of failure
+
+    cat src/proj/build.bat
+
+run this to regenerate it
+
+   env overwrite=yes ./bin/gentestrun.rb -chunk src/CraftBukkit
+
+run this to install a pom dependency or use the sh/mvninstall
+
+   sh ./sh/pominst.sh jarfile pomfile
+
+
+
+
+-----------------------------------
+files/cmp.files contains the duplicate files in this format
+  %dup = (a&b)*100 / a + b
+  d %dup (a&b) a:alen b:blen
+  d is present only if the projects are copies
+

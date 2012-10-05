@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/bin/env ruby
 require 'rubygems'
 require 'net/http'
 require 'nokogiri'

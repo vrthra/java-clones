@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-require 'rubygems'
 $:.push 'lib'
 require 'simopts'
 
