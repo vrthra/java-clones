@@ -62,7 +62,7 @@ $repo.keys.each do |proj|
   $proj_methods[proj].each do |method|
     arr1 << method if $repo_methods[method].keys.length > 2
   end
-  arr1.each do |a|
+  arr1.uniq.sort{|a,b| a.to_s <=> b.to_s}.each do |a|
     puts "\t#{a} : #{$repo_methods[a].keys.join(' ')}"
   end
 end
