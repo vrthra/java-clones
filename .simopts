@@ -2,13 +2,11 @@
 -ignoreCharacters
 -ignoreIdentifiers
 -ignoreLiterals
--ignoreModifiers
 -ignoreNumbers
 -ignoreStrings
--ignoreSubtypeNames
 -ignoreVariableNames
 -balanceCurlyBraces
 -balanceSquareBrackets
 -balanceParentheses
--threshold=6
+-threshold=15
 

@@ -7,5 +7,5 @@ sim.now
 coverage/update
 coverage/all
 mvn
-methods
 files
+methods

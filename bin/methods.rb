@@ -21,7 +21,7 @@ class FindMethods
       return File.readlines(f)
     end
     ls = []
-    out = %x[java -cp ./lib/jars/parseit.jar:./lib/jars/javaparser-1.0.8.jar MethodPrinter #{j} x]
+    out = %x[java -cp ./lib/jars/parseit.jar:./lib/jars/javaparser-1.0.8.jar parse.MethodPrinter #{j} x]
     out.split("\n").map(&:chomp).each do |l|
       case l
       when /^>.*/
