@@ -22,17 +22,21 @@ def save_yaml
     when /(.*)\/(.*)\.java\.method$/
       project = $1
       java = $2
+      next if File.exists?("src/#{project}/.duplicate")
       process_java_file(project, java, l.chomp)
     end
     len -=1
     STDERR.puts len if len % 1000 == 0
   end
-  File.open("methods/methods.yaml") do |f|
+  STDERR.puts "saving"
+  File.open("methods/methods.yaml",'w') do |f|
     f.puts $repo.to_yaml
   end
 end
 
-$repo = YAML::load( File.open( 'methods/methods.yaml' ) )
+save_yaml
+STDERR.puts "saved"
+#$repo = YAML::load( File.open( 'methods/methods.yaml' ) )
 STDERR.puts 'loaded'
 
 $repo_methods = {}
@@ -54,7 +58,6 @@ end
 STDERR.puts 'process'
 
 $repo.keys.each do |proj|
-  puts "> #{proj}"
   # Get all methods shared such that there is one extra proj atleast after proj
   # i.e if we share it with another, there has to be atleast one another.
   arr1 = []
@@ -63,6 +66,6 @@ $repo.keys.each do |proj|
     arr1 << method if $repo_methods[method].keys.length > 2
   end
   arr1.uniq.sort{|a,b| a.to_s <=> b.to_s}.each do |a|
-    puts "\t#{a} : #{$repo_methods[a].keys.join(' ')}"
+    puts "#{proj}\t#{a} : #{$repo_methods[a].keys.delete_if{|f| f == proj}.join(' ')}"
   end
 end

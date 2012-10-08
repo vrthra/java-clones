@@ -1,9 +1,10 @@
 #!/bin/env ruby
 # gets a count of total number of methos it shares with the whole project.
+# not used.
 
 all={}
 
-File.readlines("method.cmp").each do |l|
+File.readlines("methods.cmp").each do |l|
   case l
   when /.*<$/
     ll  = l.split(" ")

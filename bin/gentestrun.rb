@@ -47,28 +47,24 @@ class TestRun
     y = t.chomp
     puts y
     puts "==================================="
-    puts %[cd src/#{proj}; mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma]
-    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
     x %[(cd src/#{proj}; ../../bin/checkrun -t 3000 mvn -Dtest=#{y}  -DfailIfNoTests=false emma:emma) | ./bin/ub > ./testrun/#{proj}/#{y}.build.out]
     runemma(y,proj)
   end
   def doalltest(proj)
     puts "==================================="
-    puts %[cd src/#{proj}; mvn -DfailIfNoTests=false emma:emma]
-    #%x[cd src/#{proj}; ../../bin/checkrun -t 300 mvn -DfailIfNoTests=false emma:emma | ../../bin/ub > ./#{proj}.out]
-    x %[(cd src/#{proj}; ../../bin/checkrun -t 3000 mvn -DfailIfNoTests=false emma:emma) | ./bin/ub > ./testrun/#{proj}.build.out]
+    x %[(cd src/#{proj}; mvn clean; ../../bin/checkrun -t 3000 mvn -DfailIfNoTests=false emma:emma) | ./bin/ub > ./testrun/#{proj}.build.out]
     runemma('@all',proj)
   end
 
   def runemma(t,proj)
     x %[mkdir -p coverage/update/#{proj};]
     emmalst = findemma()
+    x %[mkdir -p coverage/update/#{proj}/#{t}/;]
     emmalst.each do |cov|
       case cov
       when /(.*target.site.emma)$/
         emma = $1
         emmaname = emma.gsub("src/#{proj}/",'').gsub(/\//,'%')
-        x %[mkdir -p coverage/update/#{proj}/#{t}/;]
         puts %[cp -r #{emma} coverage/update/#{proj}/#{t}/#{emmaname}]
         puts "==================================="
         x %[cp -r #{emma} coverage/update/#{proj}/#{t}/#{emmaname}]
@@ -79,12 +75,14 @@ end
 
 case ARGV[0]
 when /-all/
-cov = File.open('coverage/cov.lst').readlines.each do |x|
-  case x
-  when /([^ ]+) +([^ ]+)/
-    puts $1
-  TestRun.new($1.chomp)
-  end
+cov = File.open('names/cov.best_least').readlines.each do |x|
+  #case x
+  #when /([^ ]+) +([^ ]+)/
+  #  puts $1
+  # TestRun.new($1.chomp,true)
+  # end
+  puts x
+  TestRun.new(x.chomp,true)
 end
 when /-each/
   TestRun.new(ARGV[1].chomp.split('/')[1])
