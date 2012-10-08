@@ -3,11 +3,13 @@
 -threshold=6
 
 Legend:
-x - not covered
+x - not covered in test cases
 t - was part of a test
 i - indirect coverage
 g - generated sources
 d - almost colmplete duplicate, but not covered
+c - covered :)
++ same as above.
 
 x=====================================================================
 sim.tight/JTailPlus.Moneychanger/7.i.0 : Javax construction.
