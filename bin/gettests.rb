@@ -34,15 +34,16 @@ class FindTests
     if out !~ /Test/ then
       return nil
     end
-    f = File.readlines(j).map{|l|
-       l.strip().gsub(%r(//.*$),' ')
-    }.join(' ').gsub(%r(/\*.*?\*/)m, ' ').gsub(/"[^"]*"/,' ').gsub(/[(),{}'<>;=+-.\[\]]/,' ').split(' ').find_all{|f|
-      f.length > 2
-    }.sort().uniq()
+    methodcalls = %x[java -cp ./lib/jars/javaparser-1.0.8.jar:./lib/jars/parseit.jar parse.MethodCallPrinter #{j}].split("\n").delete_if{|f| f =~ /^[\t ]*$/}.sort.uniq
+    #f = File.readlines(j).map{|l|
+    #   l.strip().gsub(%r(//.*$),' ')
+    #}.join(' ').gsub(%r(/\*.*?\*/)m, ' ').gsub(/"[^"]*"/,' ').gsub(/[(),{}'<>;=+-.\[\]]/,' ').split(' ').find_all{|f|
+    #  f.length > 2
+    #}.sort().uniq()
     File.open(cfile, 'w') do |fd|
-      fd.puts f
+      fd.puts methodcalls
     end
-    return {:klass => out, :methods => f}
+    return {:klass => out, :methods => methodcalls}
   end
   def gettests
     %x[mkdir -p #{@dir}]
