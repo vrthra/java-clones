@@ -1,0 +1,14 @@
+coverage_data.rd
+----------------
+Contains the block count coverage of names/cov.best_least
+# ./bin/project_coverage.xml.rb -all > coverage_data.rd
+
+r| cov <- read.table('coverage_data.rd')
+
+
+r| nrow(cov[(cov$coverage.total_lines > 1000)  & (cov$coverage.p > 1),])
+r| nrow(na.omit(cov[(cov$coverage.total_lines > 1000)  & (cov$coverage.p > 1),]))
+=> 271
+
+r|  txtplot(norm$coverage.p)
+
