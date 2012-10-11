@@ -29,8 +29,7 @@
 /0xFDotOrg/Problem
 /0xfe/experiments
 /0xffffffffff/game-of-life
-/0xNF/autopsy Java
-0xNF/autopsy Java
+/0xNF/autopsy
 /0xNF/TimeFlow
 /0xPIT/elasticsearch
 /0xPIT/kunagi
@@ -74,7 +73,7 @@
 /244an/droidgiro-android
 /24hours/NFCiddle
 /2bfish/saxoo
-2ca3/JTropy Java
+/2ca3/JTropy
 /2cloud/android2cloud
 /2D/processing-js
 /2hanson/Superuser
@@ -91,7 +90,6 @@
 /360/360-Engine-for-Android
 /360-Innovations/hibernate-orm
 /360-Innovations/org.vaadin.addons.widget-rpc
-3755
 /3825/Academic-Toolkit
 /3bit/tungsten-fsm
 /3l13/phonegap-plugins
@@ -156,7 +154,7 @@
 /7eme-compagnie/HybridManager
 /7eme-compagnie/SoundRecorder
 /7imbrook/Java-WebSocket
-7TouchGroup/Jetwick Java
+/7TouchGroup/Jetwick
 /7TouchGroup/openblocks
 /7uc0/play-liquibase
 /88250/b3log-solo
@@ -320,7 +318,6 @@
 /abbottz/FlairCompiler
 /abbrevtalk/axiom
 /abbyad/SMSSync
-abbyad/SMSSync Java
 /abc22park/bigbluebutton
 /abciub/quran_android
 /abctech/krazip
@@ -433,7 +430,6 @@ abbyad/SMSSync Java
 /abrookins/ideavim
 /abrugsch/c-geo-opensource
 /abryant/Compiler
-abryant/Compiler Java
 /abryson-redhat/game-of-life
 /abryzak/jackson-module-hibernate
 /abs666/game-of-life
@@ -455,18 +451,15 @@ abryant/Compiler Java
 /abuwipp/Studying
 /abyu/marsrover
 /abyx/EKit-for-SCIL
-abyx/EKit-for-SCIL Java
 /abznak/ultihat
-AC8JO/GPXTool Java
+/AC8JO/GPXTool
 /AC8JO/WATwitter-Tool
-AC8JO/WATwitter-Tool Java
 /academicdevoir/ListaExercicio
 /acaduke/game-of-life
 /acallejas/izpack
 /acanals/golf
 /acanda/spring-extension-factory
 /acando/cwac-wakeful
-acando/cwac-wakeful Java
 /acarr/js-remoting
 /acasajus/android-nfc-paycardreader
 /Acbarakat/cw-andtutorials
@@ -631,7 +624,7 @@ acando/cwac-wakeful Java
 /adamlau/vnmon
 /adamlehenbauer/junit.contrib
 /adamleonard/openblocks
-adam-m/autopsy Java
+/adam-m/autopsy
 /adam-miller/ExternalBrowserExtractorHTML
 /adammurdoch/docmatic
 /adammurdoch/gradle-groovy-eclipse-compiler
@@ -683,7 +676,6 @@ adam-m/autopsy Java
 /addios/phonegap
 /Addteq/OpenTripPlanner
 /addybhardwaj/redis-dictionary
-addybhardwaj/redis-dictionary Java
 /adeeb40338/ezDoCs
 /adeelateeque/SimpleGraph
 /adeelateeque/spring-integration-samples
@@ -720,7 +712,6 @@ addybhardwaj/redis-dictionary Java
 /adiagarcia/orbeon-forms
 /adiantum/jclouds
 /adiel/coypu-jvm
-adiel/coypu-jvm Java
 /adietish/kitchensink
 /adiibanez/jcouchdb
 /adilakhater/archdsl
@@ -732,7 +723,6 @@ adiel/coypu-jvm Java
 /adinardi/google-closure-compiler
 /adinn/churn
 /adioso/JDBM3
-adioso/JDBM3 Java
 /adisit/cw-advandroid
 /adisit/cw-android
 /adisit/cw-omnibus
@@ -808,7 +798,7 @@ adioso/JDBM3 Java
 /adulica0485/RemoteGallery
 /adum/bitbath
 /Aduran/iso2010-11
-aduric/BasicSearchEngine Java
+/aduric/BasicSearchEngine
 /adutra/confluence-gist-macro
 /adutra/embedmongo.flapdoodle.de
 /adutra/fongo
@@ -824,7 +814,6 @@ aduric/BasicSearchEngine Java
 /adwood/ideavim
 /ady2s/GpsToolBox
 /adyliu/jafka
-adyliu/jafka Java
 /adyliu/sce-demo
 /adyliu/zkclient
 /adyscorpius/patchrom_miui
@@ -833,7 +822,7 @@ adyliu/jafka Java
 /ae6rt/memcached-session-manager
 /ae6rt/sslcontext
 /ae6rt/vcloud
-aebadirad42six/autopsy Java
+/aebadirad42six/autopsy
 /aebruno/mif2xml-j
 /aebruno/passtab
 /aectann/Hello-Socialauth
@@ -1071,12 +1060,11 @@ aebadirad42six/autopsy Java
 /ahmontero/wifi-direct-demo
 /Ahnfelt/Templ
 /AhnJaeJin/socialize-sdk-android
-AhnSeongHyun/EXS_KeywordAnalyzer Java
+/AhnSeongHyun/EXS_KeywordAnalyzer
 /AhnSeongHyun/Stemmings
 /ahoehma/embed-for-vaadin
 /ahoehma/vaadlets
 /ahoff/couchdb-lucene
-ahoff/couchdb-lucene Java
 /aholstenson/jaikuarchive.com
 /aholstenson/vibe
 /ahomes/Biker-Buddy
@@ -1092,7 +1080,7 @@ ahoff/couchdb-lucene Java
 /aib/lwjgl-shader
 /aiche/libsvm-buildsystem
 /aidancbrady/ServerStats
-AidanDelaney/inductive_circles-pplugin Java
+/AidanDelaney/inductive_circles-pplugin
 /aidanf/Knight
 /Aidanie/HeyStaks-Java-Lib
 /Aidanie/Search-Suite
@@ -1154,7 +1142,6 @@ AidanDelaney/inductive_circles-pplugin Java
 /ajermakovics/eclipse-project-dependencies
 /ajermakovics/gitblit
 /ajeygsi/keyword
-ajeygsi/keyword Java
 /ajfabbri/Graph-Ape
 /ajfisher/arduino-command-server
 /ajfisher/plantuino
@@ -1213,7 +1200,6 @@ ajeygsi/keyword Java
 /akbertram/bcrypt
 /akbertram/jredis
 /akchou/suggest
-akchou/suggest Java
 /akdarrah/video_wall
 /AKdroid/TeclaAccess
 /AKdroid/TeclaShield
@@ -1305,10 +1291,9 @@ akchou/suggest Java
 /akrieger/Nethrar
 /akrolsmir/AIBat
 /akromm/SENG-Research-Project
-aks35/CS108-TiVoo Java
+/aks35/CS108-TiVoo
 /aksarkar/acm-icpc-code
 /akshar100/couchdb-lucene
-akshar100/couchdb-lucene Java
 /akshara/rule-evaluator
 /akshatkumarvaish/android-pulltorefresh
 /akshay2047/ruboto-irb
@@ -1329,12 +1314,11 @@ akshar100/couchdb-lucene Java
 /AKSW/GRR
 /AKSW/SPARQL2NL
 /AKSW/Sparqlify
-AKSW/Sparqlify Java
 /akubach/phyloviewer
 /akubach/phyloviewer-simple
 /akuhtz/jenkins-sonar-plugin
 /akuhtz/tikal-multijob-plugin
-akumar007/SearchEngine Java
+/akumar007/SearchEngine
 /Akumasama/New-EpicQuest
 /akuraru/game-of-life
 /akurni/Android-Universal-Image-Loader
@@ -1346,11 +1330,10 @@ akumar007/SearchEngine Java
 /alaattinturyan/spring-android
 /alabeduarte/portaljavabahia
 /alabeduarte/vraptor
-alabid/KnightReaderApp Java
+/alabid/KnightReaderApp
 /Aladdill/MySocio
 /alademan/weechat-android
 /alaeri/bot-bot
-alaeri/bot-bot Java
 /alafroiskiotos/GradeStats
 /alagarde/TOGAF-Designer
 /alahijani/Jelf
@@ -1399,7 +1382,6 @@ alaeri/bot-bot Java
 /albaloo/VICPAM
 /albb0920/LunaTerm
 /albedium/JDBM3
-albedium/JDBM3 Java
 /albedium/TimeFlow
 /AlbertBertilsson/GAE-KVS
 /albertchang17/BSPAN---Bluetooth-Sensor-Processing-for-Android
@@ -1515,7 +1497,6 @@ albedium/JDBM3 Java
 /alessandroleite/jmx-cli
 /alessandroleite/libravatar-j
 /alessandroleite/neocortex-api-java
-alessandroleite/neocortex-api-java Java
 /alessandro-leoni/kata
 /Alessio22/phonegap-plugins
 /AlessioM/TimePiece
@@ -1531,7 +1512,6 @@ alessandroleite/neocortex-api-java Java
 /alexaitken/GildedRose_java
 /alexaitken/selenium-example
 /AlexanderAshitkin/idea-plugin-bb
-AlexanderAshitkin/idea-plugin-bb Java
 /alexanderbh/android-ColorPickerPreference
 /AlexanderBrevig/InARow
 /alexander-codebase/spring-social
@@ -1564,7 +1544,6 @@ AlexanderAshitkin/idea-plugin-bb Java
 /alex-berger/netty
 /alexbeutel/mips-emulator
 /alexbirkett/cwac-wakeful
-alexbirkett/cwac-wakeful Java
 /alexbirkett/SMSTest
 /alexbohr/lwes-journaller-java
 /alexboly/remotePairProgrammingWithSH
@@ -1584,7 +1563,6 @@ alexbirkett/cwac-wakeful Java
 /alexey-proskuryakov/tomighty
 /alexeypro/testildo
 /alexfdz/greenDAO
-alexfdz/greenDAO Java
 /alexfdz/greendao-mvn
 /alexfdz/registration
 /alex-ford/gClicker
@@ -1598,14 +1576,12 @@ alexfdz/greenDAO Java
 /alexholmes/hdfs-file-slurper
 /alexhu/restfulie-java
 /Alex-Ikanow/textrank
-Alex-Ikanow/textrank Java
 /alexisbellido/game-of-life
 /alexism/hector
 /alexisP/izpack
 /AlexIssayev/json-schema-validator
-AlexIssayev/json-schema-validator Java
 /AlexIssayev/Nachos---JUnit-integration
-AlexIssayev/Project3Skeleton Java
+/AlexIssayev/Project3Skeleton
 /AlexisTp/CountryCode
 /alex-ivanov/jkeymaster
 /alexkalderimis/InterMine-Client-Scala
@@ -1663,7 +1639,6 @@ AlexIssayev/Project3Skeleton Java
 /alextkachman/mod-redis
 /alex-topt/Crawler
 /AlexTrask/Grammar-Kit
-AlexTrask/Grammar-Kit Java
 /AlexTrask/Pretty-Painter
 /alexturc/hazelcast
 /AlexVasile/name_surfer
@@ -1675,7 +1650,6 @@ AlexTrask/Grammar-Kit Java
 /alexwg/libSBOLj
 /alexwibowo/Robot
 /alexwibowo/sensis-api
-alexwibowo/sensis-api Java
 /alexwinston/RunJettyRun
 /alexwyler/Words-With-Help
 /AlexXr/nationconomy
@@ -1694,7 +1668,6 @@ alexwibowo/sensis-api Java
 /alfaridi/android-pulltorefresh
 /alfaridi/twidere
 /alfaro28/greenDAO
-alfaro28/greenDAO Java
 /alf/clojure
 /alf/greenscript
 /alfia09/Minecraft-API
@@ -1731,7 +1704,7 @@ alfaro28/greenDAO Java
 /AlgorithmsNYC/AlgorithmsNYC
 /algoseeker/Interview
 /Algunenano/Crash-Hack
-alheim/elasticsearch-mapper-attachments Java
+/alheim/elasticsearch-mapper-attachments
 /ali1276/XobotOS
 /aliang2344/juggler
 /alias1/jOOX
@@ -1794,7 +1767,6 @@ alheim/elasticsearch-mapper-attachments Java
 /AllenWLi/Android-Cellscope
 /allenxwang/archaius
 /allertonm/Couverjure
-allertonm/Couverjure Java
 /allevato/robolectric
 /alleveenstra/Mujina
 /alleveenstra/spring-security-opensaml
@@ -1850,7 +1822,6 @@ allertonm/Couverjure Java
 /alotaiba/Qontacts--MIDP
 /alown/WaveImport
 /alp82/abmash
-alp82/abmash Java
 /alpe/spring-integration-sandbox
 /alpha8/halo-dal
 /alphaadidas/elasticsearch
@@ -1882,10 +1853,9 @@ alp82/abmash Java
 /ALRubinger/weld-core
 /alshain/nxj-chat
 /alsonkemp/neural_net_heatbugs
-alsor/clj-json Java
+/alsor/clj-json
 /alt236/android-sqlite-asset-helper
 /alt236/KeyEvent-Display---Android
-alt236/KeyEvent-Display---Android Java
 /alt236/Wifi-Key-Recovery---Android
 /alta189/skmclauncher
 /altaylo1/lighthouse-1
@@ -1949,7 +1919,7 @@ alt236/KeyEvent-Display---Android Java
 /amahule/FBReaderJ
 /amaia/nokogiri
 /amalaba/biblioteca-solutions
-amalloy/clj-json Java
+/amalloy/clj-json
 /amalloy/clojure
 /amalloy/vash
 /amalvagomes/CPSC215Project1
@@ -1979,7 +1949,6 @@ amalloy/clj-json Java
 /amaunz/Pol
 /amau/pointillism
 /amaurremi/DL1
-amaurremi/DL1 Java
 /AmauryEsparza/lightbox-android-webservices
 /amaximov/spring-gemfire
 /amay077/gcm-demo-appengine
@@ -2037,7 +2006,6 @@ amaurremi/DL1 Java
 /aminoginji/LoL-Chat
 /amir20/jpile
 /amir309/seck
-amir309/seck Java
 /amir-adel/PrefixrAntTask
 /AmirAlmasi/ErMess-Erlang-
 /AmirAlmasi/SiteDownloader
@@ -2052,7 +2020,6 @@ amir309/seck Java
 /amirlazarovich/android-uitableview
 /amirlazarovich/cwac-loaderex
 /amirlazarovich/cwac-wakeful
-amirlazarovich/cwac-wakeful Java
 /amirnasr/guvnor
 /amirudin/phonegap-plugins
 /amisai/favoritesTwitter
@@ -2166,7 +2133,6 @@ amirlazarovich/cwac-wakeful Java
 /anandgupta1/twitter4j
 /anandi/GeoCrawler
 /anandology/couchdb-lucene
-anandology/couchdb-lucene Java
 /anandsathe67/Jenkins_Integration
 /AnandSingh/atclib
 /ananimesh/game-of-life
@@ -2186,7 +2152,6 @@ anandology/couchdb-lucene Java
 /anathema/anathema
 /a-nat/jbpm
 /Anatolik/greenDAO
-Anatolik/greenDAO Java
 /anatoliz/SalesforceMobileSDK-Android
 /anatollupacescu/main
 /AnAwesomePenguin/mmSupernaturals
@@ -2405,7 +2370,6 @@ Anatolik/greenDAO Java
 /AndroMocel/twitter4j
 /androportal/apk
 /androtan/elasticsearch-river-jdbc
-androtan/elasticsearch-river-jdbc Java
 /Androxyde/2011BLUnlock
 /Androxyde/Flashtool
 /andrus7k/jnDirectory
@@ -2516,7 +2480,7 @@ androtan/elasticsearch-river-jdbc Java
 /angryziber/patterns
 /angstwad/apollo
 /angusforbes/behaviorismExamples
-angusforbes/DirectedSocialQueries Java
+/angusforbes/DirectedSocialQueries
 /angushe/sqoop
 /anguslees/gus-ros-pkg
 /AngusY/anode
@@ -2530,7 +2494,6 @@ angusforbes/DirectedSocialQueries Java
 /ANierbeck/VaadinOSGi
 /anilasj/skillmonster
 /anilb/SMSSync
-anilb/SMSSync Java
 /anilgs/openmrs-module-basicmodule
 /anilgs/openmrs-module-htmlformentry
 /anilgs/openmrs-module-uiframework
@@ -2573,7 +2536,6 @@ anilb/SMSSync Java
 /aniXification/REST
 /aniXification/SeriesGuide
 /aniXification/SMSSync
-aniXification/SMSSync Java
 /aniXification/usergrid-android-sdk
 /anjackson/jspwiki
 /anjlab/excel2csv-java
@@ -2611,7 +2573,7 @@ aniXification/SMSSync Java
 /annasob/processing-js
 /annb/demo_selenium_safari
 /anneschuessler/todo.txt-touch
-annettedorothea/xDoc Java
+/annettedorothea/xDoc
 /annihilate/maven-audit-report-plugin
 /annoma/droid-fu
 /Annuate/Game
@@ -2626,7 +2588,6 @@ annettedorothea/xDoc Java
 /anonymustard/todo.txt-touch
 /anoopengineer/jhackernews
 /anoras/Quaere
-anoras/Quaere Java
 /anorber/argparse
 /anorox1/phonegap-plugins
 /anouarjlidi/spring-android-samples
@@ -2636,7 +2597,6 @@ anoras/Quaere Java
 /ansell/Empire
 /ansell/hermit
 /ansell/jsonld-java
-ansell/jsonld-java Java
 /ansell/obo-owltools
 /ansell/owlapi
 /ansell/pellet
@@ -2690,7 +2650,6 @@ ansell/jsonld-java Java
 /antlr/antlr
 /antlr/antlr3
 /antlr/antlr4
-antlr/antlr4 Java
 /antlr/antlrworks
 /antlr/examples-v3
 /antlr/stringtemplate3
@@ -2730,7 +2689,7 @@ antlr/antlr4 Java
 /antoniovazquezblanco/LAN-Discoverer
 /antoniovazquezblanco/Port-Scanner
 /antoniovazquezblanco/Proxy-Checker
-antoniovazquezblanco/Wireless-Cracker Java
+/antoniovazquezblanco/Wireless-Cracker
 /antonkarl/corpald
 /antonlogvinenko/load-test-tool
 /anton-nesterenko/cw-omnibus
@@ -3178,7 +3137,7 @@ antoniovazquezblanco/Wireless-Cracker Java
 /aria42/prototype-sequence-modeling
 /aria42/umass-nlp
 /arialdomartini/numberpicker
-arianpasquali/WebUtils Java
+/arianpasquali/WebUtils
 /arian/small
 /ariatemplates/attester-junit
 /aribaut/NBDrupalDevel
@@ -3255,12 +3214,10 @@ arianpasquali/WebUtils Java
 /arnaud-m/pisco
 /arnaudsj/carrot2
 /Arnauld/jbehave-eclipse-plugin
-Arnauld/jbehave-eclipse-plugin Java
 /Arnauld/Patternity
 /Arnauld/scoop
 /Arnauld/spark
 /Arnauld/specIt
-Arnauld/specIt Java
 /Arnauld/swoop
 /Arnauld/technbolts-webapp
 /arnauvp/BeatLaw
@@ -3281,7 +3238,6 @@ Arnauld/specIt Java
 /ArnoSaxena/chococraft
 /arnuad/naive-bayes-classifier-scala
 /aroberts3/cs-4420-project2
-aroberts3/cs-4420-project2 Java
 /arohner/clojure
 /arohner/hazelcast
 /arohner/jclouds
@@ -3292,7 +3248,6 @@ aroberts3/cs-4420-project2 Java
 /arosien/failure
 /arosien/jdbi
 /arosien/suggest
-arosien/suggest Java
 /arosien/swift
 /arosien/timebox
 /arothian/analysis-collector-plugin
@@ -3364,7 +3319,6 @@ arosien/suggest Java
 /ArthurPB/DynaMac
 /arthurpsmith/ORCID-Example-Client-Application
 /artikh/couchdb-lucene
-artikh/couchdb-lucene Java
 /artiomchi/AndroidBillingLibrary
 /artjolin/ExtremeScaleGridViewer
 /artofbi/Oracle-FMW-Amelia
@@ -3374,7 +3328,6 @@ artikh/couchdb-lucene Java
 /artsince/personalassistant
 /artsince/QuickOSC
 /arturh/greenDAO
-arturh/greenDAO Java
 /arturklopotek/Maven-CRX-Plugin
 /arturonaredo/game-of-life
 /arturopuente/spark
@@ -3501,13 +3454,11 @@ arturh/greenDAO Java
 /ashlux/potbs4j
 /ashlux/shelve-project-plugin-plugin
 /ashneyderman/intellij-erlang
-ashneyderman/intellij-erlang Java
 /ashneyderman/luhnybin
 /ashokayengar/mustache.java
 /ashokgelal/samaya
 /ashowtimes/sms-backup-plus
 /ashowtimes/SMSSync
-ashowtimes/SMSSync Java
 /ashphy/CalcFX
 /ashpool/ideavim
 /Ashpro/Temporal-Collision
@@ -3515,7 +3466,7 @@ ashowtimes/SMSSync Java
 /ashrafuzzaman/JbehaveWebDriveExample
 /AshtonKem/SBCL-Maven
 /ashtonthomas/GwtAdvancedLogin
-ashutoshchauhan13/TwitterFeedApp Java
+/ashutoshchauhan13/TwitterFeedApp
 /ashwanikaul/framingham_HardCHD_10yr
 /ashwanthkumar/hadoop-autokill
 /ashwanthkumar/sshj
@@ -3582,7 +3533,6 @@ ashutoshchauhan13/TwitterFeedApp Java
 /assaydepot/assaydepot-java
 /assem-ch/quran_android
 /asseym/android-sms-relay
-asseym/android-sms-relay Java
 /assilzm/cucumber-jvm-groovy
 /Assim/MindReader
 /assistiv/elasticsearch
@@ -3658,7 +3608,7 @@ asseym/android-sms-relay Java
 /atduskgreg/writingInAsciiDoc
 /ateirney/bndtools
 /atermenji/TwitterOAuthView
-atextor/naturel Java
+/atextor/naturel
 /atgheb/gwt-database-browser
 /athanph/KChApp
 /Athas1980/BackingBeanWebExample
@@ -3713,7 +3663,7 @@ atextor/naturel Java
 /Atmosphere/nettosphere
 /atnan/LaunchCraft
 /ato/clojure
-ato/couchdb-lucene Java
+/ato/couchdb-lucene
 /atolcd/alfresco-trashcan-cleaner
 /atomatica/androidports-superuser
 /atom-bomb/Android_AMT_Unlocker
@@ -3791,7 +3741,6 @@ ato/couchdb-lucene Java
 /AustinAllover/phonegap-plugins
 /austinmiller/samples
 /austinn/Project-Jarvis
-austinn/Project-Jarvis Java
 /AustinSaintAubin/Adafruit-GPS-Library
 /australblue/game-of-life
 /autayeu/jj2IntelliJ
@@ -3826,7 +3775,7 @@ austinn/Project-Jarvis Java
 /avalonalex/JavaRegex
 /avalutions/asterisk-java
 /avalutions/Lord-of-Ultima-Manager
-avanderberg/robotframework-dblibrary Java
+/avanderberg/robotframework-dblibrary
 /avantgarde-labs/pignlproc
 /avantic/HelloAndroid
 /avantic/phonegap-plugins
@@ -4028,7 +3977,7 @@ avanderberg/robotframework-dblibrary Java
 /b8561409/github-java-sdk
 /b8/sonatype-tycho
 /baakind/cassandra
-babadong/YiranDong_COMP225 Java
+/babadong/YiranDong_COMP225
 /Babajide/scribe-java
 /babanomania/BeanValidation
 /babebridou/androidannotations
@@ -4062,7 +4011,6 @@ babadong/YiranDong_COMP225 Java
 /badmotherfucker/Orb-Particles
 /badpopcorn/linkdroid
 /badreddine16/elasticsearch-river-jdbc
-badreddine16/elasticsearch-river-jdbc Java
 /badrishdavey/common-spring-mvc-testing-framework
 /badrishdavey/spring-data-jpa
 /badrishdavey/spring-security-samples-securemail
@@ -4239,14 +4187,13 @@ badreddine16/elasticsearch-river-jdbc Java
 /barrysampson/phonegap-plugins
 /barryvan/CSSMin
 /barsk/elasticsearch
-barsk/elasticsearch-analysis-icu Java
+/barsk/elasticsearch-analysis-icu
 /bartbaas/POIProxy
 /bartbaas/spatial
 /bartdag/ppa
 /bartdag/py4j
 /BartDubois/game-of-life
 /barthand/MedicalLocator
-barthand/MedicalLocator Java
 /barthorre/JMS-DB-Sample
 /BartMassey/swarm-demo
 /bartoszfilipowicz/UrlImageViewHelper
@@ -4273,7 +4220,7 @@ barthand/MedicalLocator Java
 /basicsensei/NoCheatPlus
 /basicsharp/EightPuzzle
 /basilboli/Bender
-basilmusa/learch Java
+/basilmusa/learch
 /basisdeman/game-of-life
 /basis-technology-corp/Java-readability
 /basis-technology-corp/junit-benchmarks
@@ -4543,7 +4490,7 @@ basilmusa/learch Java
 /beijingyoung/rest
 /beikov/rewrite
 /Beilus/Anno-Primitivo
-bejean/snacktory Java
+/bejean/snacktory
 /bekabox/jedis
 /bekeken/scribe-java
 /bekkopen/Continuous-Delivery-example
@@ -4561,7 +4508,6 @@ bejean/snacktory Java
 /Belikov/Friar-Framework
 /bellanov/Marathon
 /belle96/couchdb-lucene
-belle96/couchdb-lucene Java
 /belle96/luke
 /belle96/titanium_mobile
 /bellingard/jenkins-sonar-plugin
@@ -4616,7 +4562,7 @@ belle96/couchdb-lucene Java
 /bendisposto/prob2
 /bendisposto/probparsers
 /bendisposto/sablecc-stups
-bendlas/clj-json Java
+/bendlas/clj-json
 /bendlas/clojure
 /bendlas/oop_ue7
 /benedictchen/dojo-json-rest-store
@@ -4640,7 +4586,7 @@ bendlas/clj-json Java
 /bengarrr/Residence
 /bengarrr/zPermissions
 /beng/reddit_crawler
-BenHocking/ShortCircuitGA Java
+/BenHocking/ShortCircuitGA
 /benioPL/sikuli
 /benjamin-adrian/scoobie
 /Benjamin-Dobell/XobotOS
@@ -4773,7 +4719,6 @@ BenHocking/ShortCircuitGA Java
 /berloga/OpenAndroidWeather
 /bernardladenthin/jLiftSim
 /bernardndegwa/SMSSync
-bernardndegwa/SMSSync Java
 /bernardw/Japid
 /BerndBattes/achart
 /bernd/nokogiri
@@ -4883,7 +4828,6 @@ bernardndegwa/SMSSync Java
 /bfuster/vraptor-gaeofy-blank
 /bfuster/vraptor-plugin-gaeofy
 /BgaborBP/iserve
-BgaborBP/iserve Java
 /bgalitsky/syntmatcher
 /bgalon/neo4j-spatial
 /bgernert/Bukkit
@@ -4941,7 +4885,6 @@ BgaborBP/iserve Java
 /bhatanil/oozie
 /bhatti/cw-advandroid
 /bhatti/DocuSearch
-bhatti/DocuSearch Java
 /bhaveshbhatkar/REST
 /bhavinpadhiyar/facebook-android-sdk
 /bhavish/JavaProjectsandDatabaseStuff
@@ -4986,9 +4929,8 @@ bhatti/DocuSearch Java
 /BibaBommiah/facebook-android-sdk
 /bibix/coffee-cherry
 /bibounde/gaemvnrepo
-bibryam/camel-ofbiz-rmi Java
+/bibryam/camel-ofbiz-rmi
 /bibryam/crafting-OO-code-kata
-bibryam/crafting-OO-code-kata Java
 /bibryam/tCMISInput
 /Bidalos/maclawstudios_camera
 /bidzhiev/facebook-android-sdk
@@ -5176,7 +5118,6 @@ bibryam/crafting-OO-code-kata Java
 /BizzyDay/clojure
 /bjaglin/argparse4j
 /bjansen/Grammar-Kit
-bjansen/Grammar-Kit Java
 /bjansen/proxy-config
 /bjarkef/repo-plugin
 /bjarnevik/android-bankdroid
@@ -5258,7 +5199,6 @@ bjansen/Grammar-Kit Java
 /blackmamba/java-mpns
 /blackman123/EndlessRage-
 /BlackReloaded/couchdb-lucene
-BlackReloaded/couchdb-lucene Java
 /Blacks-G/socket.io-java-client
 /blackskad/Wifi-Geoloc
 /blackyblack/GraphKeyboard
@@ -5401,9 +5341,7 @@ BlackReloaded/couchdb-lucene Java
 /bluesun912/S-Space
 /bluetang/typica
 /BlueVia/Official-Library-Android
-BlueVia/Official-Library-Android Java
 /BlueVia/Official-Library-Java
-BlueVia/Official-Library-Java Java
 /bluewarden/cwac-touchlist
 /bluewater-cn/android_packages_apps_FileManager
 /Bluezen/FormDesigner
@@ -5444,7 +5382,6 @@ BlueVia/Official-Library-Java Java
 /bmc/javaeditline
 /bmcmurray/ReLaunch
 /bmedendorp/BasicCircuits
-bmedendorp/BasicCircuits Java
 /bmedendorp/RedstoneChips
 /bmehner/c-geo-opensource
 /bmeike/ProgrammingAndroid2Examples
@@ -5634,7 +5571,7 @@ bmedendorp/BasicCircuits Java
 /boosua/Starfish
 /BooTeK/XobotOS
 /boothj5/jarch
-boothj5/mock-final Java
+/boothj5/mock-final
 /Bootscreen/SignCodePad
 /bootstraponline/livepreview_test
 /bootstraponline/livepreview_test_sauce
@@ -5763,7 +5700,6 @@ boothj5/mock-final Java
 /bproenca/weak_reference
 /bpsm/clojure
 /bpsm/edn-java
-bpsm/edn-java Java
 /bpsm/poolradwheel.java
 /bpsommerville/weld-core
 /bpw/RoadRunner
@@ -5914,7 +5850,6 @@ bpsm/edn-java Java
 /BrettSwaim/liferay-portal
 /brettveenstra/waffle
 /brettwooldridge/bitronix-hp
-brettwooldridge/bitronix-hp Java
 /brettwooldridge/lettuce
 /brettwooldridge/scribe-java
 /BrewCoder/VoyagerConnect
@@ -6121,7 +6056,6 @@ brettwooldridge/bitronix-hp Java
 /bruzed/hexagonator
 /brvboas/irdp-job-handling
 /brweber2/blang
-brweber2/blang Java
 /brweber2/clojure
 /brweber2/logic-redux
 /brweber2/naive-java-unification
@@ -6175,9 +6109,7 @@ brweber2/blang Java
 /bsletten/graphity-ldp
 /bsletten/jline2
 /bsletten/jsonld-java
-bsletten/jsonld-java Java
 /bsletten/json-schema-validator
-bsletten/json-schema-validator Java
 /bsletten/stream-lib
 /bsmartt13/RSAKit
 /bsmedberg/akela
@@ -6468,7 +6400,6 @@ bsletten/json-schema-validator Java
 /caelum/vraptor-returnparams
 /caelum/vraptor-scala-mydvds
 /cafepress-widgets/cafepress-java-sdk
-cafepress-widgets/cafepress-java-sdk Java
 /caffecoder/fdist-java
 /caffeinborg/org.eclipse.ecr
 /Caffeine-01/hornetq
@@ -6518,7 +6449,6 @@ cafepress-widgets/cafepress-java-sdk Java
 /calclavia/Universal-Electricity
 /CalCS162/nachos
 /CalCS162/proj3
-CalCS162/proj3 Java
 /CalDaBeast/E-Z-LOG--Easy-Log-
 /caldofran/PFM-LoadSensing
 /caldonia/chunk-updater
@@ -6567,7 +6497,6 @@ CalCS162/proj3 Java
 /camartic/signpost-examples
 /camb416/SkinnedLines
 /cambridge-template-engine/cambridge
-cambridge-template-engine/cambridge Java
 /camechis/spring-batch-gridgain
 /camelandjava/camelandjava-I
 /cameronbraid/rox
@@ -6747,7 +6676,6 @@ cambridge-template-engine/cambridge Java
 /carrot-garden/lmax_disruptor
 /carrot-garden/mdb_Java-Chronicle
 /carrot-garden/mdb_JDBM3
-carrot-garden/mdb_JDBM3 Java
 /carrot-garden/net_netty-build
 /carrot-garden/osgi_labs-paxexam-karaf
 /carrot-garden/osgi_Learn-PaxExam
@@ -6900,7 +6828,7 @@ carrot-garden/mdb_JDBM3 Java
 /cbeust/testng
 /cbeust/testng-eclipse
 /cbillops/test-first-teaching
-cbismuth/pdf-cleaner Java
+/cbismuth/pdf-cleaner
 /cblichmann/idajava
 /cblunt/android-emoticon-edittext-spike
 /cblunt/BrewClock
@@ -6984,7 +6912,6 @@ cbismuth/pdf-cleaner Java
 /cdegroot/Catacomb-Snatch
 /cdegroot/JDBM
 /cdegroot/JDBM3
-cdegroot/JDBM3 Java
 /cdegroot/maven-thrift-plugin
 /cdegroot/sgame
 /cdeptula/big-data-plugin
@@ -7087,11 +7014,9 @@ cdegroot/JDBM3 Java
 /cesine/hackreduce-publictransit
 /cesine/OpenTripPlanner-for-Android
 /cesine/SMSSync
-cesine/SMSSync Java
 /cessationoftime/presence-exchange
 /ceteri/dataink
 /ceteri/textrank
-ceteri/textrank Java
 /cetnar/tennera
 /cewing/phonegap-plugins
 /cexbrayat/camel
@@ -7129,7 +7054,7 @@ ceteri/textrank Java
 /cftdanny/corona
 /cftdanny/corona.discarded
 /cfultz/cw-advandroid
-cg462/OSCR-Scraper Java
+/cg462/OSCR-Scraper
 /cgack/Unsealed
 /cgbystrom/async-http-client
 /cgbystrom/jersey-netty
@@ -7157,7 +7082,7 @@ cg462/OSCR-Scraper Java
 /cgrand/clojure
 /cgrant/java-play
 /cgravier/Croquette
-cgrebeld/meldev Java
+/cgrebeld/meldev
 /cgreenhalgh/droolstest
 /cgreenhalgh/lobbyandroidclient
 /cgreenhalgh/lobbyservice
@@ -7196,7 +7121,7 @@ cgrebeld/meldev Java
 /chakrikodali/combiner
 /Chalise/HFAD-Code-Samples
 /chalk/kernel
-chalsonm/KWIC-Program Java
+/chalsonm/KWIC-Program
 /chalstrick/jgit
 /chalup/blog-scrollbargotcha
 /chalup/walleet
@@ -7230,12 +7155,12 @@ chalsonm/KWIC-Program Java
 /Chandramani/MR_Design_Patterns
 /Chandramani/WordChain
 /Chandramani/WordChainInMapReduce
-chandreshp/bot-bot Java
+/chandreshp/bot-bot
 /Chandru1102/game-of-life
 /chands279/MEDIC-PatientAndroid
 /changbinwang/blur
 /changbinwang/hive
-changbinwang/mavuno Java
+/changbinwang/mavuno
 /changbinwang/storm_example
 /changbinwang/templeton
 /changedi/CDLib
@@ -7368,7 +7293,7 @@ changbinwang/mavuno Java
 /cheey/elasticsearch
 /chegewara/android-pedometer
 /chegewara/facebook-android-sdk
-chegewara/HeLauncher Java
+/chegewara/HeLauncher
 /chegewara/Rajawali
 /cheide/Tekkit
 /chekono/facebook-android-sdk
@@ -7436,7 +7361,6 @@ chegewara/HeLauncher Java
 /chestergrant/Longest-Palindrome
 /chestergrant/Subset
 /chetan/fast_maxmind_geoip
-chetan/fast_maxmind_geoip Java
 /chetanhosmani/fred-staging
 /chetanmeh/jackrabbit-oak
 /chetan/selenium-grid
@@ -7447,7 +7371,7 @@ chetan/fast_maxmind_geoip Java
 /chewbranca/HNdroid
 /chewiebug/GCViewer
 /chfourie/gwt-portlet-bridge
-chgenly/WheresMyAndroid Java
+/chgenly/WheresMyAndroid
 /chherbst/EmailValidator
 /chhh/clojure
 /chhochreiner/duplicator
@@ -7553,7 +7477,7 @@ chgenly/WheresMyAndroid Java
 /chobomuffin/luhnybin
 /chocklymon/Profile-Manager
 /chocmah/TradingPeers
-ChocoDEV/ChocoLMS Java
+/ChocoDEV/ChocoLMS
 /chocolateboy/PMS-EDL
 /chocolateboy/pms-lite
 /chodges/droid-fu
@@ -7590,14 +7514,13 @@ ChocoDEV/ChocoLMS Java
 /chrfra/Java-7
 /chrihala/java-cluster-api
 /chris062689/The-Saloon-Bot
-chris062689/The-Saloon-Bot Java
 /chris3000/Per4ming
 /chrisalbright/crunch
 /chrisalbright/elasticsearch
 /chrisalbright/mongo-hadoop
 /chrisalbright/mongo-java-driver
 /chrisalexander/elasticsearch
-chrisalexander/snacktory Java
+/chrisalexander/snacktory
 /chrisamoore/phonegap-plugins
 /chrisapril/pignlproc
 /chrisbaglieri/gradschool-bioinformatics
@@ -7756,7 +7679,7 @@ chrisalexander/snacktory Java
 /christophersmith/getwheat-harvest-library
 /christopheryoung/clojure
 /ChristopheVersieux/HoloEverywhere
-ChristopheVersieux/SocialStreamFragment Java
+/ChristopheVersieux/SocialStreamFragment
 /christophevg/HelloJBoss
 /christophevg/po-mindstorms
 /christophevg/rmi
@@ -7833,7 +7756,6 @@ ChristopheVersieux/SocialStreamFragment Java
 /chy/SPOJ-Problem-Solutions
 /chzealot/WordSorter
 /chzyer/AndFree
-chzyer/AndFree Java
 /chzyer/AndFree_Query
 /Ciainikas/blind_maze
 /ciamac/metrics
@@ -7961,7 +7883,7 @@ chzyer/AndFree Java
 /ckreager/hector
 /ckulesza/ch.demo.jboss.bean
 /ckulla/modeling-utils
-ckulla/xDoc Java
+/ckulla/xDoc
 /ckurtm/todo.txt-touch
 /cl4r1ty/dsploit
 /clacote/babylon
@@ -7981,7 +7903,6 @@ ckulla/xDoc Java
 /ClarkHobbie/RestExpress
 /clarkjacker/hadoop-book
 /clarkmccusa/json-schema-validator
-clarkmccusa/json-schema-validator Java
 /clarkparsia/stardog-spring
 /clarkware/jdepend
 /classicnerd/android_packages_apps_FileManager
@@ -8093,7 +8014,6 @@ clarkmccusa/json-schema-validator Java
 /cloudera/ades
 /cloudera/alfredo
 /cloudera/cdh-twitter-example
-cloudera/cdh-twitter-example Java
 /cloudera/crunch
 /cloudera/emailarchive
 /cloudera/flume
@@ -8118,7 +8038,7 @@ cloudera/cdh-twitter-example Java
 /Cloudname/cloudname
 /Cloudname/uritemplate
 /cloudone/spring-framework
-cloudone/standalone-apps Java
+/cloudone/standalone-apps
 /cloudqiu/game-of-life
 /cloudreach/robolectric
 /cloudsmith/commons-compress
@@ -8129,7 +8049,6 @@ cloudone/standalone-apps Java
 /cloudsoft/monterey-v4-examples
 /cloudsoft/ticket-monster
 /cloudspokes/Amazon-DynamoDB-Demo
-cloudspokes/Amazon-DynamoDB-Demo Java
 /cloudspokes/google-chat-bot
 /cloudspokes/google-support-bot
 /cloudspokes/Salesforce-Email-Amazon-SES
@@ -8315,9 +8234,9 @@ cloudspokes/Amazon-DynamoDB-Demo Java
 /codehaus/groovy-git
 /codehaus/izpack
 /codehaus/jbehave-core
-codehaus/jbehave-eclipse Java
+/codehaus/jbehave-eclipse
 /codehaus/jcsp
-codeheadzxc/TomsMovieFinder Java
+/codeheadzxc/TomsMovieFinder
 /codeinvain/facebook-android-sdk
 /codeka/planet-render
 /CodeMangler/JumpToUsage
@@ -8364,7 +8283,6 @@ codeheadzxc/TomsMovieFinder Java
 /codescriptor/cwac-endless
 /codeslinger/leveldb
 /codeSmart/JDBM3
-codeSmart/JDBM3 Java
 /codestream/dagger
 /codestream/HoloEverywhere
 /codeswarm/bytesize
@@ -8427,11 +8345,10 @@ codeSmart/JDBM3 Java
 /Coleim/easel-gwt
 /colemanmoore/robby
 /colemanp/robolectric
-coley/documentAnalyzer Java
+/coley/documentAnalyzer
 /ColinBielen/Putty
 /colinchen1984/xmemcached
 /colindean/jarloader
-colindean/jarloader Java
 /colinger/hdiv
 /colingor/phonegap-plugins
 /ColinHarrington/groovy-core
@@ -8496,7 +8413,6 @@ colindean/jarloader Java
 /commonsguy/cwac-updater
 /commonsguy/cwac-viewswiper
 /commonsguy/cwac-wakeful
-commonsguy/cwac-wakeful Java
 /commonsguy/cw-advandroid
 /commonsguy/cw-android
 /commonsguy/cw-andtutorials
@@ -8548,7 +8464,6 @@ commonsguy/cwac-wakeful Java
 /conan513/Orpheus
 /conan79124/DP2011Fall_hw02
 /conardcarroll/jsonld-java
-conardcarroll/jsonld-java Java
 /conceptboard/dreamforce-12
 /conceptboard/jodconverter
 /concept-not-found/shroud
@@ -8726,7 +8641,6 @@ conardcarroll/jsonld-java Java
 /couchbaselabs/YCSB
 /couchguy987/worldguard
 /couchone/couchdb-lucene
-couchone/couchdb-lucene Java
 /couchone/libcouch-android
 /Cougar/Nagroid
 /CounterCraftDev/MoveCraft
@@ -8748,9 +8662,9 @@ couchone/couchdb-lucene Java
 /cowtowncoder/low-gc-membuffers
 /cowwoc/watchmaker
 /cozmicdad/phonegap-plugins
-cp123127/Project3Skeleton Java
+/cp123127/Project3Skeleton
 /cpanahatan/guvnor
-cpatni/geoip-rest Java
+/cpatni/geoip-rest
 /cpatni/middleman
 /cpatrick/NBIA-Exploration
 /cpbtest/game-of-life
@@ -8758,7 +8672,6 @@ cpatni/geoip-rest Java
 /cpcundill/jpa-criteria-bean
 /cpdomina/LuceneUtils
 /cpdomina/WebUtils
-cpdomina/WebUtils Java
 /cpedia/sms-backup-plus
 /cpennington/Hudson-GIT-plugin
 /cperler/GeoDate
@@ -8848,7 +8761,7 @@ cpdomina/WebUtils Java
 /crazyplum/android-uitableview
 /crazyputje/skmclauncher
 /crazyputje/Universal-Electricity
-CraZySacX/clj-json Java
+/CraZySacX/clj-json
 /crazysaem/easy-pc
 /crazysaem/erde-edre
 /crazysim/jdcbot
@@ -8898,7 +8811,6 @@ CraZySacX/clj-json Java
 /criew/c-geo-opensource
 /crimeminister/watchmaker
 /criminy/Cambridge
-criminy/Cambridge Java
 /criminy/jersey.web
 /criminy/jms-demo
 /crino/three20-android
@@ -8938,7 +8850,7 @@ criminy/Cambridge Java
 /Crossbones/android_packages_apps_FileManager
 /crossle/NotificationCompat2
 /crossle/SlidingMenu
-crossle/SocialStreamFragment Java
+/crossle/SocialStreamFragment
 /crossman/project-stats-plugin
 /croute/kakaolink-android
 /crowdcode-de/KissMDA
@@ -8971,7 +8883,7 @@ crossle/SocialStreamFragment Java
 /crystalfire/senNet-Wave
 /crystalmountain04/AcSE
 /Crystalwolf/SafeandSound
-CS162Berkeley/Project3Skeleton Java
+/CS162Berkeley/Project3Skeleton
 /CS162Berkeley/Project4Skeleton
 /cs225/CS225FinalProject
 /cs301w01/Meat-Loaf
@@ -8991,7 +8903,6 @@ CS162Berkeley/Project3Skeleton Java
 /csaunders/Shopify4J
 /csaunders/StrangeBrew
 /csbrandt/Weka-3.6.5-CSCI491-Fork
-csbrandt/Weka-3.6.5-CSCI491-Fork Java
 /csc19601128/weld-mock
 /csc431project-hc/CSC-431---Final-Project
 /csce3513/Team1
@@ -9003,7 +8914,6 @@ csbrandt/Weka-3.6.5-CSCI491-Fork Java
 /cschneider/jline2
 /cschneider/Karaf-Tutorial
 /csciuto/json-schema-validator
-csciuto/json-schema-validator Java
 /CS-Club-at-SJSU/Coding-Thursday
 /cscotta/commons
 /cscotta/miso
@@ -9011,7 +8921,7 @@ csciuto/json-schema-validator Java
 /cscott/JUtil
 /cscruff/OG-Platform
 /cscsaba242/Symfony-2-Eclipse-Plugin
-cscsaba242/Twig-Eclipse-Plugin Java
+/cscsaba242/Twig-Eclipse-Plugin
 /CSEMike/OneSwarm
 /csett86/closure-obfuscation
 /csetter/bigbluebutton
@@ -9054,7 +8964,6 @@ cscsaba242/Twig-Eclipse-Plugin Java
 /cstamas/zip-benchmarks
 /csteinbacher/phonegap-plugins
 /cstockton/couchdb-lucene
-cstockton/couchdb-lucene Java
 /cstockton/epiris-td-example
 /cstotts/NoPickup
 /cstrempfer/cascading-mongomigrate
@@ -9072,7 +8981,6 @@ cstockton/couchdb-lucene Java
 /ctbull2/GameChangers
 /ctc2015/ECE663_S2012
 /ctcherry/tvClient
-ctcherry/tvClient Java
 /CTDP/TGM-Utils
 /cternes/pegdownconsole
 /cternes/slackspace-querydsl
@@ -9103,7 +9011,6 @@ ctcherry/tvClient Java
 /ctrimble/combinatorics
 /ctrimble/xchain
 /ctrumple/greenDAO
-ctrumple/greenDAO Java
 /cts2/twinkql
 /ctsanders1/signpost-examples
 /ctsstc/titanpad
@@ -9136,7 +9043,6 @@ ctrumple/greenDAO Java
 /cunningt/quickstarts
 /cuongbk/Remote-SMS
 /cuonglh/ecms-bookstore
-cuonglh/ecms-bookstore Java
 /cupcicm/Jenkins-repo-plugin
 /cupral/cw-android
 /CupSoftware/mongo-jackson-mapper
@@ -9171,13 +9077,12 @@ cuonglh/ecms-bookstore Java
 /cvanes/jenkins-incremental-test-plugin
 /cvanes/jenkins-tag-cloud-plugin
 /cvanweelden/LogAnalysis
-cvanweelden/LogAnalysis Java
 /cvarta/numberpicker
 /cvasilak/agoncal-application-petstore-ee6
 /cvenomz/Bukkit
 /cvenomz/MetalDetector
 /cvenomz/OreGrow
-cvgaviao/jbehave-eclipse-plugin Java
+/cvgaviao/jbehave-eclipse-plugin
 /cviedmai/android-pedometer
 /cvil/scribe-java
 /cv/ioke
@@ -9233,8 +9138,7 @@ cvgaviao/jbehave-eclipse-plugin Java
 /cwperry/ViewServer
 /cwrinn/Bukkit-Plugin-Generator
 /cwru-eecs338/java_monitors
-cwru-eecs338/java_monitors Java
-cwru-eecs338/monaphores Java
+/cwru-eecs338/monaphores
 /cwsteinbach/hive
 /CWU-Robocode/Robocode-Results
 /cww/hector
@@ -9305,7 +9209,6 @@ cwru-eecs338/monaphores Java
 /CyanogenMod/android_vendor_tmobile_providers_ThemeManager
 /CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser
 /Cyb3rGlitch/BorderLands
-Cyb3rGlitch/BorderLands Java
 /cyberdudedk/Bukkit
 /cyberdudedk/HeroicDeathToJSONAPI
 /cyberdudedk/Spout
@@ -9381,7 +9284,6 @@ Cyb3rGlitch/BorderLands Java
 /czerwonk/dc-ftp
 /czerwonk/dc-web
 /czue/couchdb-lucene
-czue/couchdb-lucene Java
 /d00ba/votifier
 /D0m30173/gruppe40
 /d1b/android_packages_apps_Superuser
@@ -9434,28 +9336,26 @@ czue/couchdb-lucene Java
 /Dacilndak/frc3729
 /dackerman/Producer-Consumer-Problem
 /Dacksus/abmash
-Dacksus/abmash Java
 /dacongy/sjtubbs
 /dacsoft/robolectric
 /dadahl/phonegap-plugins
 /dadalar/gitblit
 /dadastream/lib-exposure
 /dadastream/lib-mongomapper
-dadoonet/dropbox Java
+/dadoonet/dropbox
 /dadoonet/elasticsearch
-dadoonet/elasticsearch-analysis-icu Java
+/dadoonet/elasticsearch-analysis-icu
 /dadoonet/elasticsearch-cloud-aws
 /dadoonet/elasticsearch-jetty
 /dadoonet/elasticsearch-mapper-attachments
-dadoonet/elasticsearch-mapper-attachments Java
 /dadoonet/elasticsearch-osem
 /dadoonet/esmavenplugin
-dadoonet/fsriver Java
+/dadoonet/fsriver
 /dadoonet/rssriver
 /dadoonet/spring-elasticsearch
 /dadoonet/spring-framework
 /dadoonet/transport-zeromq
-dadrian/VAS-LaTeX Java
+/dadrian/VAS-LaTeX
 /daedalus/libvirtweb
 /Daedricbunny/Advanced-Java-Calculator
 /daemitus/Deadbolt
@@ -9506,11 +9406,11 @@ dadrian/VAS-LaTeX Java
 /daizw/mongo-java-driver
 /dajac/hector
 /dajac/pignlproc
-dajac/snacktory Java
+/dajac/snacktory
 /dak1/phonegap-plugins
 /dakotahawkins/Nether
 /dakrone/churn
-dakrone/clj-json Java
+/dakrone/clj-json
 /dakrone/elasticsearch
 /dakshinamurthy/Rowz
 /dalbertom/github-java-sdk
@@ -9542,13 +9442,13 @@ dakrone/clj-json Java
 /damccull/XkcdViewer
 /damellis/cellphone
 /dameramu/Stereos
-damianfarina/pwmaker Java
+/damianfarina/pwmaker
 /DamianFox/orbit
 /damianjanicki/ndg-mobile-client
 /damiankerr/DHCKInterfaceAbstractLab
 /Damianofds/nominatim-java-api
 /damianof/processing-js
-damiano/mavuno Java
+/damiano/mavuno
 /DamianZaremba/vps247-console
 /damiendallimore/SplunkJavaLogging
 /damirkusar/jstun
@@ -9792,7 +9692,6 @@ damiano/mavuno Java
 /dapurv5/Checkers
 /dapurv5/commons
 /dapurv5/JDBM3
-dapurv5/JDBM3 Java
 /dapurv5/JDBM4
 /dapurv5/phyloGeoRef
 /daqing15/groovy
@@ -9872,7 +9771,6 @@ dapurv5/JDBM3 Java
 /darnell/NoCheatPlus
 /darnell/XrayInformer
 /daRob/couchdb-lucene
-daRob/couchdb-lucene Java
 /daron666/MarbleGame
 /darouwan/BWT_decompress
 /darouwan/DataService
@@ -9958,7 +9856,6 @@ daRob/couchdb-lucene Java
 /datasift/HBaseWD
 /dat/stanford-ner
 /daugaard/couchdb-lucene
-daugaard/couchdb-lucene Java
 /dav94/jcalendar
 /davassi/exquisite-concurrency
 /davboecki/SignCodePad
@@ -10045,7 +9942,6 @@ daugaard/couchdb-lucene Java
 /DavidAlphaFox/Notes
 /davidandrzej/LogicLDA
 /davidandrzej/textproc
-davidandrzej/textproc Java
 /davidann/DataStructures
 /davidar/datum
 /davidar/lljvm
@@ -10149,14 +10045,14 @@ davidandrzej/textproc Java
 /DavidSporer/LessCrappyWebOfTrust
 /davidsuger/game-of-life
 /davidsundsskard/tapestry-breadcrumbs
-davidsun/HtmlCleaner Java
+/davidsun/HtmlCleaner
 /davidsyw/phonegap-plugins
 /DavidTC/ReLaunch
 /davidtessier/myGit
 /davidthexton/spring-batch
 /davidthexton/spring-framework
 /davidtinker/grails-cors
-davidtnorth/jbehave-eclipse Java
+/davidtnorth/jbehave-eclipse
 /david-truong/css-portlet
 /DavidUNG0/spring-social-facebook
 /davidvc/TinyFBGraphClient
@@ -10231,12 +10127,9 @@ davidtnorth/jbehave-eclipse Java
 /DayS/androidannotations
 /DayS/elsd
 /DayS/greenDAO
-DayS/greenDAO Java
 /DayS/uitableview4android
 /dayures/jsonld-java
-dayures/jsonld-java Java
 /daywednes/restful-texttopic
-daywednes/restful-texttopic Java
 /dazai/game-of-life
 /dazali/nakamura
 /dazer/ShadowCraft_Android
@@ -10312,7 +10205,6 @@ daywednes/restful-texttopic Java
 /dcbove/game-of-life
 /dcbriccetti/dbschools
 /dcfrancisco/android-sms-relay
-dcfrancisco/android-sms-relay Java
 /dcfrancisco/droid-fu
 /dcfrancisco/github-java-sdk
 /dcfrancisco/gpslogger
@@ -10340,7 +10232,7 @@ dcfrancisco/android-sms-relay Java
 /dcow/Grinnell-Menu
 /dcposch/fongo
 /dcpu16/dcpu16-java
-DCPU16-Eclipse/jASM_16 Java
+/DCPU16-Eclipse/jASM_16
 /dcrec1/haml4j
 /dcrec1/vraptor2_sexy_urls
 /dcrosta/mongo-hadoop
@@ -10420,7 +10312,6 @@ DCPU16-Eclipse/jASM_16 Java
 /DeanWade/greenhouse
 /DeanWade/spring-amqp-remoting
 /deanwampler/Contract4J5
-deanwampler/Contract4J5 Java
 /deanwampler/ScalaJavaInterop
 /deanwilliams/Breathalyzer
 /deanwilliams/Gattaca
@@ -10504,7 +10395,6 @@ deanwampler/Contract4J5 Java
 /Deeplocal/LikeBelt
 /deepshiftlabs/nerrvana-plugin-for-jenkins-ci
 /deepsky/SQL-Code-Assistant-
-deepsky/SQL-Code-Assistant- Java
 /deercoder/OpenGrok
 /deesaster/dsdroid
 /deesaster/facebook-android-sdk
@@ -10572,7 +10462,6 @@ deepsky/SQL-Code-Assistant- Java
 /dekz/bbUp
 /delexi/Pokemon-MMO
 /delfert/bank-kata
-delfert/bank-kata Java
 /delfinof/Daikin-AC-remote-control-over-the-Internet
 /delight/gitblit
 /delinchant/icar-rest-json
@@ -10590,7 +10479,6 @@ delfert/bank-kata Java
 /dema121/maclawstudios_camera
 /demarey/job-import-plugin
 /demdxx/android-extend-edittext
-demdxx/android-extend-edittext Java
 /DemeGeek/skmclauncher
 /demellj/MiniHTTPd
 /Demetermine/Minecraft-Bukkit-Plugins
@@ -10688,7 +10576,6 @@ demdxx/android-extend-edittext Java
 /dereklmc/CSS434_Lab3
 /dereklmc/SimpleChatServer
 /dereklmc/Simple-DFS
-dereklmc/Simple-DFS Java
 /derekmahar/spring-context-import
 /DerekNing/Stanford-CS-106A
 /derek/particle-windchime
@@ -10777,7 +10664,7 @@ dereklmc/Simple-DFS Java
 /deVIAntCoDE/Addiction-Manager
 /deViate/Java-Collision-Test
 /devilsanddust123/RandomGen
-Devin148/autopsy Java
+/Devin148/autopsy
 /devinfoley/superfeedr-java
 /devj/cascading-dbmigrate
 /devkantmohan/lightbox-android-webservices
@@ -10790,7 +10677,7 @@ Devin148/autopsy Java
 /devoyster/elasticsearch-jetty
 /devproof/android_client_server_sample
 /devrandom/Gibberbot
-devrim/TwitterClient Java
+/devrim/TwitterClient
 /devs1010/WebGatherer---Scraper-and-Analyzer
 /devserghini/scale7-pelops
 /devsprint/greenhouse
@@ -10820,7 +10707,6 @@ devrim/TwitterClient Java
 /dfabulich/jasmine-maven-plugin
 /dfabulich/kcrb
 /dfasoro/smssync
-dfasoro/smssync Java
 /dfeinberg/camel
 /dfhoughton/PaupersProfiler
 /dfilimon/SortingBenchmarks
@@ -10905,7 +10791,6 @@ dfasoro/smssync Java
 /dhammaDotOrg/schedules
 /dhananjaynav/miniproject
 /dhanji/jade
-dhanji/jade Java
 /dhanji/loop
 /dhanji/sitebricks
 /dharley-5am/CONNECT
@@ -10943,7 +10828,6 @@ dhanji/jade Java
 /dhirajsb/camel-salesforce
 /dhirajsb/fabric
 /DHIS/DHISSMSSync
-DHIS/DHISSMSSync Java
 /Dhivhya/stepsovc-dmis-importer
 /dhleong/CorGen
 /dhodgin/processing-js
@@ -10959,7 +10843,7 @@ DHIS/DHISSMSSync Java
 /dhruvc/TalkBollywoodAndroid
 /DHuckaby/Prime
 /dhuebner/GWT-programming-with-Xtend
-dhuebner/xDoc Java
+/dhuebner/xDoc
 /dhydrated/cassandra-web
 /dhydrated/slides
 /DiaAWAY/Bukkit
@@ -10985,7 +10869,7 @@ dhuebner/xDoc Java
 /dicer/sms-backup-plus
 /dicer/yaxim
 /dichev/summer
-dickfickling/autopsy Java
+/dickfickling/autopsy
 /dickwall/AndroFlubber
 /dicode-project/datacube
 /dicode-project/pignlproc
@@ -11013,7 +10897,6 @@ dickfickling/autopsy Java
 /diegobrandao/Towel
 /diegoceccarelli/jdbm-test
 /diegoceccarelli/searchable
-diegoceccarelli/searchable Java
 /DiegoCoronel/faces
 /diegodayan/raxacore
 /diego-dutra/cucumber-eclipse-plugin
@@ -11059,13 +10942,11 @@ diegoceccarelli/searchable Java
 /digitalheir/cw-omnibus
 /DigitalPebble/behemoth
 /DigitalPebble/TextClassification
-DigitalPebble/TextClassification Java
 /digital-preservation/droid
 /digitalprime/dMod
 /digitalsanctum/crunch
 /digitalsanctum/elasticsearch
 /digitalsanctum/elasticsearch-mapper-attachments
-digitalsanctum/elasticsearch-mapper-attachments Java
 /digitalsanctum/jclouds
 /digitalsanctum/jetty.project
 /digitalsanctum/projectx
@@ -11160,7 +11041,6 @@ digitalsanctum/elasticsearch-mapper-attachments Java
 /dingtang2008/cw-advandroid
 /dingtang2008/FileExplorer
 /dingzhihu/greenDAO
-dingzhihu/greenDAO Java
 /dingzhihu/HNdroid
 /dingzhihu/TVGuide
 /dingzhongchang/disruptorWizard
@@ -11286,7 +11166,6 @@ dingzhihu/greenDAO Java
 /djkieras/spring-framework
 /djktno/cascading.mongodb
 /djktno/elasticsearch-river-jdbc
-djktno/elasticsearch-river-jdbc Java
 /djmalice/Mobservpro
 /djmarshall/WebFlight
 /djMesias/android_packages_apps_FileExplorer
@@ -11487,7 +11366,7 @@ djktno/elasticsearch-river-jdbc Java
 /DNUJAVAMACHINE/Webservices-Java-Sample-Project
 /dnvsrikanth/cw-android
 /doaaanwar/scraper
-doabit/elasticsearch-analysis-pinyin Java
+/doabit/elasticsearch-analysis-pinyin
 /doapp/android-pulltorefresh
 /doapp-nick/android-pulltorefresh
 /doapp-nick/cw-advandroid
@@ -11542,7 +11421,6 @@ doabit/elasticsearch-analysis-pinyin Java
 /doits/sms-backup-plus
 /doixanh/android_packages_apps_FileManager
 /dokalanyi/SMSSync
-dokalanyi/SMSSync Java
 /dokipen/embedly-java
 /dokipen/Java-WebSocket
 /dolanor/S2E
@@ -11607,7 +11485,6 @@ dokalanyi/SMSSync Java
 /donglongfei/ANE-SHARE
 /dongmingwang/game-of-life
 /dongpd/ecms
-dongpd/ecms Java
 /dongriab/facebook-android-sdk
 /dongshengbc/facebook-android-sdk
 /dongshengbc/robolectric
@@ -11694,7 +11571,6 @@ dongpd/ecms Java
 /dougEfresh/JDBM3
 /dougkanter/Processing-Brain-Grapher
 /douglaschow54/seck
-douglaschow54/seck Java
 /douglascrockford/JSON-java
 /douglasinfoweb/BandecoDroid
 /douglasmarques/facebook-android-sdk
@@ -12012,7 +11888,7 @@ douglaschow54/seck Java
 /dschaefer/w-ide
 /dschanoeh/Kayak
 /dscheffy/projectsnailtrail
-dschneller/jbehave-eclipse-plugin Java
+/dschneller/jbehave-eclipse-plugin
 /dscho/jclustering
 /dscho/ParticleTrackerExt
 /dschuermann/apg
@@ -12025,7 +11901,7 @@ dschneller/jbehave-eclipse-plugin Java
 /dschulten/spring-hateoas
 /dschultzca/OpenLogViewer
 /dsdstudio/osgi-enterprise-datasourcefactory
-dsdstudio/slrclubgrabber Java
+/dsdstudio/slrclubgrabber
 /dsebastien/jTicTac
 /dsebastien/OpenCloudSync
 /dseif/processing-js
@@ -12058,7 +11934,6 @@ dsdstudio/slrclubgrabber Java
 /dsoa-team/dsoa-1.0
 /dsoa-team/qos-simulator
 /dsommerville/calisthenics
-dsommerville/calisthenics Java
 /dsousa/resty-gwt
 /dsouth/clojure
 /DSpace/DSpace
@@ -12247,7 +12122,7 @@ dsommerville/calisthenics Java
 /dustyleary/gerrit-trigger-plugin
 /duydo/cascading.elasticsearch
 /duydo/elasticsearch
-duyvk/mavuno Java
+/duyvk/mavuno
 /DV1337/MyIsle
 /DV8FromTheWorld/Simple-Multifunction-Calculator
 /dvalfrid/Guestbook
@@ -12314,17 +12189,14 @@ duyvk/mavuno Java
 /dworkin/snowman
 /dwrensha/arduinohacking
 /dwr/idea-plugin-protobuf
-dwr/idea-plugin-protobuf Java
 /dwskoog/cucumber-jvm
 /dwskoog/sciore-simpledb-maven
-dwskoog/sciore-simpledb-maven Java
 /dwursteisen/foobarqix
 /dwursteisen/image-api
 /dwursteisen/scribe-java
 /DX89B/DXCrawler
 /dxreed/Superuser
 /dxstein/hive
-dxstein/hive Java
 /dy1989nuaa/Jayes
 /dyashkir/iOS-push-tester
 /dyashkir/java-apns
@@ -12391,7 +12263,6 @@ dxstein/hive Java
 dzontak/play-morph
 /dzontak/play-morphia
 dzontak/play-morphia
-dzontak/play-morphia Java
 /dzo/packages_apps_settings
 /dzwicker/dart-maven-plugin
 /dzwillpower/droid-fu
@@ -12770,20 +12641,18 @@ dzontak/play-morphia Java
 /efsavage/ajah
 /efsavage/Echo-Nest-API-Java-Client
 /efwe/JDBM3
-efwe/JDBM3 Java
 /egagnon/sablecc
 /egalis/cdiutils
 /egarcia1357/scufl2
 /egdinger/RTI-Calculator
 /egeniq/PullToRefresh-ListView
 /EGgames/Terasology
-EggBullStudio/Twig-Eclipse-Plugin Java
+/EggBullStudio/Twig-Eclipse-Plugin
 /eggcalm/android-pulltorefresh
 /eggerdo/swarm-control
 /eggie5/android-share-menu
 /egglang/androidannotations
 /egglang/cwac-wakeful
-egglang/cwac-wakeful Java
 /egglang/facebook-android-sdk
 /eggnet/com2pgsql
 /eggnet/testproject
@@ -12812,7 +12681,7 @@ egglang/cwac-wakeful Java
 /egradman/processing-js
 /egrim/java-bloomier-filter
 /egroen/gSurvivalExtras
-egtaonline/tac-aa Java
+/egtaonline/tac-aa
 /egtra/msgpack
 /eguopt/b3log-solo
 /eguopt/netty
@@ -12862,7 +12731,6 @@ egtaonline/tac-aa Java
 /eisenkdr/swagger-codegen
 /EisenSheng/Python-Plugin-Loader
 /eisental/BasicCircuits
-eisental/BasicCircuits Java
 /eisental/General
 /eisental/RedstoneChips
 /eisental/SensorLibrary
@@ -12931,7 +12799,6 @@ eisental/BasicCircuits Java
 /elasticsales/elasticsearch
 /elasticsearch/elasticsearch
 /elasticsearch/elasticsearch-analysis-icu
-elasticsearch/elasticsearch-analysis-icu Java
 /elasticsearch/elasticsearch-analysis-phonetic
 /elasticsearch/elasticsearch-analysis-smartcn
 /elasticsearch/elasticsearch-cloud-aws
@@ -12939,7 +12806,6 @@ elasticsearch/elasticsearch-analysis-icu Java
 /elasticsearch/elasticsearch-lang-javascript
 /elasticsearch/elasticsearch-lang-python
 /elasticsearch/elasticsearch-mapper-attachments
-elasticsearch/elasticsearch-mapper-attachments Java
 /elasticsearch/elasticsearch-river-couchdb
 /elasticsearch/elasticsearch-river-rabbitmq
 /elasticsearch/elasticsearch-river-twitter
@@ -13032,7 +12898,6 @@ elasticsearch/elasticsearch-mapper-attachments Java
 /elight/autodroid
 /eligotech/elasticsearch-carrot2
 /eligotech/elasticsearch-mapper-attachments
-eligotech/elasticsearch-mapper-attachments Java
 /eligrey/processing-js
 /elig/wicket-test
 /elihusmails/cue.language
@@ -13106,7 +12971,6 @@ eligotech/elasticsearch-mapper-attachments Java
 /Elucidation/c3
 /Elucidation/CESMCaseMaker
 /Elvex/couchdb-lucene
-Elvex/couchdb-lucene Java
 /elvisisking/guvnor
 /elvisisking/teiid-designer
 /elw00d/scribe-java
@@ -13137,7 +13001,6 @@ Elvex/couchdb-lucene Java
 /Emat12/ccnx
 /Emaziz/srl-reflection
 /embarkmobile/protobuf-j2me
-embarkmobile/protobuf-j2me Java
 /embedly/embedly-java
 /EmberDev/EmberClient
 /embix/Minecraft-API
@@ -13150,13 +13013,11 @@ embarkmobile/protobuf-j2me Java
 /emedina/phonegap-plugins
 /emedina/spring-data-document
 /emedine/Black-Swan-Poetry
-emedine/Black-Swan-Poetry Java
 /emend/logic2j
 /emenifee/GLMotes
 /emeraldjava/jinx
 /emericask8ur/Bukkit
 /emerleite/jbehave-br
-emerleite/jbehave-br Java
 /emerrill/RBC-2011
 /Emerson21/fixture-factory
 /Emerson21/uva-problems
@@ -13164,7 +13025,6 @@ emerleite/jbehave-br Java
 /emezias/WikiWidgets
 /emf5100/ModMode
 /emhansen/java_vend_mach
-emhansen/java_vend_mach Java
 /emidander/android-pulltorefresh
 /emidander/cw-advandroid
 /emidander/play-jobs
@@ -13188,7 +13048,6 @@ emhansen/java_vend_mach Java
 /emileswain/backstage
 /emileswain/Java-WebSocket
 /EmilHernvall/SassyBarista
-EmilHernvall/SassyBarista Java
 /emiliaipate/SpotAFish
 /emilime/todo.txt-touch
 /emiliolg/apb
@@ -13218,7 +13077,6 @@ EmilHernvall/SassyBarista Java
 /emmanuelstroem/android-support-v4-googlemaps
 /emmanuelstroem/cw-android
 /emmanuelstroem/SMSSync
-emmanuelstroem/SMSSync Java
 /emmanuelv02/Prestamos
 /emmartins/infinispan
 /emmebi/baralga
@@ -13344,7 +13202,6 @@ emmanuelstroem/SMSSync Java
 /entend/asu_pca_pcr_pls_mapreduce
 /enthusiastic-nik/cw-andtutorials
 /EntityReborn/FreeFall
-EntityReborn/FreeFall Java
 /EntityReborn/skmclauncher
 /entrery/java-in-action-exercises
 /entrobe/signpost
@@ -13435,7 +13292,6 @@ EntityReborn/FreeFall Java
 /erdbeerschnitzel/mp3webshop
 /Erdemym/BoofCV
 /erdincyilmazel/Cambridge
-erdincyilmazel/Cambridge Java
 /erebuswolf/TVBO
 /eregon/pylos
 /erezmazor/hector
@@ -13464,7 +13320,7 @@ erdincyilmazel/Cambridge Java
 /ericfode/Bukkit
 /erichaugh/robolectric
 /erichegt/vraptor
-erichegt/vraptor-html-dsl Java
+/erichegt/vraptor-html-dsl
 /ericherman/hotpotato
 /erichosford/GoinRound
 /erichschroeter/progressive
@@ -13692,7 +13548,6 @@ erichegt/vraptor-html-dsl Java
 /essentials/Essentials
 /essiene/fastiga
 /essobedo/ecms
-essobedo/ecms Java
 /essobedo/infinispan
 /estatio/apache-isis
 /esteban-aliverti/drools-chance
@@ -13733,7 +13588,6 @@ essobedo/ecms Java
 /etirelli/droolsjbpm
 /etirelli/droolsjbpm-build-distribution
 /etirelli/droolsjbpm-integration
-etirelli/droolsjbpm Java
 /etirelli/droolsjbpm-knowledge
 /etirelli/droolsjbpm-tools
 /etirelli/drools-planner
@@ -13849,7 +13703,6 @@ etirelli/droolsjbpm Java
 /Evil-Code/Stargate-Bukkit
 /evilkirin/feathers
 /evilkirin/jafka
-evilkirin/jafka Java
 /evilkirin/Octobot
 /evilmachina/Find-home-detector
 /evilmidget38/bukkit-arena
@@ -13883,7 +13736,6 @@ evilkirin/jafka Java
 /ewhauser/jedis
 /ewhauser/zookeeper
 /ewhitmore/couchdb-lucene
-ewhitmore/couchdb-lucene Java
 /ewiger/stringtemplate
 /ewolff/CloudFoundryMessagingSample
 /ewolff/HighScoreJAX2011
@@ -13914,12 +13766,12 @@ ewhitmore/couchdb-lucene Java
 /ex-nerd/restfb
 /exodev/ecms
 /exodev/exogtn
-exodev/jcr-openofficeplugin Java
+/exodev/jcr-openofficeplugin
 /exoit/todo.txt-touch
 /exoplatform/crowdin-maven-plugin
 /exoplatform/ecms
 /exoplatform/exogtn
-exoplatform/jcr-openofficeplugin Java
+/exoplatform/jcr-openofficeplugin
 /exosocial/exo.social.client
 /Exote/WebAuction
 /expcaring/mifosx
@@ -13943,14 +13795,12 @@ exoplatform/jcr-openofficeplugin Java
 /EXXETA/activiti-spring
 /Exynex/QuickGraphAndroid
 /eyalkaspi/st-js
-eyalkaspi/st-js Java
 /Eyal-Shalev/Tomcat-Quick
 /eyce9000/strontium
 /eyck/txviewer
 /eyecatchup/net.bexton.android.UsbMassStorageToggle
 /eyedol/anysoftkeyboard-ghanaian
 /eyedol/smssync
-eyedol/smssync Java
 /eyedol/Ushahidi_Android
 /eyedol/whereami
 /eyeem/Android-Horizontal-ListView
@@ -13979,7 +13829,6 @@ eyedol/smssync Java
 /ezrover/rojocam
 /ezskool/kangaroo
 /ezskool/SMSTester
-ezskool/SMSTester Java
 /ezskool/Student-guide
 /ezterry/GB-android_packages_apps_Superuser
 /ezyang/SensorSimulator
@@ -14067,15 +13916,11 @@ ezskool/SMSTester Java
 /fadmaa/grefine-rdf-extension
 /fadookie/Sumogons
 /fadrizul/couchdb-lucene
-fadrizul/couchdb-lucene Java
 /fadzlan/toodledo-java
 /faebser/ProcessingWorkShopPlanets
 /faespsenar/controle-login-vraptor-3
-faespsenar/controle-login-vraptor-3 Java
 /faespsenar/controle-permissao-vraptor-3
-faespsenar/controle-permissao-vraptor-3 Java
 /faespsenar/vraptor-starting-project
-faespsenar/vraptor-starting-project Java
 /Fahad-Alsaidi/Anki-Android
 /fahey252/Static-Parser
 /fahied/appsforghent-kml2json
@@ -14107,7 +13952,6 @@ faespsenar/vraptor-starting-project Java
 /fakechris/JTrackerServer
 /fakereplace/fakereplace
 /faktorsmak/json-schema-validator
-faktorsmak/json-schema-validator Java
 /faktorsmak/opengraph-java
 /fakufaku/BigTime
 /fakufaku/CmdArduino
@@ -14284,7 +14128,6 @@ faktorsmak/json-schema-validator Java
 /Fear-of-C/schemetouch
 /fearphage/cssembed
 /featurist/coypu-jvm
-featurist/coypu-jvm Java
 /febycv/XobotOS
 /fedecarg/spring-android-samples
 /fedelopez/svn-commit-hooks
@@ -14370,7 +14213,6 @@ featurist/coypu-jvm Java
 /fellix/ioke
 /FellowTraveler/Moneychanger
 /felmoon/jafka
-felmoon/jafka Java
 /felps/CHOReOS-Monitoring-Service
 /felthy/jasmine-maven-plugin
 /femlo/head
@@ -14469,7 +14311,6 @@ felmoon/jafka Java
 /fge/jgrapht
 /fge/json-schema-formats
 /fge/json-schema-validator
-fge/json-schema-validator Java
 /fgeorges/xproc-ebook-conv
 /fge/parboiled-css
 /fgestrin/yaxim
@@ -14627,7 +14468,7 @@ fge/json-schema-validator Java
 /fivesmallq/zt-zip
 /fixedd/androidTrimet
 /fix/mod-redis
-fiznool/GumtreeScraper Java
+/fiznool/GumtreeScraper
 /fizx/Bukkit
 /fizx/elasticsearch
 /fizx/geosolr
@@ -14703,7 +14544,7 @@ fiznool/GumtreeScraper Java
 /flexable777/intellij-demo
 /flextao/inflector
 /flextao/jrest-route
-flicken/karg Java
+/flicken/karg
 /fligabob/Minecraft-API
 /fligabob/Shocky
 /fligabob/UpdateAPI
@@ -14783,7 +14624,7 @@ flicken/karg Java
 /FluentLenium/FluentLenium
 /FlukiestEmperor/MyHome
 /flumebase/flumebase
-flungster/gilt_api_client Java
+/flungster/gilt_api_client
 /flurdy/bowling
 /flurdy/cucumber-jvm
 /flurdy/spring-batch
@@ -14858,7 +14699,6 @@ flungster/gilt_api_client Java
 /fm-org/HtmlFlow
 /fmvn/foss-maven
 /fmw/couchdb-lucene
-fmw/couchdb-lucene Java
 /fNordeingang/fNordApp
 /fntnhd/atlas-builder
 /foamdino/klock
@@ -14906,7 +14746,6 @@ fmw/couchdb-lucene Java
 /forcedotcom/SalesforceMobileSDK-Android
 /forcedotcom/scoot
 /fordfrog/apgdiff
-fordfrog/apgdiff Java
 /fordfrog/xml2csv
 /foreveralone/kit-programmieren-ws2011
 /forge/core
@@ -15251,7 +15090,6 @@ fordfrog/apgdiff Java
 /frsyuki/hive
 /frsyuki/msgpack-java-newapi
 /fruchtose/Tenc
-fruchtose/Tenc Java
 /fruel/TaxFreeRegion
 /fruitranger/PulltorefreshListView
 /fruju/yuicompressor
@@ -15396,7 +15234,7 @@ fruchtose/Tenc Java
 /FuzzyWuzzie/MCNSAChat2
 /FuzzyWuzzie/MCNSARanks
 /FuzzyWuzzie/SimpleRestart
-fv3386/mavuno Java
+/fv3386/mavuno
 /fvalverd/Android-AdHoc
 /fvalverd/HLMPConnect
 /fvanommen/phonegap-plugins
@@ -15488,7 +15326,6 @@ fv3386/mavuno Java
 /Galaxian-Soup/android_packages_apps_Superuser
 /galaxyAbstractor/crawlHAL
 /galaxycats/couchdb-lucene
-galaxycats/couchdb-lucene Java
 /galderz/infinispan
 /galderz/JGroups
 /galderz/victoria
@@ -15533,7 +15370,7 @@ galaxycats/couchdb-lucene Java
 /Ganglion/sounder
 /Ganglion/varaha
 /ganmor/phonegap-plugins
-ganttico-epoch/FileMonitor Java
+/ganttico-epoch/FileMonitor
 /GantzGulchInc/GantzFileSharing
 /GantzGulchInc/GantzHtmlTagLibs
 /Ganz7/WPSignpost
@@ -15592,7 +15429,6 @@ ganttico-epoch/FileMonitor Java
 /garthpatil/sql2java
 /garuma/jar2xml
 /gary1626/jafka
-gary1626/jafka Java
 /garycagle/droid-fu
 /GaryGoetsch/hello-world-java
 /gary-hackathorn/Rules
@@ -15861,7 +15697,7 @@ gary1626/jafka Java
 /geometer/FBReaderJ
 /geometer/FBReaderJ-plugin-local-opds-scanner
 /GeoNet/cwac-bus
-GeoNet/cwac-wakeful Java
+/GeoNet/cwac-wakeful
 /GeoNet/SQS
 /georchestra/geoserver
 /geord/AntiCheat
@@ -16035,7 +15871,6 @@ GeoNet/cwac-wakeful Java
 /ghiottolino/German-Words-German-Quiz
 /ghiottolino/italian-article-quiz
 /ghiottolino/SDC_Planner
-ghiottolino/SDC_Planner Java
 /ghisguth/blurred-lines-live
 /ghoest/gitblit
 /ghoest/jftp
@@ -16182,7 +16017,6 @@ ghiottolino/SDC_Planner Java
 /gisode/cucumber-jvm
 /gistinc/elasticsearch
 /gistinc/TwitterClient
-gistinc/TwitterClient Java
 /GistLabs/mechanize
 /git109/android-database-sqlcipher
 /git109/android-mapviewballoons
@@ -16203,12 +16037,10 @@ gistinc/TwitterClient Java
 /gitgrimbo/android-sliding-menu-demo
 /gitgrimbo/example-pluto-jetty-integration-test
 /gitgrimbo/json-schema-validator
-gitgrimbo/json-schema-validator Java
 /git/hello-world
 /GitHub9527/Cura
 /github/android
 /githubapitest2/bitlyminous
-githubapitest2/bitlyminous Java
 /githubapitest2/github-java-sdk
 /githubchrigel/arquillian-showcase
 /githubchrigel/quickstart
@@ -16260,7 +16092,7 @@ githubapitest2/bitlyminous Java
 /gknova61/skmclauncher
 /GKNSB/Unshredder
 /gkrilov/processing-js
-gkudos/Simple-Tika-Server Java
+/gkudos/Simple-Tika-Server
 /gkzsolt/upm-swing
 /gl0wa/android2cloud
 /gl0wa/sms-backup-plus
@@ -16274,7 +16106,7 @@ gkudos/Simple-Tika-Server Java
 /glaucomunsberg/try_a_trie
 /Glaucosn/Android-Universal-Image-Loader
 /glbrighenti/digito9
-gleber/elasticsearch-analysis-icu Java
+/gleber/elasticsearch-analysis-icu
 /glebpopov/Hacker-News-Droid-App
 /glebpopov/New-England-Wine-Trail-Android-App
 /glebtv/socket.io-java-client
@@ -16372,7 +16204,6 @@ gleber/elasticsearch-analysis-icu Java
 /gnagel/androidannotations
 /gnagel/cwac-touchlist
 /gnagel/cwac-wakeful
-gnagel/cwac-wakeful Java
 /gnagel/jackson-annotations
 /gnagel/jackson-core
 /gnagel/jackson-databind
@@ -16383,7 +16214,7 @@ gnagel/cwac-wakeful Java
 /gnawux/hadoop-cmri
 /GNazar/APS
 /gnieh/sablecc
-gnimmel/Arduino-EasyTransfer Java
+/gnimmel/Arduino-EasyTransfer
 /gnippy/Examples
 /gnodet/abdera
 /gnodet/camel
@@ -16437,7 +16268,7 @@ gnimmel/Arduino-EasyTransfer Java
 /goethecarvalho/jsf-loja-project
 /goffster/amtxcommons
 /gogbuehi/CC2
-gogbuehi/CC_IDE Java
+/gogbuehi/CC_IDE
 /gogbuehi/Levenshtein
 /goglepox/org.openscience.cdk
 /gogobu/android-mapviewballoons
@@ -16539,7 +16370,7 @@ gogbuehi/CC_IDE Java
 /goranzarkovic/droid-fu
 /GordeevArt/play-useragentcheck
 /gordol/elasticsearch
-gordol/elasticsearch-analysis-icu Java
+/gordol/elasticsearch-analysis-icu
 /gordonad/core-spring-demos
 /gordonad/gordonad-roo-1.2-cloudbees
 /gordonad/greenpages
@@ -16715,7 +16546,6 @@ gordol/elasticsearch-analysis-icu Java
 /GrantSparks/XChange
 /grao/cucumber-jvm
 /grapestack/couchdb-lucene
-grapestack/couchdb-lucene Java
 /graphedge/graphedge
 /graphhopper/graphhopper
 /Graphity/graphity-ldp
@@ -16764,7 +16594,6 @@ grapestack/couchdb-lucene Java
 /greenqloud/jclouds
 /greenrobot/EventBus
 /greenrobot/greenDAO
-greenrobot/greenDAO Java
 /greensnark/sequence
 /greenTara/OOjDREW
 /Gregadeaux/android-fly-in-app-navigation
@@ -16858,7 +16687,6 @@ greenrobot/greenDAO Java
 /grnt426/Optimal-Business-Time-Partitioning
 /grnt426/TicTacToeAI
 /grobid/grobid
-grobid/grobid Java
 /grobmeier/jjson
 /groceryheist/Mario-AI-Competition-2009
 /grokkingly/AlgorithmsNYC
@@ -16877,7 +16705,6 @@ grobid/grobid Java
 /grouchal/simplejpa
 /groundhog/GAComp
 /group11/AndroidTorrent
-group11/AndroidTorrent Java
 /Group-MAN-SWU/SWUMAN
 /groupme/droidkit
 /groupme/ProviderOne
@@ -16912,7 +16739,7 @@ group11/AndroidTorrent Java
 /grum/ideavim
 /grumlimited/geocalc
 /grum/Minecraft-Server-Mod
-GrumpyLittleTed/clj-json Java
+/GrumpyLittleTed/clj-json
 /grundera/robolectric
 /grundid/amenity-editor
 /grundid/gddsched2
@@ -16956,7 +16783,6 @@ GrumpyLittleTed/clj-json Java
 /gscottrw/spring-jade4j
 /gselva/Java-MAPI-Wrapper
 /gselva/Simple-Tika-Server
-gselva/Simple-Tika-Server Java
 /gsequeira/wonder
 /gshakhn/sonar-intellij-plugin
 /gsharma/jedis
@@ -17005,7 +16831,6 @@ gselva/Simple-Tika-Server Java
 /gspandy/hotpotato
 /gspandy/http-client
 /gspandy/jafka
-gspandy/jafka Java
 /gspandy/jedis
 /gspandy/joda-time-ibatis
 /gspandy/jvm-serializers
@@ -17026,13 +16851,11 @@ gspandy/jafka Java
 /g-spot/aic_ue1
 /gssbzn/Kuhn-Munkres
 /gstamp/couchdb-lucene
-gstamp/couchdb-lucene Java
 /gsteri1/OG-Platform
 /gszpura/bigbluebutton
 /gtanski/lljvm
 /gtarcea/fluentbuilder
 /gte250p/sciore-simpledb-maven
-gte250p/sciore-simpledb-maven Java
 /gteley/core
 /gthank/jedis
 /gtheimer/poma
@@ -17043,7 +16866,6 @@ gte250p/sciore-simpledb-maven Java
 /gtosoft/VoyagerConnect
 /gtosoft/VoyDemo
 /gtoubassi/FileBunker
-gtoubassi/FileBunker Java
 /gtrak/clojure
 /gtri-iead/gfipm-ws-status
 /gtudan/OTRS-Client
@@ -17130,7 +16952,7 @@ gtoubassi/FileBunker Java
 /GunioRobot/droid-fu
 /GunioRobot/facebook-android-sdk
 /GunioRobot/groovy-core
-GunioRobot/GumtreeScraper Java
+/GunioRobot/GumtreeScraper
 /GunioRobot/H1
 /GunioRobot/hector
 /GunioRobot/jasmine-maven-plugin
@@ -17152,7 +16974,7 @@ GunioRobot/GumtreeScraper Java
 /GunioRobot/Spring-Batch-Workshop
 /GunioRobot/Trommelyd
 /GunioRobot/Various-Book-Solutions
-GunioRobot/vraptor-html-dsl Java
+/GunioRobot/vraptor-html-dsl
 /GunioRobot/wowza_external_playlists
 /GunioRobot/xebia-petclinic
 /GunioRobot/YCSB
@@ -17313,7 +17135,6 @@ GunioRobot/vraptor-html-dsl Java
 /gzsombor/mongo-java-driver
 /gzsombor/ps3mediaserver
 /gzymsik/applications
-gzymsik/applications Java
 /H1net/ps3mediaserver
 /h2000/beanprocessor
 /h2000/querydsl
@@ -17328,7 +17149,6 @@ gzymsik/applications Java
 /h4ck3rm1k3/OSM-Osmosis
 /h4ck3rm1k3/sweble-wikitext
 /h4ck3rm1k3/textrank
-h4ck3rm1k3/textrank Java
 /h911reiver/Bukkit
 /haaawk/usaco
 /haakondr/Student-guide
@@ -17374,7 +17194,6 @@ h4ck3rm1k3/textrank Java
 /hadoocn/hadoop-book
 /HadoopGao/hadoop-book
 /hadv/ecms
-hadv/ecms Java
 /hadv/jodconverter
 /hadxiaer/rop
 /haebin/google-app-engine-jappstart
@@ -17405,13 +17224,11 @@ hadv/ecms Java
 /haiger/facebook-android-sdk
 /haiger/hazelcast
 /haiger/jafka
-haiger/jafka Java
 /haiger/jedis
 /haiger/ServiceFramework
 /haijian/spotify-puzzles
 /haijin/mbook
 /hailt/ecms
-hailt/ecms Java
 /hailxl/ServiceFramework
 /haint/exo-training
 /haiodo/mob
@@ -17488,7 +17305,6 @@ hailt/ecms Java
 /hamilti/android-mapviewballoons
 /hamishmorgan/Byblo
 /hamishmorgan/JDBM3
-hamishmorgan/JDBM3 Java
 /hamlets23/sycamore
 /hammale/Colors
 /hammale/Hoses
@@ -17502,7 +17318,6 @@ hamishmorgan/JDBM3 Java
 /hamoop/Android-File-Sharing
 /hampei/wowza_external_playlists
 /hampos/DeciBell
-hampos/DeciBell Java
 /hampos/ToxOtis-Persistence
 /hampos/yaqp
 /hampos/yaqp-turbo
@@ -17518,9 +17333,8 @@ hampos/DeciBell Java
 /Handelabra/teamcity-xcode
 /handerpeder/AndroidSudoku
 /handersonbf/AutocompletejQueryDWRJM
-HandlerExploitajeygsi/keyword Java
+/HandlerExploitajeygsi/keyword
 /HandlerExploit/HeLauncher
-HandlerExploit/HeLauncher Java
 /handloomweaver/goldenorb
 /handstandtech/RESTClient
 /handstandtech/s3-simple-appengine
@@ -17575,7 +17389,6 @@ HandlerExploit/HeLauncher Java
 /Hanuman/pentaho-gwt-modules
 /Hanuman/pentaho-open-admin-console
 /hanwang/Project3Skeleton
-hanwang/Project3Skeleton Java
 /hanwoo/spring-data-mongodb
 /hanyi/android-pulltorefresh
 /hanzheng/jvm-serializers
@@ -17616,7 +17429,6 @@ hanwang/Project3Skeleton Java
 /HAPM/SpoutPlugin
 /Happy86/Programmierkurs-WS2010-11
 /happy-coding/viralo
-happy-coding/viralo Java
 /happykhan/BRIG
 /Happy-Neko/ps3mediaserver
 /happysathya/jsoup
@@ -17646,7 +17458,6 @@ happy-coding/viralo Java
 /hardyoyo/DSpaceOSUKB
 /hareeshganesan/Vooga
 /harichetlur/greenDAO
-harichetlur/greenDAO Java
 /haridsv/MLProject
 /hari-ibexis/socialize-sdk-android
 /harikrishnan83/rapa
@@ -17795,7 +17606,6 @@ harichetlur/greenDAO Java
 /hbrednek/islsScore
 /hbs/juds
 /hbzhang/couchdb-lucene
-hbzhang/couchdb-lucene Java
 /hbzhang/lucene-web
 /hbzhang/processing-js
 /hce/govm
@@ -17988,7 +17798,6 @@ hbzhang/couchdb-lucene Java
 /henrikpersson/DnDListView
 /henrikpersson/RootToolbox
 /henrikthuesen/JDBM3
-henrikthuesen/JDBM3 Java
 /henriquegogo/html-mobile
 /henriquemeira/Towel
 /henriqueolliveira/OG-Platform
@@ -18022,14 +17831,13 @@ henrikthuesen/JDBM3 Java
 /herbertdai/LifeCountDown
 /herberthamaral/jDeskMetrics
 /herbertsg/game-of-life
-HerbJiang/snacktory Java
+/HerbJiang/snacktory
 /herbo/android-pulltorefresh
 /HereInPlainSight/AdoptAFuzz
 /Hermannjr/Bukkit
 /hermesian/MiA
 /hernanflores/gelf4j
 /hernanzini/greenDAO
-hernanzini/greenDAO Java
 /herno/tourism-guide
 /Herocraft/ChestShop-3
 /Herocraft/NoCheat
@@ -18107,7 +17915,6 @@ hernanzini/greenDAO Java
 /hfriedberg/2510-1
 /hgahlot/bhav-saar
 /hgahlot/lusim
-hgahlot/lusim Java
 /hgautam/game-of-life
 /hgcummings/tonality
 /HGGM-LIM/jclustering
@@ -18173,7 +17980,6 @@ hgahlot/lusim Java
 /hikage/spring-framework
 /hikage/Tudu-Lists
 /hikage/xdt4j
-hikage/xdt4j Java
 /Hikari/Syntactic
 /hikaruworld/jasmine-maven-plugin
 /hilbix/i2p
@@ -18190,7 +17996,7 @@ hikage/xdt4j Java
 /hiown/CasinoSlots
 /hipjim/AsynchListener
 /hipjim/spark
-hiplayer/antlr4 Java
+/hiplayer/antlr4
 /hiporcat/npcx
 /hippiefahrzeug/jeannie
 /hippiefahrzeug/orman
@@ -18210,7 +18016,7 @@ hiplayer/antlr4 Java
 /hiroyoshikawa/fluent-logger-java
 /HiroyukiTeshima/android-mvc-framework
 /Hiruma31/dsploit
-hisakonog/BasicSearchEngine Java
+/hisakonog/BasicSearchEngine
 /hisao-furuichi/quickstarts
 /hisataka/DBExecute
 /hisayo/Android-TV-Launcher
@@ -18245,14 +18051,13 @@ hisakonog/BasicSearchEngine Java
 /hj91/InformaCam
 /hjacobs/sproc-spring-mapper
 /hja/elasticsearch-river-jdbc
-hja/elasticsearch-river-jdbc Java
 /hjanime/LogicLDA
 /hjbaek/HJDynamicListItems
 /hjc1710/JagTrack
 /hjfreyer/languish
 /hjimenez/kunagi
 /hjliang/jsoup
-hjmmm/Tentaculo Java
+/hjmmm/Tentaculo
 /hjort/dump2pg
 /hjrnunes/facebook-android-sdk
 /hjw1905/facebook-android-sdk
@@ -18264,9 +18069,9 @@ hjmmm/Tentaculo Java
 /hkimura/las-vegas
 /hkirk/DateSlider
 /hkirk/lucene-didyoumean
-hknochi/dropbox Java
+/hknochi/dropbox
 /hknochi/elasticsearch
-hknochi/elasticsearch-analysis-icu Java
+/hknochi/elasticsearch-analysis-icu
 /hknochi/elasticsearch-cloud-aws
 /hlapidez/jodconverter
 /hlapidez/spring-shell
@@ -18315,7 +18120,6 @@ hknochi/elasticsearch-analysis-icu Java
 /hnridder/jgrapht
 /hns/clj-ds
 /ho1ming/cis555hw3
-ho1ming/cis555hw3 Java
 /hoanganhx86/android-pulltorefresh
 /hoanganhx86/cw-advandroid
 /hoanganhx86/cw-android
@@ -18339,7 +18143,6 @@ ho1ming/cis555hw3 Java
 /hoffrocket/sbt-eclipse-plugin
 /hofmeister/BabelShark
 /hofmeister/couchdb-lucene
-hofmeister/couchdb-lucene Java
 /hofmeister/JScale-DB
 /hogelog/chatty
 /hogfish/gherkin
@@ -18415,9 +18218,7 @@ hofmeister/couchdb-lucene Java
 /hopper/hector
 /hopper/rabbit
 /hordejcuk/couchdb-lucene
-hordejcuk/couchdb-lucene Java
 /horkhe/intellij-erlang
-horkhe/intellij-erlang Java
 /hormigas/jReddit
 /hornersa/nakamura
 /hornetq/hornetq
@@ -18433,7 +18234,6 @@ horkhe/intellij-erlang Java
 /hostr/jReddit
 /hotchemi/todolist
 /hotchemi/youroom4j
-hotchemi/youroom4j Java
 /hotchk155/DigiPovClock
 /Hotell/eclipse-themes
 /hotienvu/jumper
@@ -18456,7 +18256,7 @@ hotchemi/youroom4j Java
 /howasaki/game-of-life
 /howech/jruby-flume
 /howez/phonegap-plugins
-hozumi/clj-json Java
+/hozumi/clj-json
 /hozumi/clojure
 /hparra/InPitch
 /hpbskinner/Hudson-GIT-plugin
@@ -18508,7 +18308,7 @@ hozumi/clj-json Java
 /hsun324/GKskmclauncher
 /hsun324/ServerMonitor
 /hsun/easy-throttler
-hsu-yc/snacktory Java
+/hsu-yc/snacktory
 /hszander/leveldb
 /hszander/spring-framework
 /hsz/SlideScreenPlugins
@@ -18562,7 +18362,6 @@ hsu-yc/snacktory Java
 /hudec/sql-processor
 /huderlem/zombie-jam
 /hudson2010/couchdb-lucene
-hudson2010/couchdb-lucene Java
 /hudson2010/elasticsearch
 /hudson3-plugins/collabnet-plugin
 /hudson3-plugins/gerrit-trigger-plugin
@@ -18863,7 +18662,7 @@ hudson2010/couchdb-lucene Java
 /iavorjelev/dbpedia-spotlight
 /ib84/jedis
 /ibabalich/game-of-life
-ibaned/CompilerClass Java
+/ibaned/CompilerClass
 /ibank/parseq
 /ibank/SeriesGuide
 /ibank/SlidingMenu
@@ -19015,8 +18814,7 @@ ibaned/CompilerClass Java
 /ignaciogs/restrung
 /ignasi35/maven-continous-test-plugin
 /ignatov/intellij-erlang
-ignatov/intellij-erlang Java
-ign/geoip-rest Java
+/ign/geoip-rest
 /ignite/facebook-android-sdk
 /igobranco/Fenix-Domain-Browser
 /igogiko/LavaBukkit
@@ -19044,7 +18842,7 @@ ign/geoip-rest Java
 /igpa/robolectric
 /igpeer/spring-framework
 /igpp/util
-igutekunst/Arduino-EasyTransfer Java
+/igutekunst/Arduino-EasyTransfer
 /IGx89/titanium-c2dm
 /ihanli/sbicktAndroid
 /iheartcode/openblocks
@@ -19139,7 +18937,6 @@ igutekunst/Arduino-EasyTransfer Java
 /ilsanbao/commons
 /ilsanbao/Dempsy
 /ilsanbao/jafka
-ilsanbao/jafka Java
 /ilsanbao/java-apns
 /ilsanbao/java-mpns
 /ilteris/ValueMachine
@@ -19163,14 +18960,12 @@ ilsanbao/jafka Java
 /Imaginatio/postmark-java
 /Imaginatio/spring-stringtemplate
 /Imaginea/bot-bot
-Imaginea/bot-bot Java
 /imaginicky/jade-netbeans-syntax-highlighting
 /ImagoItalia/spring-integration
 /i-make-robots/DrawBot
 /imaman/class-wiper
 /imamchishty/neo4j-seed-spring-data
 /imapi/cwac-wakeful
-imapi/cwac-wakeful Java
 /imars/DiabloMiner
 /imaspiderman/VirtualboyGraphicsPatcher
 /imatix/openamq-jms
@@ -19335,7 +19130,6 @@ imapi/cwac-wakeful Java
 /InHavk/SpoutPlugin
 /InhumanStudios/gitblit
 /ini-asangansi/SMSSync
-ini-asangansi/SMSSync Java
 /inicio/OTTO
 /INightmare/apache-isis
 /injcristianrojas/swsec-intro
@@ -19413,7 +19207,6 @@ ini-asangansi/SMSSync Java
 /intel-hadoop/hbase-0.94-panthera
 /intel-hadoop/HiTune
 /intel-hadoop/hive-0.9-panthera
-intel-hadoop/hive-0.9-panthera Java
 /intelie/collectd-activemq
 /intelie/lognit-cli
 /intelligentcode/DynamicCompressor
@@ -19435,7 +19228,7 @@ intel-hadoop/hive-0.9-panthera Java
 /interlock/Minecraft-Server-Mod
 /intermediabot/XWiki-Space-Extractor
 /InterMedia/Confluence-Space-Exporter-Importer
-InterMedia/IMKeywords Java
+/InterMedia/IMKeywords
 /InterMedia/sail.sciworks
 /InterMedia/XWiki-Space-Extractor
 /internaciulo/cw-advandroid
@@ -19450,13 +19243,12 @@ InterMedia/IMKeywords Java
 /in-the-keyhole/khs-sherpa
 /in-the-keyhole/khs-sherpa-example-webapp
 /in-the-keyhole/khs-spring-batch-report-writer
-in-the-keyhole/khs-spring-batch-report-writer Java
 /inthepocket/restfb
 /intimonkey/Blockmania
 /intmurr/watchmaker
 /intoeleven/jclouds
 /Intohand/facebook-android-sdk
-intouchfollowup/dbmaintain Java
+/intouchfollowup/dbmaintain
 /intouchfollowup/joda-time-ibatis
 /intouchfollowup/joda-time-mybatis
 /intptr/phonegap-plugins
@@ -19471,7 +19263,6 @@ intouchfollowup/dbmaintain Java
 /invient-cp/InvientCharts
 /invisiblek/app-cm-nightlies
 /InViVe/iserve
-InViVe/iserve Java
 /inxmailgmbh/solder
 /iocanel/drools
 /iocanel/droolsjbpm-integration
@@ -19504,7 +19295,7 @@ InViVe/iserve Java
 /ioz9ioz9/android_external_jdiff
 /ioz9ioz9/android_packages_apps_FileManager
 /ioz9ioz9/android_packages_apps_Superuser
-ioz9/LauncherEx Java
+/ioz9/LauncherEx
 /ioz9/legacy-patchrom
 /ioz9/maven-android-plugin-samples
 /IP2012/IP2012-Mittuniversitetet
@@ -19546,13 +19337,11 @@ ioz9/LauncherEx Java
 /iPrayag/fakereplace
 /iPrayag/FlyingGWT
 /iPrayag/greenDAO
-iPrayag/greenDAO Java
 /iPrayag/groovy-core
 /iPrayag/gwt-node
 /iPrayag/heli
 /iPrayag/hello-jax-rs
 /iPrayag/jade
-iPrayag/jade Java
 /iPrayag/java-socket.io.client
 /iPrayag/jsoup
 /iPrayag/memcached-session-manager
@@ -19609,7 +19398,6 @@ iPrayag/jade Java
 /Irwin1138/Anki-Android
 /irwinmc/JDBM3
 /isaac1944/MavenPlugin
-isaac1944/MavenPlugin Java
 /isaachuan/drools
 /isaachuan/droolsjbpm-knowledge
 /isaacjohnwesley/Android-GestureListView
@@ -19718,7 +19506,7 @@ isaac1944/MavenPlugin Java
 /itsmartin/rfwadmin
 /itsmeritesh/hector
 /itsmeritesh/Java-Parser-for-C
-itsnayeem/Index Java
+/itsnayeem/Index
 /itsnayeem/TwitterClient
 /itspanzi/swt-browser-recorder-spike
 /itspanzi/TestEnough
@@ -19779,7 +19567,6 @@ itsnayeem/Index Java
 /ivanyang123/jbpm
 /ivanzito/twitter4j
 /ivaper/SassyBarista
-ivaper/SassyBarista Java
 /ivaper/studio2
 /ivaper/studio3
 /ivarconr/jotify
@@ -19798,7 +19585,6 @@ ivaper/SassyBarista Java
 /ivmai/classpath
 /ivmai/jadretro
 /ivmai/JCGO
-ivmai/JCGO Java
 /ivoflipse/sikuli
 /Ivol/hector
 /ivolo/safeclient-java
@@ -19814,7 +19600,6 @@ ivmai/JCGO Java
 /iwaszko/jpropel-light
 /iwatakeshi/facebook-android-sdk
 /iwazer/play-morphia
-iwazer/play-morphia Java
 /iwein/spring-integration
 /iwein/spring-integration-samples
 /iw/elasticsearch
@@ -19825,7 +19610,6 @@ iwazer/play-morphia Java
 /iwsnipy/core
 /ixcode/platform
 /ixcode/SassyBarista
-ixcode/SassyBarista Java
 /iyoung/smartsprites
 /iyulaev/accelerometerApps
 /iyulaev/node-gtfs-client
@@ -20022,7 +19806,7 @@ ixcode/SassyBarista Java
 /jakefriedman/checkers-alpha-beta
 /jakemannix/cloud-zoie
 /jakemannix/giraph
-jakemannix/mavuno Java
+/jakemannix/mavuno
 /jakeri/GCViewer
 /JakeS3/GTL-Alpha
 /jakester2/battlezones
@@ -20075,7 +19859,6 @@ jakemannix/mavuno Java
 /jalop-tresys/beepcore-java
 /jalop-tresys/jJALoP
 /jalpedersen/couchdb-lucene
-jalpedersen/couchdb-lucene Java
 /jalvarezc/jbpm
 /jam69/JamMapServer
 /jamalzkhan/GameOfLife
@@ -20215,7 +19998,6 @@ jalpedersen/couchdb-lucene Java
 /jandre/powerpool
 /janekmobilny/MyGwtTwit
 /janemarshal/salsa_lite
-janemarshal/salsa_lite Java
 /janetriley/openmrs-module-htmlformentry
 /janfabian/oi-bszz
 /janfrode/j2me-otp
@@ -20237,7 +20019,6 @@ janemarshal/salsa_lite Java
 /jankotek/asterope-scala-legacy
 /jankotek/astro-projections
 /jankotek/JDBM3
-jankotek/JDBM3 Java
 /jankotek/JDBM4
 /jankotek/Pixy2
 /jankrah12/facebook-android-sdk
@@ -20414,7 +20195,7 @@ jankotek/JDBM3 Java
 /jaux/reliable_data_transfer
 /java1337/game-of-life
 /javab0y/QuotaForAndroid
-javabean/iNotes-exporter Java
+/javabean/iNotes-exporter
 /javabean/jzlib
 /javaBin/cibus
 /javaBin/javabin-hjemmeside
@@ -20488,7 +20269,6 @@ javabean/iNotes-exporter Java
 /javroch/android_packages_apps_Superuser
 /jawher/gwt-lazy-tree
 /jawher/hvitt
-jawher/hvitt Java
 /jawher/immanix
 /jawher/jdbc-can-be-nice
 /jawher/liquidrods
@@ -20589,7 +20369,7 @@ jawher/hvitt Java
 /jbeerdev/cw-omnibus
 /jbeerdev/Switch-
 /jbehave/jbehave-core
-jbehave/jbehave-eclipse Java
+/jbehave/jbehave-eclipse
 /jbehave/jbehave-tutorial
 /jbehave/jbehave-web
 /jbellander/android-calendarview
@@ -20611,7 +20391,7 @@ jbehave/jbehave-eclipse Java
 /jbertram/generic-jms-ra
 /jbertram/hornetq
 /jbertram/quickstart
-jbestanislao/RobotDynamicLibrary Java
+/jbestanislao/RobotDynamicLibrary
 /jbgo/Team-Forming-System
 /jbharper86/GameCenter
 /jbhg/comp50gd-core
@@ -20634,7 +20414,6 @@ jbestanislao/RobotDynamicLibrary Java
 /jboga/faces
 /jboga/FluentLenium
 /jboga/oobank-kata
-jboga/oobank-kata Java
 /jboga/weld-mock
 /jboreiko/brainStormProject
 /jboss79/izpack
@@ -20678,7 +20457,6 @@ jboga/oobank-kata Java
 /jboss/metadata
 /jbossorg/docbook-import-for-confluence
 /jbossorg/elasticsearch-river-jira
-jbossorg/elasticsearch-river-jira Java
 /jbossorg/structured-content-tools
 /jboss/remoting-jmx
 /jboss-sso/processFlowProvision
@@ -20954,7 +20732,6 @@ jbossorg/elasticsearch-river-jira Java
 /JeanClaudeR/gs-collections-kata
 /jeandrepentz/phonegap-plugins
 /Jean-Emile/JDBM3
-Jean-Emile/JDBM3 Java
 /Jean-Emile/osmosis
 /Jean-Emile/Serial-to-USB-ANDROID
 /Jean-Emile/Serial-to-USB-OSX-LINUX
@@ -21003,7 +20780,7 @@ Jean-Emile/JDBM3 Java
 /jeffdcamp/android-database-sqlcipher
 /jeffdik/clojure
 /jeffdonthemic/Android-Chatter
-jeffdonthemic/telesales-gae-java-spring Java
+/jeffdonthemic/telesales-gae-java-spring
 /jefferis/ij-plugins
 /jeffers102/KeystoreCracker
 /JeffersonK/storm-contrib
@@ -21091,7 +20868,7 @@ jeffdonthemic/telesales-gae-java-spring Java
 /jeluard/maven-plantuml-plugin
 /jeluard/metrics-perf
 /jeluard/semantic-versioning
-jemantheiy/Pheniox Java
+/jemantheiy/Pheniox
 /jemmyw/hudson_campfire_plugin
 /jenda69/c-geo-opensource
 /jeneriz/pi-reader
@@ -21351,7 +21128,6 @@ jemantheiy/Pheniox Java
 /JesusM/WLANAudit-Android
 /jesusrambo/WPILIBJ
 /JetBrains/Grammar-Kit
-JetBrains/Grammar-Kit Java
 /JetBrains/ideavim
 /JetBrains/intellij-community
 /JetBrains/intellij-starteam-plugin
@@ -21436,7 +21212,7 @@ JetBrains/Grammar-Kit Java
 /jfinkels/peyo
 /jfinkhaeuser/androdyne
 /jfirebaugh/nokogiri
-jfischl/smc-fork Java
+/jfischl/smc-fork
 /jflesch/Fxie
 /jflo/maven-thrift-plugin
 /jfmichel/NineOldAndroids
@@ -21454,7 +21230,6 @@ jfischl/smc-fork Java
 /jfs/mechjack
 /jfsurban/jdbi
 /jfturcot/webduino
-jfturcot/webduino Java
 /jfuerth/client-local-class-hider
 /jfuerth/errai-jaxrs
 /jfuerth/quickstart
@@ -21579,7 +21354,6 @@ jfturcot/webduino Java
 /jhourani/cytoscape-plugins
 /jhourani/openbel-framework
 /jhs/couchdb-lucene
-jhs/couchdb-lucene Java
 /jhsu-android/BatterySaverFlashlight
 /jhsu/test-first-teaching
 /jhuang/RNAHeliCesGUI
@@ -21630,12 +21404,11 @@ jhs/couchdb-lucene Java
 /jiangzhonghui/twitter4j
 /jiangzian1987dx/CIS-573-SEASPrint
 /jianjin/Cambridge
-jianjin/Cambridge Java
 /jianjin/http-client
 /jianjin/Java-Chronicle
 /jianjin/low-gc-membuffers
 /jianliu/spring-data-mongodb
-Jianqiang/jrae Java
+/Jianqiang/jrae
 /jianshuo/elasticsearch
 /jiaojing/leveldb
 /jiaxf/clojure
@@ -21683,7 +21456,6 @@ Jianqiang/jrae Java
 /jimkell/mostSandbox
 /jimkinsey/euler
 /jimklo/couchdb-lucene
-jimklo/couchdb-lucene Java
 /jimkont/dbpedia-spotlight
 /jimlar/jenkins-flowdock-plugin
 /jimlar/valtechdroid
@@ -21704,7 +21476,6 @@ jimklo/couchdb-lucene Java
 /jimmystridh/jotify
 /jimn346/LGM-Image-Editor
 /JimOD/infoRet
-JimOD/infoRet Java
 /jimohara/game-of-life
 /jimomulloy/game-of-life
 /jimregan/dbpedia-spotlight
@@ -21718,7 +21489,6 @@ JimOD/infoRet Java
 /jinbochen/CisRec
 /jinbochen/dami
 /jinbochen/JDBM3
-jinbochen/JDBM3 Java
 /jinbochen/learning2rank
 /jinbochen/weibo-crawler
 /Jincux/Cauldron
@@ -21788,7 +21558,6 @@ jinbochen/JDBM3 Java
 /jjfazio/facebook-android-sdk
 /jjfraney/seam-sample-archetype
 /jjfraney/tjpeditor
-jjfraney/tjpeditor Java
 /jjgiblin/My-First-App
 /jjgleim/phonegap-plugins
 /jjiceman/Vector-Field-Visualizer
@@ -21823,11 +21592,11 @@ jjfraney/tjpeditor Java
 /jkarenko/Riippumies
 /jkauzlar/enhanced-properties
 /jkaving/GCViewer
-jkaving/SQL-Code-Assistant- Java
+/jkaving/SQL-Code-Assistant-
 /jkcclemens/Bukkit
 /jkebinger/PigBAT
 /jkebinger/pig-user-defined-functions
-jkehne/cacert-frontendtests Java
+/jkehne/cacert-frontendtests
 /jkellerer/infinispan
 /jkells/cwac-touchlist
 /jkelsey/simpledb
@@ -21888,7 +21657,6 @@ jkehne/cacert-frontendtests Java
 /jlajoie/Wrath-Android-App-RPG
 /jlamarre/Hippo-CMS-Konakart
 /jlamothe/newdel
-jlamothe/newdel Java
 /jlangston/wicket
 /jlauer/robolectric
 /jlavallee/javadrop
@@ -21928,7 +21696,6 @@ jlamothe/newdel Java
 /jline/jline2
 /jlink/Parse4SJM
 /jlipsun/seck
-jlipsun/seck Java
 /jlizier/jpid
 /jllodra/ncSOS
 /jlmichael/yagalib
@@ -22080,9 +21847,8 @@ jlipsun/seck Java
 /joachimhs/JavaKI
 /joachimhs/netty-webserver
 /joachimhs/UML-Statechart-Framework-for-Java
-joachimhs/UML-Statechart-Framework-for-Java Java
 /joachimvda/droolsjbpm-integration
-joakime/jsvntk Java
+/joakime/jsvntk
 /joakime/sloppy
 /joand/Jio-DP
 /joannavarrete/robolectric
@@ -22090,7 +21856,6 @@ joakime/jsvntk Java
 /joaopaulog/vraptor
 /joaopiccinini/ufsc_knoledge_hub
 /joaosal/couchdb-lucene
-joaosal/couchdb-lucene Java
 /joaovieira/PTSense
 /joaquimadraz/AndroidQuickUtils
 /joaquincasares/YCSB
@@ -22137,7 +21902,6 @@ joaosal/couchdb-lucene Java
 /joeguja/phonegap-plugins
 /joehalliwell/jGeoPlanet
 /joehillen/couchdb-lucene
-joehillen/couchdb-lucene Java
 /joehobson/LRJavaLib
 /joejag/numbers-to-text
 /joejimbo/genobyte
@@ -22165,7 +21929,6 @@ joehillen/couchdb-lucene Java
 /joelhegg/phonegap-plugins
 /joelhegg/recurly_integration
 /joelhockey/cirrus
-joelhockey/cirrus Java
 /joelind/zxing-iphone
 /joelin/game-of-life
 /joelin/hector
@@ -22398,7 +22161,7 @@ joelhockey/cirrus Java
 /johnverberne/ZkToDo2
 /johnw42/clojure
 /johnwayner/android-simplesoap
-johnwayner/jASM_16 Java
+/johnwayner/jASM_16
 /JohnWPhillips/spring-social
 /JohnWPhillips/spring-social-facebook
 /johnycairo/maclawstudios_camera
@@ -22599,7 +22362,6 @@ johnwayner/jASM_16 Java
 /jordanorelli/bubbles
 /jordanranson/Minecraft-RPG
 /jordanschau/BALL
-jordanschau/BALL Java
 /jordansissel/elasticsearch-on-heroku
 /jordeu/wicket
 /jordi9/guartz
@@ -22725,7 +22487,6 @@ jordanschau/BALL Java
 /joshhertz/elasticsearch
 /joshido/Roman-Numerals
 /joshjdevl/textrank
-joshjdevl/textrank Java
 /JoshJGT/census_merge
 /joshkirstein/UVA-Online-Judge-Solutions
 /joshlong/a-walking-tour-of-spring-31
@@ -22744,7 +22505,7 @@ joshjdevl/textrank Java
 /joshmcadams/BitTorrent-Simulator
 /joshmfrankel/ProjectEuler
 /joshmoore/ome-services-example
-joshparolin/geoip-rest Java
+/joshparolin/geoip-rest
 /JoshP/ProjectEuler-Java
 /joshprismon/mongo-emf
 /joshprismon/osgi-vaadin-demo
@@ -22796,12 +22557,10 @@ joshparolin/geoip-rest Java
 /jote-ak/sipeyang
 /jotitan/chaines-cardans
 /jotitan/elasticsearch-river-jdbc
-jotitan/elasticsearch-river-jdbc Java
 /jotomo/spring-data-book
 /jotomo/spring-data-neo4j
 /Jotschi/libTinyOSM
 /jotta/cwac-wakeful
-jotta/cwac-wakeful Java
 /jottinger/amqp-client
 /jottinger/ci-bayes
 /jotu/KataPotter
@@ -22812,7 +22571,6 @@ jotta/cwac-wakeful Java
 /joval/jacob
 /joval/jcifs
 /joval/JDBM3
-joval/JDBM3 Java
 /joval/jWSMV
 /joval/jzlib
 /jowi24/c-geo-opensource
@@ -22870,7 +22628,6 @@ joval/JDBM3 Java
 /jpfender/Omnomagon
 /jpfielding/jrets
 /jpfx1342/BasicCircuits
-jpfx1342/BasicCircuits Java
 /jpfx1342/RedstoneChips
 /jpg0/metrics
 /jpgough/threeten
@@ -22906,11 +22663,9 @@ jpfx1342/BasicCircuits Java
 /jprante/elasticsearch
 /jprante/elasticsearch-analysis-hunspell
 /jprante/elasticsearch-analysis-skos
-jprante/elasticsearch-analysis-skos Java
 /jprante/elasticsearch-client-websocket
 /jprante/elasticsearch-index-termlist
 /jprante/elasticsearch-river-jdbc
-jprante/elasticsearch-river-jdbc Java
 /jprante/elasticsearch-skywalker
 /jprante/elasticsearch-transport-websocket
 /jprudent/epublib
@@ -22964,11 +22719,10 @@ jprante/elasticsearch-river-jdbc Java
 /JR-Fire/java-in-action-exercises
 /jrgdiz/MarioLevels
 /jrgerace/todo.txt-touch
-jrgleason/CodemashMobileSmackdown Java
+/jrgleason/CodemashMobileSmackdown
 /jrharshath/st-js
-jrharshath/st-js Java
 /jrichmond/AC31004
-jri/couchdb-lucene-jdk14 Java
+/jri/couchdb-lucene-jdk14
 /jri/deepamehta
 /jri/deepamehta3-accesscontrol
 /jri/deepamehta3-contacts
@@ -23023,7 +22777,7 @@ jri/couchdb-lucene-jdk14 Java
 /Jsalim/datacube
 /Jsalim/Giraph
 /Jsalim/Hello-Socialauth
-Jsalim/Keyword-Analyzer Java
+/Jsalim/Keyword-Analyzer
 /Jsalim/LSH-Hadoop
 /Jsalim/persistenthashmap
 /Jsalim/protograph
@@ -23090,7 +22844,6 @@ Jsalim/Keyword-Analyzer Java
 /jsloane/nakamura
 /jsl/QuickBooksMemoFieldFixup
 /jsmadja/elasticsearch-river-jdbc
-jsmadja/elasticsearch-river-jdbc Java
 /jsmadja/xke-sonar
 /jsmaker/experiments
 /jsmith2/CONNECT
@@ -23125,7 +22878,6 @@ jsmadja/elasticsearch-river-jdbc Java
 /jstrachan/guicey
 /jstrachan/jersey
 /JStuhr/json-schema-validator
-JStuhr/json-schema-validator Java
 /JStuhr/phonegap-plugins
 /jsumrall/1DV200
 /jsundram/Circles
@@ -23216,7 +22968,6 @@ JStuhr/json-schema-validator Java
 /judoole/monitorino
 /judu/my-secure
 /judywawira/couchdb-lucene
-judywawira/couchdb-lucene Java
 /judywawira/openmrs-module-htmlformentry
 /judywawira/openmrs-module-kenyaemr
 /juergenhesse/Fox2Sql
@@ -23342,7 +23093,6 @@ judywawira/couchdb-lucene Java
 /justafish/euler
 /justahero/uri
 /JustAMF/TiVOO
-JustAMF/TiVOO Java
 /justam/phonegap-plugins
 /JustAnother1/DataSetTransformer
 /JustAnother1/upm-swing
@@ -23426,7 +23176,6 @@ JustAMF/TiVOO Java
 /jvb/xrepl
 /jvcjunior/cwac-endless
 /jvdb/derric
-jvdb/derric Java
 /jveals/phonegap-plugins
 /jvelezpo/chatSencillo
 /jvelezpo/ChatWeb
@@ -23665,7 +23414,7 @@ jvdb/derric Java
 /kalpeshdave/processing-js
 /kaltsimon/Hamming
 /kalv/nokogiri
-kalw/iNotes-exporter Java
+/kalw/iNotes-exporter
 /kalyan84/AlgorithmsNYC
 /KalyanAkella/blipit
 /kamalsethiya/JTwitter
@@ -23801,7 +23550,6 @@ kalw/iNotes-exporter Java
 /karthich/programming-contest
 /karthiheno/titanium_mobile
 /karthik7thrn/textrank
-karthik7thrn/textrank Java
 /karthikabinav/Class10
 /karthikj89/Bricktionary
 /karthikj89/Tangrams
@@ -23810,14 +23558,11 @@ karthik7thrn/textrank Java
 /kartikeyadubey/getItBack
 /karussell/elasticsearch
 /karussell/Jetwick
-karussell/Jetwick Java
 /karussell/OpenTripPlanner
 /karussell/plotter
 /karussell/snacktory
-karussell/snacktory Java
 /karussell/TestTwitterAPI
 /karussell/xvantage
-karussell/xvantage Java
 /kas21/todo.txt-touch
 /kasabi/ARQ
 /kasabi/grefine-kasabi
@@ -23860,7 +23605,6 @@ karussell/xvantage Java
 /kati42/AnySoftKeyboard
 /kati42/AnySoftKeyboard-API
 /katiatkn/seck
-katiatkn/seck Java
 /katiekuwata/BlazeDS
 /katiemackey/GUITAR-Ripper-Plugin-SWT
 /katjas/PDFrenderer
@@ -23981,7 +23725,6 @@ katiatkn/seck Java
 /KD8CPK/Terasology
 /KD8ITX/game-of-life
 /kdabir/JDBM3
-kdabir/JDBM3 Java
 /kdatla/facebook-android-sdk
 /kdbanman/gexf4j
 /Kdecherf/Bianca
@@ -24007,7 +23750,7 @@ kdabir/JDBM3 Java
 /keepcalm/commands
 /keepcleargas/akka-activeobjects-application
 /keepcleargas/GeniusWiki
-keepcleargas/Jetwick Java
+/keepcleargas/Jetwick
 /keepcleargas/play-solr
 /keepcleargas/play-solr-1
 /keepcleargas/Solr-Ranking-Plugin
@@ -24070,7 +23813,6 @@ keepcleargas/Jetwick Java
 /kelystor/game-of-life
 /kemasdimas/J2ME-OAuth-Client
 /ken80150/seck
-ken80150/seck Java
 /kencochrane/raven-java
 /kenda/dbpedia-spotlight
 /kenfinnigan/arquillian-graphene
@@ -24086,7 +23828,6 @@ ken80150/seck Java
 /kenkoehlerca/Graphs-in-Java
 /Kenkron/fizzy
 /kenluck2001/Bank
-kenluck2001/Bank Java
 /kenluck2001/DesignAnXMLDatabase
 /kennethkoontz/Superuser
 /KennethNagin/jclouds
@@ -24177,7 +23918,6 @@ kenluck2001/Bank Java
 /kevincuypers/jcalendar
 /kevindev/sms-backup-plus
 /kevindev/SMSSync
-kevindev/SMSSync Java
 /kevindias/HNdroid
 /kevindmorgan/websocket-plugin
 /kevinelong/smartsprites
@@ -24200,7 +23940,7 @@ kevindev/SMSSync Java
 /kevinmorris/coldfront
 /kevinoid/pdi-prompt-step-plugin
 /kevinpeterson/spring-elasticsearch
-kevinpet/jobcontrol Java
+/kevinpet/jobcontrol
 /kevinpet/sweetness
 /kevinpollet/at-builder
 /kevinpollet/beanvalidation-api
@@ -24213,7 +23953,6 @@ kevinpet/jobcontrol Java
 /kevinpollet/weld-core
 /kevinpotgieter/example-spring-servlet-context
 /kevinpotgieter/greenDAO
-kevinpotgieter/greenDAO Java
 /kevinpotgieter/robolectric
 /kevinrstone/kunagi
 /kevinrutherford/amazing
@@ -24342,7 +24081,7 @@ kevinpotgieter/greenDAO Java
 /khobbits/votifier
 /khodzha/Percolation
 /khoelsch/KataRedPencilPromotion
-khoelsch/KataWordWrap Java
+/khoelsch/KataWordWrap
 /khonsou/toobs
 /khorgath/howl
 /khotyn/Nausicaa
@@ -24452,7 +24191,6 @@ khoelsch/KataWordWrap Java
 /kingargyle/async-http-client
 /kingargyle/jruby-maven-plugins
 /kingargyle/json-schema-validator
-kingargyle/json-schema-validator Java
 /kingargyle/p2-maven-plugin
 /kingargyle/scribe-java
 /kingargyle/spring-integration
@@ -24497,14 +24235,14 @@ kingargyle/json-schema-validator Java
 /kirchne5/Bukkit
 /kireet/async-http-client
 /kireet/elasticsearch
-kireet/snacktory Java
+/kireet/snacktory
 /kirefeo/HUSACCT
 /kirillcool/flamingo
 /kirillcool/substance
 /kirillkh/hotp
 /kirillkh/nbscala
 /kirillzotkin/Classez-Manufacturer
-KirinDave/clj-json Java
+/KirinDave/clj-json
 /KirinDave/storm-contrib
 /kiritsev/GwtCalc
 /kirkch/cache-mosaic
@@ -24550,7 +24288,7 @@ KirinDave/clj-json Java
 /Kizl/game-of-life
 /kjahan/soma-cube
 /kjarbr/fiftyfive-wicket
-Kjata1013/monaphores Java
+/Kjata1013/monaphores
 /kjay227/spring-integration-samples
 /kjbekkelund/touch-balls
 /kjcampbell/Address-Book
@@ -24604,7 +24342,6 @@ Kjata1013/monaphores Java
 /KLab/iPhoroidUI
 /Klamann/Video-Batch-Processor
 /klangfarbe/UML-Statechart-Framework-for-Java
-klangfarbe/UML-Statechart-Framework-for-Java Java
 /klauern/callingruby
 /klauern/neo4j-tutorial
 /klauern/resource-plugin-bug
@@ -24634,7 +24371,6 @@ klangfarbe/UML-Statechart-Framework-for-Java Java
 /klimzaporojets/jedis
 /klimzaporojets/rmq
 /klin01/Assignment1
-klin01/Assignment1 Java
 /klindecke/jupload
 /kliniki-online/spring-web-doclet
 /klinovp/elk
@@ -24663,7 +24399,7 @@ klin01/Assignment1 Java
 /kmaehashi/kakasi-java
 kmajeed/c
 /kmajeed/cwac-loaderex
-kmajeed/cwac-wakeful Java
+/kmajeed/cwac-wakeful
 /kmajeed/cw-advandroid
 /kmajeed/cw-android
 /kmajeed/cw-omnibus
@@ -24680,11 +24416,9 @@ kmajeed/cwac-wakeful Java
 /kmf/ZwitscherA
 /kmicinski/msulogo
 /kmi/iserve
-kmi/iserve Java
 /kmitharsha/openmrs-module-htmlformentry
 /kmizu/heart-beat
 /kmizu/JavaCo
-kmizu/JavaCo Java
 /kmizu/SPnuts
 /kmizu/yapp
 /kmmurphy/phonegap-plugins
@@ -24853,7 +24587,6 @@ kmizu/JavaCo Java
 /konos5/Agents
 /KonradBorowiecki/Txt2PDFConverter
 /konrade/JDBM3
-konrade/JDBM3 Java
 /konradkg/wonder
 /konradwyr/wonder
 /konstantin-ba/embedmongo.flapdoodle.de
@@ -24861,7 +24594,7 @@ konrade/JDBM3 Java
 /konstantinzolotarev/Twig-netbeans
 /kontinuity/beemotr
 /Kontrol-Industries/Minecraft-API
-koo5/code-consultant Java
+/koo5/code-consultant
 /kookoolib/KooKoo-Java
 /koolguyjeff/spring-framework
 /KoolKrafter/RageBan
@@ -24974,7 +24707,6 @@ koo5/code-consultant Java
 /kR105/XobotOS
 /kr428/cf
 /kr428/couchdb-lucene
-kr428/couchdb-lucene Java
 /kr8670/core
 /kr8670/faces
 /kragen/ar_bytebeat
@@ -25207,7 +24939,6 @@ kr428/couchdb-lucene Java
 /ksperling/mongo-java-driver
 /kstefanie/game-of-life
 /kstenschke/shifter-plugin
-kstenschke/shifter-plugin Java
 /kstephens/weakling
 /kstep/ucalc
 /kstokoz/async-http-client
@@ -25231,11 +24962,10 @@ kstenschke/shifter-plugin Java
 /kthoms/polyglot-maven
 /kthoms/spray
 /ktmud/couchdb-lucene
-ktmud/couchdb-lucene Java
 /ktorn/Daikin-AC-remote-control-over-the-Internet
 /ktorn/spring-mvc-31-demo
 /ktor/open-data-node
-ktoso/idea-plugin-protobuf Java
+/ktoso/idea-plugin-protobuf
 /ktoso/janbanery-shell
 /ktoso/jgoogl
 /ktoso/maven-git-commit-id-plugin
@@ -25288,7 +25018,7 @@ ktoso/idea-plugin-protobuf Java
 /kumpelblase2/GlobalBank
 /kumpera/code_swarm
 /kumquatexpress/Tanks
-kumy/Arduino-EasyTransfer Java
+/kumy/Arduino-EasyTransfer
 /Kunagi/ilarkesto
 /Kunagi/kunagi
 /kunal546/jedis
@@ -25555,7 +25285,7 @@ kumy/Arduino-EasyTransfer Java
 /laiweiwei/eweb4j-framework
 /Lakedaemon/android-ColorPickerPreference
 /lakesh/android-othello
-lakesj/Chorus Java
+/lakesj/Chorus
 /lakmalji/spring-data-neo4j
 /lakpa/LocateDevice
 /Lakshmik/CreditAnalytics
@@ -25600,7 +25330,7 @@ lakesj/Chorus Java
 /LanceNorskog/ark-tweet-nlp
 /LanceNorskog/LSH-Hadoop
 /LanceOSB/cw-android
-lancepantz/clj-json Java
+/lancepantz/clj-json
 /lancepantz/clojure
 /lancespeelmon/nakamura
 /lancespeelmon/sparsemapcontent
@@ -25615,7 +25345,6 @@ lancepantz/clj-json Java
 /Langerrr/itr-2012
 /langfordw/Thermostat
 /langmi/khs-spring-batch-report-writer
-langmi/khs-spring-batch-report-writer Java
 /langmi/spring-batch
 /langmi/spring-batch-examples
 /langmi/spring-batch-tutorials
@@ -25730,7 +25459,6 @@ langmi/khs-spring-batch-report-writer Java
 /laz2/jsc-core
 /Laza/base-skin
 /lazaropj/movy-parte-4
-lazaropj/movy-parte-4 Java
 /lazarotti/brms-jbpm-samples
 /lazarotti/drools
 /lazarotti/droolsjbpm-integration
@@ -25774,7 +25502,7 @@ lazaropj/movy-parte-4 Java
 /lcbarcellos/GitBeans
 /LCHAMPETIER/game-of-life
 /lchanmann/elasticsearch
-lcjbest/Jetwick Java
+/lcjbest/Jetwick
 /lcloyola/Java-Chat-Sniffer
 /lcmtwn/reportng
 /lcnight/dfsMerge
@@ -25782,7 +25510,6 @@ lcjbest/Jetwick Java
 /lconz-irr/Curation-Tasks
 /lcorbasson/20morethings
 /lcpvrr/JDBM3
-lcpvrr/JDBM3 Java
 /lcrohn/cloudcrusader
 /ld87713/cw-advandroid
 /ldangelo/orangeleap-common-security
@@ -25994,10 +25721,8 @@ lcpvrr/JDBM3 Java
 /leon/imgscalr
 /leonkay/Android
 /leonkay/json-schema-validator
-leonkay/json-schema-validator Java
 /leonoel/notewar
 /Leon-PC/Project-LEO
-Leon-PC/Project-LEO Java
 /leonux/drools
 /Leonya/dotNetPackagesSupport
 /leopallas/spring-data-mongodb
@@ -26024,7 +25749,6 @@ Leon-PC/Project-LEO Java
 /lesbleus2007/cucumber-jvm
 /lesbleus2007/facebook-android-sdk
 /lesbleus2007/st-js
-lesbleus2007/st-js Java
 /lesbleus2007/sugarj
 /lesbleus2007/torpedoquery
 /Leseratte91/SkyBlock-Multiplayer
@@ -26068,7 +25792,6 @@ lesbleus2007/st-js Java
 /LeviticusMB/esxx
 /Leviy/SpoutPlugin
 /levjj/dietcop
-levjj/dietcop Java
 /levkhomich/google_ai
 /levold/OpenAndroidWeather
 /levonlloyd/game-of-life
@@ -26077,7 +25800,7 @@ levjj/dietcop Java
 /levyitay/scribe-java
 /levyswluedu/levys-kdtree-java
 /LeWaCode/android_packages_apps_Superuser
-lewellyn/NCLauncher Java
+/lewellyn/NCLauncher
 /lewellyn/Yaaic
 /lewish/asciiflow
 /lewismc/goraci
@@ -26268,12 +25991,10 @@ lewellyn/NCLauncher Java
 /lihw/GLWallpaperService
 /lijinglue/eurekastreams
 /likebobby/cwac-wakeful
-likebobby/cwac-wakeful Java
 /likebobby/sthlmtraveling
 /likebobby/StickyScrollViewItems
 /lilac/scribe-java
 /liliangzhen/cis555
-liliangzhen/cis555 Java
 /LiliRodriguez/demo-autoplaza
 /lillicoder/SecureLocationService
 /lilltroll77/sc_dsp_filters
@@ -26361,7 +26082,7 @@ liliangzhen/cis555 Java
 /linsoong/twitter4j
 /lintool/Cloud9
 /lintool/Ivory
-lintool/mavuno Java
+/lintool/mavuno
 /lintool/Mr.LDA
 /lintool/twitter-corpus-tools
 /linus1412/spring-framework
@@ -26458,7 +26179,6 @@ lintool/mavuno Java
 /liudidi/android_packages_apps_Superuser
 /liudidi/drakaz_gaosp_packages_apps_GaospConf
 /liudong/iserve
-liudong/iserve Java
 /liudongmiao/curl-android
 /liufool/jbpm
 /liugf/PatchRom
@@ -26482,7 +26202,6 @@ liudong/iserve Java
 /liuzhenhua/Book-Catalogue
 /liuzz1983/azkaban
 /liuzz1983/couchdb-lucene
-liuzz1983/couchdb-lucene Java
 /liuzz1983/crunch
 /liuzz1983/Giraph
 /liuzz1983/grouperfish
@@ -26541,7 +26260,7 @@ liuzz1983/couchdb-lucene Java
 /ljnelson/hibernate-core
 /ljnelson/jpa-maven-plugin
 /ljos/mobileorg-android
-ljszalai/rfsikuli Java
+/ljszalai/rfsikuli
 /ljubac/game-of-life
 /ljxia/TeleHash
 /lk95jofr/android-bankdroid
@@ -26665,7 +26384,6 @@ ljszalai/rfsikuli Java
 /loide/game-of-life
 /lojeuv/D7015E-G-2
 /lokee103/json-schema-validator
-lokee103/json-schema-validator Java
 /lokeshag/SeleniumGuide
 /loki2302/tasks-app
 /lokidg/vraptor
@@ -26718,7 +26436,6 @@ lokee103/json-schema-validator Java
 /looio/cw-advandroid
 /looio/ProgrammingAndroidExamples
 /lookfirst/Cambridge
-lookfirst/Cambridge Java
 /lookfirst/fallback
 /lookfirst/ical4j
 /lookfirst/jmxtrans
@@ -26761,7 +26478,7 @@ lookfirst/Cambridge Java
 /lorensiuswlt/android-uitableview
 /lorensiuswlt/NewQuickAction
 /lorensiuswlt/NewQuickAction3D
-LorenzoBettini/xDoc Java
+/LorenzoBettini/xDoc
 /lorrenzo/cucumber-reporting
 /lorrenzo/jenkins-cucumber-jvm-reports-plugin-java
 /lorrin/camel
@@ -26771,7 +26488,7 @@ LorenzoBettini/xDoc Java
 /losphiereth/facebook-android-sdk
 /lostinpatterns/phonegap-plugins
 /lostinspacebar/todo.txt-touch
-lostinthewoods84/jbehave-eclipse-plugin Java
+/lostinthewoods84/jbehave-eclipse-plugin
 /lostkhaos/WorldGenerationControl
 /lostleaf/newserver-rcp
 /Lothy/MoparClassic
@@ -26837,7 +26554,6 @@ lostinthewoods84/jbehave-eclipse-plugin Java
 /lschley/game-of-life
 /lsd/cw-android
 /lsegal/mmeta
-lsegal/mmeta Java
 /lsinger/PushNotificationsJava
 /lsiu/mango
 /lslinnet/Multiverse-Core
@@ -26850,7 +26566,6 @@ lsegal/mmeta Java
 /lstoll/WowzaIcecastAuthModule
 /Lsync/lsync-tests-spring-sharedsess-cas
 /lt1946/couchdb-lucene
-lt1946/couchdb-lucene Java
 /lt1946/kitchensink-example
 /lt1946/mongo-hadoop
 /lt1946/mongo-java-driver
@@ -26909,7 +26624,7 @@ lt1946/couchdb-lucene Java
 /lucastex/mongodb-grails
 /lucastex/simplegeo-java-client
 /lucastex/tubaina
-lucastex/twitter-follower-bot Java
+/lucastex/twitter-follower-bot
 /lucastheisen/mp4tools
 /lucastorri/elasticsearch
 /lucaswiman/miscellaneous
@@ -26986,7 +26701,7 @@ lucastex/twitter-follower-bot Java
 /luismayta/cakephp-netbeans
 /luismreis/beacon
 /luisollero/HX
-luisramalho/soap-twitter Java
+/luisramalho/soap-twitter
 /LuisSala/alfresco-webscript-sso-servlet
 /LuisSala/CORS-Java-Servlet-Filter
 /luisyng/GSMProfiler
@@ -27032,7 +26747,7 @@ luisramalho/soap-twitter Java
 /luizsoarez/52code
 /luiz/stress-tester
 /luiz/vraptor
-luiz/vraptor-html-dsl Java
+/luiz/vraptor-html-dsl
 /lujop/AndroidBillingLibrary
 /lukacu/coffeeshop
 /lukasberns/Apollonius
@@ -27493,7 +27208,7 @@ luiz/vraptor-html-dsl Java
 /magro/supercsv
 /magruene/FindSynonyms
 /Magua/swagger-springmvc
-magujs/cacert-frontendtests Java
+/magujs/cacert-frontendtests
 /magun/apibuilder
 /magun/cwac-endless
 /magun/guartz
@@ -27572,7 +27287,6 @@ magujs/cacert-frontendtests Java
 /mak1e/facebook-android-sdk
 /mak1e/phonegap-android-plugin-examples
 /mak1e/smssync
-mak1e/smssync Java
 /Makarevich/co
 /MaKeBits/titanium_mobile
 /makenai/etherpad
@@ -27657,7 +27371,6 @@ mak1e/smssync Java
 /mamewotoko/MacBluetooth
 /mamewotoko/malarm_test
 /mamewotoko/podplayer
-mamewotoko/podplayer Java
 /MamiyaOtaru/worldguard
 /mamut/scala_game
 /manage/android-sdk
@@ -27683,7 +27396,6 @@ mamewotoko/podplayer Java
 /mandarl/WebCacheImageView
 /mandelsoft/Mandtool
 /mandric/SMSSync
-mandric/SMSSync Java
 /mandubian/play-siena
 /mandubian/siena
 /mane87/Android-Universal-Image-Loader
@@ -28543,13 +28255,12 @@ mandric/SMSSync Java
 /MattOates/mwdumper
 /mattpage/phonegap-plugins
 /mattprecious/prioritysms
-mattprecious/prioritysms Java
 /mattrebor/game-of-life
 /Mattredsox/Universal-Electricity
 /mattrepl/clojure
 /MattRWallace/Syntactic
 /mattryall/metrics
-mattsanchez/TwitterClient Java
+/mattsanchez/TwitterClient
 /mattshapiro/Haptic_Sphero
 /mattsta/etherpad
 /mattstep/cloud-management
@@ -28694,7 +28405,7 @@ mattsanchez/TwitterClient Java
 /MayaLekova/spaska
 /mayan31370/Japid
 /mayankk4/OB-ru
-maycamp/G05-NewtonToolbox Java
+/maycamp/G05-NewtonToolbox
 /mayco/chip8-java
 /mayengbam/new-blog-summary
 /Mayeron/NabAlive
@@ -28791,7 +28502,6 @@ maycamp/G05-NewtonToolbox Java
 /mbolt35/javaray
 /mbonati/yata
 /Mbosco/smssync
-Mbosco/smssync Java
 /mboudreau/Alternator
 /mboyd/DDFv2.0
 /mbreese/couchdb4j
@@ -28813,7 +28523,7 @@ Mbosco/smssync Java
 /MCabot/JIRC
 /mcabrera77/Tellurium
 /mcai/Archimulator
-mcai/Desecret Java
+/mcai/Desecret
 /mcai/Pickapack
 /mcai/Pickapack.Micro
 /mcali/jclouds
@@ -28938,7 +28648,6 @@ mcai/Desecret Java
 /mcxiaoke/cwac-updater
 /mcxiaoke/facebook-android-sdk
 /mcxiaoke/greenDAO
-mcxiaoke/greenDAO Java
 /mcxiaoke/JTwitter
 /mcxiaoke/NineOldAndroids
 /mcxiaoke/PullToRefresh-ListView
@@ -29059,7 +28768,7 @@ mcxiaoke/greenDAO Java
 /medcescato/depot-java
 /medcl/elasticsearch
 /medcl/elasticsearch-analysis-ik
-medcl/elasticsearch-analysis-pinyin Java
+/medcl/elasticsearch-analysis-pinyin
 /medcl/elasticsearch-carrot2
 /medcl/elasticsearch-partialupdate
 /meddah/gizzard
@@ -29088,7 +28797,6 @@ medcl/elasticsearch-analysis-pinyin Java
 /meetumaltiar/CellularAutomataGameOfLife
 /meetup/utilities
 /mefellows/lambda
-mefellows/lambda Java
 /mefernandez/android-snake-example
 /mefernandez/Noviembre-KataPotter
 /megachucky/camel
@@ -29107,7 +28815,6 @@ mefellows/lambda Java
 /MegaMinerJon/war
 /megamonster/modeshape
 /MeganWalsh/smssync
-MeganWalsh/smssync Java
 /meganyao/mongo-hadoop
 /megaterik/FDEB
 /megatron-me-uk/zandy
@@ -29146,7 +28853,7 @@ MeganWalsh/smssync Java
 /melaniemaronde/spring_rabbitmq_chatter
 /melbjvm/vertx-translator
 /Meldanya/todo.txt-touch
-melendeznicolas/Jetwick Java
+/melendeznicolas/Jetwick
 /melexis/smxdemo
 /melezov/postgresql-jdbc
 /melianil/game-of-life
@@ -29186,7 +28893,7 @@ melendeznicolas/Jetwick Java
 /menny/AnySoftKeyboard
 /menny/AnySoftKeyboard-API
 /me/nokogiri
-menonvarun/andro_auto_framework Java
+/menonvarun/andro_auto_framework
 /MEnSM/platform_packages_apps_Superuser
 /mentaframework/twitter4j
 /mental/clojure
@@ -29215,13 +28922,11 @@ menonvarun/andro_auto_framework Java
 /mernst/coreen
 /merqlove/bigbluebutton
 /merritt212/SMSSync
-merritt212/SMSSync Java
-mertguldur/Pino Java
+/mertguldur/Pino
 /mertkavi/ToDoList
 /MeshLabs/MeshApiClient
 /mesingze/cw-omnibus
 /mesk/henplus
-mesk/henplus Java
 /mess110/MovieOrganizer
 /messagebus/messagebus_java_api
 /messagegears/messagegears-java-sdk
@@ -29253,7 +28958,7 @@ mesk/henplus Java
 /MetalMASK/JGeocoder-Sen
 /MeTAlMollY/game-of-life
 /metaloph1l/pacman
-metametaclass/clj-json Java
+/metametaclass/clj-json
 /metamolecular/opsin
 /metamx/azkaban
 /metamx/emitter
@@ -29280,7 +28985,6 @@ metametaclass/clj-json Java
 /metsci/glimpse
 /mettadore/lightdroid
 /metzlerd/mavuno
-metzlerd/mavuno Java
 /mewf/mewf-seed-vertx
 /mewsicalcat/GoalKeeper
 /mexicano/operadriver
@@ -29352,8 +29056,7 @@ metzlerd/mavuno Java
 /mgeorge/jrex
 /mgeyer/nachos
 /mgeyer/proj3
-mgeyer/proj3 Java
-mgh87/antlr4 Java
+/mgh87/antlr4
 /mgiannini/immutant
 /Mgiepz/saiku-adhoc
 /mgilbir/maven-git-commit-id-plugin
@@ -29434,7 +29137,6 @@ mgh87/antlr4 Java
 /miberk/balda
 /miberk/jolda
 /miberk/lucilda
-miberk/lucilda Java
 /mi-black/AntiChess
 /micadeyeye/Transferhttp-Controller
 /MicahElliott/IClojure
@@ -29456,7 +29158,6 @@ miberk/lucilda Java
 /michaelcameron/hibernate-orm
 /michaelcameron/jedis
 /michaelcclark/json-schema-validator
-michaelcclark/json-schema-validator Java
 /michaeldcruz/campfire-plugin
 /MichaelDrogalis/clojure
 /michaelee/cs115
@@ -29513,7 +29214,6 @@ michaelcclark/json-schema-validator Java
 /michaelmosmann/drug
 /michaelmosmann/embedmongo.flapdoodle.de
 /michaelmosmann/mongoom.flapdoodle.de
-michaelmosmann/mongoom.flapdoodle.de Java
 /michaelmosmann/wicket
 /michaelmsinclair/game-of-life
 /michaelmsinclair/Wator
@@ -29766,7 +29466,6 @@ michaelmosmann/mongoom.flapdoodle.de Java
 /mikepuck/game-of-life
 /mikera/clojure
 /mikera/edn-java
-mikera/edn-java Java
 /mikera/vectorz
 /mikereedell/sunrisesunsetlib-java
 /mikerpost/game-of-life
@@ -29912,7 +29611,6 @@ mikera/edn-java Java
 /mingfang/Java-Chronicle
 /mingfang/jclouds
 /mingfang/JDBM3
-mingfang/JDBM3 Java
 /mingfang/jline2
 /mingfang/junit-benchmarks
 /mingfang/krati
@@ -29926,7 +29624,6 @@ mingfang/JDBM3 Java
 /minhajuddin/quran_android
 /minhajuddin/todo.txt-touch
 /minhdv/ecms
-minhdv/ecms Java
 /minhdv/juzu
 /minichate/gae-event-logger
 /MiniCM/android_packages_apps_FileManager
@@ -30041,7 +29738,6 @@ minhdv/ecms Java
 /mitch000001/Compass
 /mitch000001/Earthquake
 /mitchallen/automation-book
-mitchallen/automation-book Java
 /MitchellG/todo.txt-touch
 /MitchJust/Kabouter
 /mitchtech/android-context
@@ -30063,7 +29759,6 @@ mitchallen/automation-book Java
 /mitmel/SimpleContentProvider
 /MIT-Mobile/MIT-Mobile-for-Android
 /mit-ottoclave/SMSSync
-mit-ottoclave/SMSSync Java
 /mitreid-connect/OpenID-Connect-Java-Spring-Server
 /mitrisdev/d54
 /mitschke/vespucci
@@ -30099,7 +29794,6 @@ mit-ottoclave/SMSSync Java
 /mjama/robolectric
 /mjanson/ews-java
 /mjapa/henplus
-mjapa/henplus Java
 /mjcoop/facebook-android-sdk
 /mjdenham/and-bible
 /mjdev/hearing-saver
@@ -30132,7 +29826,7 @@ mjapa/henplus Java
 /mjschranz/seneca-Project-Management
 /mjuhasz/BDSup2Sub
 /mjw56/android_espn
-mjw56/LittleSearchEngine Java
+/mjw56/LittleSearchEngine
 /mjwall/maven-jboss-plugin
 /mk12/mycraft
 /mkalam-alami/inventory-tweaks
@@ -30290,7 +29984,6 @@ mjw56/LittleSearchEngine Java
 /MMCarlosE/game-of-life
 /mmccall/scribe-java
 /mmcgrana/clj-json
-mmcgrana/clj-json Java
 /mmcgrana/riak-java-pb-client
 /mmcnierney14/Chips
 /mmelvin0/continuum
@@ -30308,7 +30001,6 @@ mmcgrana/clj-json Java
 /mmiyaji/YouTube-tutorials
 /mmjmeijerink/Rolit
 /mmm444/couchdb-lucene
-mmm444/couchdb-lucene Java
 /mmmmok/ReGalAndroid
 /mmocny/luhnybin
 /mmoMinecraftDev/mmoChatPirate
@@ -30321,7 +30013,6 @@ mmm444/couchdb-lucene Java
 /mmornati/epomodoro
 /mmoutenot/Quoraday
 /mmrath/Cambridge
-mmrath/Cambridge Java
 /mmrobins/abcdefghijklm
 /MMS-Projects/LimitedCreative
 /mmunna/Priam
@@ -30449,7 +30140,6 @@ mmrath/Cambridge Java
 /mohitsrivastava/DrizzleJDBC
 /mohitvargia/androiDB
 /mohitvargia/smssync
-mohitvargia/smssync Java
 /mohkermani/asterisk-java
 /mohlendo/flickrj
 /mohsinhijazee/BDCLogger
@@ -30462,7 +30152,6 @@ mohitvargia/smssync Java
 /moishalo/thinkProject
 /Moishe/SmartTrail-for-Android
 /moizjv/bot-bot
-moizjv/bot-bot Java
 /Mojang/Minecraft-API
 /mojavelinux/arquillian
 /mojavelinux/arquillian-showcase
@@ -30475,7 +30164,6 @@ moizjv/bot-bot Java
 /mojavelinux/weld-extensions
 /mojodna/oauth-signpost
 /mojodna/searchable
-mojodna/searchable Java
 /mojodna/sprout
 /mokeefe/erma
 /mokehehe/naivelisp
@@ -30550,10 +30238,9 @@ mojodna/searchable Java
 /moondoggie/SudokuSolver
 /moonhouse/The-Red-Box
 /moonmaster9000/couchdb-lucene
-moonmaster9000/couchdb-lucene Java
 /MoonShade/sgl-Editor
 /moonwatcher/Foliage
-moonwave99/java2012 Java
+/moonwave99/java2012
 /mooreds/restsql
 /mooreds/restsql-test
 /moose51789/Spoutcraft
@@ -30569,7 +30256,6 @@ moonwave99/java2012 Java
 /morb-au/osmosis
 /mord4z/jodconverter
 /Mordenkainen/BasicCircuits
-Mordenkainen/BasicCircuits Java
 /Mordenkainen/RedstoneChips
 /morelab/imhotep
 /morenoh149/riverCrossingAI
@@ -30577,7 +30263,6 @@ Mordenkainen/BasicCircuits Java
 /moreorless/mongo-hadoop
 /moresandeep/memcached-session-manager
 /MoresbyCoffee/MByHave
-MoresbyCoffee/MByHave Java
 /morganc/custom-maven-plugin
 /morganhk/ATTINY85Canon
 /morganm/AfkBooter
@@ -30592,7 +30277,6 @@ MoresbyCoffee/MByHave Java
 /morganm/SpoutPlugin
 /morganm/Superpickaxe
 /Morgul/idea-plugin-protobuf
-Morgul/idea-plugin-protobuf Java
 /morgwai/jam
 /morhall/Apigee-Client-Library-for-Java
 /morisDavaz/gephi-plugins
@@ -30637,7 +30321,6 @@ Morgul/idea-plugin-protobuf Java
 /mosanger/sms-backup-plus
 /mosemachts/java-speech-api
 /mosen/yui-community-netbeans-toolkit
-mosen/yui-community-netbeans-toolkit Java
 /moserp/code-coverage-example
 /moserp/maven-cuke4duke-skeleton
 /mosesn/Beer-Battle
@@ -30699,11 +30382,9 @@ mosen/yui-community-netbeans-toolkit Java
 /mpapply/asynchbase
 /MpApQ/cl1p.net-source
 /Mparaiso/TwitterClient
-Mparaiso/TwitterClient Java
 /mparaz/twitter4j
 /mparramont/hn-android
 /mpartel/javaportability
-mpartel/javaportability Java
 /mpatric/lurgee
 /mpatric/mp3agic
 /mpdeimos/AntResourceCompiler
@@ -30867,7 +30548,6 @@ mpartel/javaportability Java
 /mrjoes/sock-benchmarking
 /mrkaiser/dragoncon2012
 /mrkamel/similarity
-mrkamel/similarity Java
 /mrkn/jenkins-ansicolor-plugin
 /mrkosterix/lua-commons
 /mrkvka/game-of-life
@@ -30898,7 +30578,6 @@ mrkamel/similarity Java
 /mrosoiu/java-xarlib
 /mrpdaemon/encfs-java
 /mrpotes/cukes-jvm-eclipse-plugin
-mrpotes/cukes-jvm-eclipse-plugin Java
 /mrpotes/Libraries-West-eBooks-Tracker
 /mr-road/SolrMQ
 /mr-road/TW-Fork-Join-Workshop
@@ -30916,7 +30595,7 @@ mrpotes/cukes-jvm-eclipse-plugin Java
 /MrTJP/LogisticsPipes
 /mrtonyhe/game-of-life
 /mrtorrent/elasticsearch
-MrTrick/couchdb-lucene Java
+/MrTrick/couchdb-lucene
 /mrttufekci/jclouds
 /mrtwiddletoes/projecteuler
 /mru00/gpxstat
@@ -31046,7 +30725,6 @@ MrTrick/couchdb-lucene Java
 /mstover/AllarBank
 /mstover/coinjema
 /mstram/BasicCircuits
-mstram/BasicCircuits Java
 /mstram/Bukkit
 /mstram/CleanroomGenerator
 /mstram/clojure
@@ -31110,7 +30788,6 @@ mstram/BasicCircuits Java
 /mtmckenna/diff-cam
 /mtnoronha/manipulando-listas-jquery-vraptor-3
 /mtnoronha/vraptor-starting-project
-mtnoronha/vraptor-starting-project Java
 /mtnygard/netty
 /mtoader/google-go-lang-idea-plugin
 /mto/exogtn
@@ -31235,12 +30912,11 @@ mtnoronha/vraptor-starting-project Java
 /mung3r/MobRider
 /mung3r/WorldBorder
 /munificent/bantam
-munificent/lark Java
+/munificent/lark
 /munitras/hazelcast
 /munitras/spring-plugin
 /muniu/Android-Pdf-Viewer-Library
 /muniu/android-sms-relay
-muniu/android-sms-relay Java
 /muniu/apibuilder
 /muniu/PGTop
 /muniu/StickyListHeaders
@@ -31264,7 +30940,7 @@ muniu/android-sms-relay Java
 /murfthesmurf/BattleArena
 /murgo/IrssiNotifier
 /muriloq/jedis
-Murmur/areenafeed Java
+/Murmur/areenafeed
 /murphylan/grails-exec
 /murphylan/org.eclipse.equinox.p2.director.extended
 /murphylan/sonatype-tycho
@@ -31312,7 +30988,6 @@ Murmur/areenafeed Java
 /mustafarizvi/OpenComm
 /mustafasezgin/gifsockets
 /mustafma/SMSSync
-mustafma/SMSSync Java
 /mustah/poma
 /mustardgrain/cassandra
 /mustardgrain/twissjava
@@ -31360,7 +31035,6 @@ mustafma/SMSSync Java
 /mwaisgold/rmq
 /mwalter/GUCoach
 /mwanji/DbUtils-JPA
-mwanji/DbUtils-JPA Java
 /mwanji/lifegycle
 /mwanji/lifegycle-jx
 /mwanji/vertx-maven-plugin
@@ -31381,7 +31055,6 @@ mwanji/DbUtils-JPA Java
 /mwl/StartablePlugin
 /mwm126/Anki-Android
 /mwnorman/KSAT
-mwnorman/KSAT Java
 /mwnorman/Simple-Java-Plugin-Manager
 /mwotton/luhnybin
 /mwrdy/cw-android
@@ -31410,12 +31083,11 @@ mwnorman/KSAT Java
 /myamamic/androidannotations
 /m-yamamo0417/wollib
 /myan/titanium_mobile
-myatphyothu/PTextSearcher Java
+/myatphyothu/PTextSearcher
 /myatphyothu/SliderGlider
 /mybox/mybox
 /mycloudy/DrmLicenseService
 /mycloudy/SMSSync
-mycloudy/SMSSync Java
 /mycmac/PerspectiveRemoval
 /mycodelabs/scribe-java
 /mycodespace/hibernate-orm
@@ -31434,7 +31106,7 @@ mycloudy/SMSSync Java
 /myheritage/familygraph-android
 /mylene/testjava7se
 /mylskumar/game-of-life
-mymindleaks/jHyperDoc Java
+/mymindleaks/jHyperDoc
 /mymindleaks/Regex-Plugin-for-Eclipse
 /mynameistodd/facebook-android-sdk
 /mynenisirisha/game-of-life
@@ -31532,7 +31204,6 @@ mymindleaks/jHyperDoc Java
 /nabeelalimemon/infinispan
 /nabeelalimemon/Spring-integration
 /nabeelmukhtar/bitlyminous
-nabeelmukhtar/bitlyminous Java
 /nabeelmukhtar/everscribe
 /nabeelmukhtar/github-java-sdk
 /nabilblk/elasticsearch
@@ -31606,7 +31277,7 @@ nabeelmukhtar/bitlyminous Java
 /nageshs/facebook-android-sdk
 /nageshs/protobuf-codec
 /naghi/Blind.ly-Messenger
-nagliyvred/idea_puppet_plugin Java
+/nagliyvred/idea_puppet_plugin
 /nagyhel/dbpedia-extension
 /naheedakhtar/AndroidBillingLibrary
 /naheedakhtar/android-ColorPickerPreference
@@ -31830,7 +31501,7 @@ nagliyvred/idea_puppet_plugin Java
 /nayuki/Project-Euler-solutions
 /nayuki/Sorting-algorithms-demo
 /nazakatqureshi/magja
-nazarioa/Ayala-Nazario-A-Lesson-D Java
+/nazarioa/Ayala-Nazario-A-Lesson-D
 /nazgyl/BeanIntegration
 /nazgyl/springremotingjms
 /nbaars/tomighty
@@ -31844,7 +31515,6 @@ nazarioa/Ayala-Nazario-A-Lesson-D Java
 /nbeyer/charset-decmcs
 /nbhatex/CityTraffic
 /nborwankar/couchdb-lucene
-nborwankar/couchdb-lucene Java
 /nborwankar/jcouchdb
 /nbr11/Elochka
 /nbronson/snaptree
@@ -31935,7 +31605,6 @@ nborwankar/couchdb-lucene Java
 /need/phonegap-plugins
 /needsm0arfoodz/Catacomb-Snatch-1
 /needspeed/BasicCircuits
-needspeed/BasicCircuits Java
 /neelay/scribe-java
 /neelay/todo.txt-touch
 /neerajbhatt/spring-data-mongodb
@@ -31998,7 +31667,7 @@ needspeed/BasicCircuits Java
 /nellaivijay/facebook-recommender-demo
 /nellaivijay/goldenorb
 /nellaivijay/HBaseHUT
-nellaivijay/mavuno Java
+/nellaivijay/mavuno
 /nellaivijay/Nectar
 /nellaivijay/netty
 /nellaivijay/pignlproc
@@ -32047,7 +31716,7 @@ nellaivijay/mavuno Java
 /neo4j/spatial
 /neo4j/windows-wrapper
 /NeOAnderson/WorldBorder
-NEOatNHNG/cacert-frontendtests Java
+/NEOatNHNG/cacert-frontendtests
 /neodevelop/Internal_DSL_Fluent_Interface_or_Method_Chaining_with_Pattern_Visitor
 /neofoniemobile/Crouton
 /neojjang/Android-Bikemap
@@ -32067,7 +31736,6 @@ NEOatNHNG/cacert-frontendtests Java
 /neophob/boxmaker
 /neophob/LPD6803-RGB-Pixels
 /neophob/PixelController
-neophob/PixelController Java
 /neophob/processing-blinkenlights
 /neorel22/facebook-android-sdk
 /neoriddle/GnucashMobile
@@ -32128,7 +31796,6 @@ neophob/PixelController Java
 /NessComputing/migratory
 /NessComputing/snappy
 /nesteffe/couchdb-lucene
-nesteffe/couchdb-lucene Java
 /NesterOne/spring-batch
 /nesterow/android-mapviewballoons
 /nesterow/facebook-android-sdk
@@ -32139,7 +31806,6 @@ nesteffe/couchdb-lucene Java
 /netconstructor/cssembed
 /netconstructor/elasticsearch
 /netconstructor/elasticsearch-mapper-attachments
-netconstructor/elasticsearch-mapper-attachments Java
 /netconstructor/emailarchive
 /netconstructor/gifsockets
 /netconstructor/nokogiri
@@ -32231,7 +31897,6 @@ netconstructor/elasticsearch-mapper-attachments Java
 /NeuralSandwich/Lotto-Project
 /Neurogami/KinectForArtists
 /neurolabs/henplus
-neurolabs/henplus Java
 /neurolabs/JSR305CheckstylePlugin
 /nevali/shindig
 /nevalla/CalendarView
@@ -32239,7 +31904,7 @@ neurolabs/henplus Java
 /neverden/sms-backup-plus
 /NEVERFEAR/JavaWhois
 /neville-agius/cue.language
-neville-agius/Jetwick Java
+/neville-agius/Jetwick
 /neville-agius/tweetstream
 /neville-agius/twitter4j
 /NevRA/LepraDroid
@@ -32356,11 +32021,9 @@ neville-agius/Jetwick Java
 /nhuray/dropwizard-spring
 /nhuray/elasticsearch
 /nhuray/elasticsearch-river-jdbc
-nhuray/elasticsearch-river-jdbc Java
 /nhuray/gitblit
 /nhuray/greenhouse
 /nhuray/khs-spring-batch-report-writer
-nhuray/khs-spring-batch-report-writer Java
 /nhuray/Kundera
 /nhuray/meetup.beeno
 /nhuray/spring-elasticsearch
@@ -32396,7 +32059,6 @@ nhuray/khs-spring-batch-report-writer Java
 /Nichts/OpenWarp
 /nichtverstehen/jaffer
 /nick125/Thingamabob
-nick125/Thingamabob Java
 /nick32m/UNO-assignments
 /nickarls/faces
 /nickarls/international
@@ -32437,7 +32099,6 @@ nick125/Thingamabob Java
 /NicklasWallgren/DevsmartLib-Android
 /nickleefly/facebook-android-sdk
 /nickmalcolm/LostLookout-Android-App
-nickmalcolm/LostLookout-Android-App Java
 /nickman/apmrouter
 /nickman/Java-Chronicle
 /nickman/jedis
@@ -32511,7 +32172,6 @@ nickmalcolm/LostLookout-Android-App Java
 /nicolasrusconi/JumbleAnt
 /nicolasrusconi/PitestAnt
 /nicolas-sanchez/droolsjbpm
-nicolas-sanchez/droolsjbpm Java
 /nicolasspilman/riak-java-client
 /nicolatassini/Heroku-J2EE-Spring-MVC---Hibernate---PostgreSQL----Maven---Jetty
 /nicolatassini/Heroku-J2EE-Spring-MVC---Hibernate---Salesforce----Maven---Jetty
@@ -32524,7 +32184,6 @@ nicolas-sanchez/droolsjbpm Java
 /nicoulaj/jcrfs
 /nicoulaj/mustache.java
 /nicpottier/smssync
-nicpottier/smssync Java
 /ni-c/quadrometrics
 /nicstrong/jline2
 /nicStuff/Custom-java-libraries
@@ -32533,7 +32192,6 @@ nicpottier/smssync Java
 /nidefawl/SpoutAPI
 /nidefawl/Spoutcraft
 /nido/couchdb-lucene
-nido/couchdb-lucene Java
 /niejingsa/game-of-life
 /niekvanderkooy/ucheck-android
 /niekvlessert/sipXcustomCallerId
@@ -32687,7 +32345,7 @@ nido/couchdb-lucene Java
 /NinjaWolf/KitchenSink
 /NinjaWolf/PlumpXP
 /ninjin/wordreprs_ner
-ninjudd/clj-json Java
+/ninjudd/clj-json
 /ninjudd/clojure
 /ninjudd/clojure-protobuf
 /ninjudd/ordered-set
@@ -32829,11 +32487,9 @@ ninjudd/clj-json Java
 /nmvr2600/remoting-jmx
 /nmwinegar/ParkingLot
 /nnarhinen/couchdb-lucene
-nnarhinen/couchdb-lucene Java
 /NN---/gwt-vkontakte
 /nnieslan/XobotOS
 /nnmatveev/idea-plugin-protobuf
-nnmatveev/idea-plugin-protobuf Java
 /no1dead/AntiCheat
 /no1dead/kNoHax
 /no1hacker/android_page_curl
@@ -32951,7 +32607,7 @@ nnmatveev/idea-plugin-protobuf Java
 /norrs/weechat-android
 /norsys/spring-framework
 /northpoint/blur
-northpoint/opencms-filesystem Java
+/northpoint/opencms-filesystem
 /nosarious/instagram_Array
 /NOSDuco/NOSSpawn
 /noseka1/AntScriptLibrary
@@ -33256,7 +32912,7 @@ northpoint/opencms-filesystem Java
 /nv1t/android-nfc-paycardreader
 /nvaidyan/CommUnity
 /nvaidyan/diskEvolution
-nvasilakis/yippee Java
+/nvasilakis/yippee
 /nvdbleek/orbeon-forms
 /nvdnkpr/ambrose
 /nvdnkpr/spatial
@@ -33287,16 +32943,13 @@ nvasilakis/yippee Java
 /NXT/LEGO-MINDSTORMS-MINDdroid
 /nyao/github-java-sdk
 /nyaruka/android-sms-relay
-nyaruka/android-sms-relay Java
 /nyashkn/SMSSync
-nyashkn/SMSSync Java
 /nyaxt/elasticsearch
 /Nyceane/TEDx-Android-Template
 /nycholas/androidannotations
 /nycholas/vraptor-client
 /nye-duo/BagItLibrary
 /nye-duo/StudentWeb
-nye-duo/StudentWeb Java
 /nyerel/spring-framework
 /nyholku/purejavacomm
 /nyilmaz/bean-db
@@ -33322,7 +32975,6 @@ nye-duo/StudentWeb Java
 /NZN/facebook-android-sdk
 /nzroller/metrics
 /o0ocato0o/seck
-o0ocato0o/seck Java
 /o11c/CSE224-HW5
 /o2genum/CoreGame
 /o2genum/cwac-endless
@@ -33392,7 +33044,7 @@ o0ocato0o/seck Java
 /obra/cwac-richedit
 /obrand/phonegap-plugins
 /obriencj/bukkit-want
-obriencj/bukkit-weather Java
+/obriencj/bukkit-weather
 /obsd/cwac-endless
 /obsicn/game-of-life
 /oby1/hive
@@ -33411,7 +33063,6 @@ obriencj/bukkit-weather Java
 /ochafik/nativelibs4java
 /ochaloup/migrate
 /OchiengEd/SMSSync
-OchiengEd/SMSSync Java
 /OchiengEd/Ushahidi_Android
 /ochitu/mongo-java-driver
 /ochitu/signpost
@@ -33450,7 +33101,6 @@ OchiengEd/SMSSync Java
 /odnoklassniki/shared-memory-cache
 /odonnmi/game-of-life
 /odracci/couchdb-lucene
-odracci/couchdb-lucene Java
 /odracci/tomighty
 /odwdinc/Android-Slurms
 /odwdinc/OddArrow
@@ -33476,7 +33126,7 @@ odracci/couchdb-lucene Java
 /OGUDevel/MainLinear
 /oharsta/apis
 /OhDavit/AndroidBillingLibrary
-ohdonghoon/ChocoLMS Java
+/ohdonghoon/ChocoLMS
 /ohernanf/game-of-life
 /ohmrefresh/ActionsContentView
 /ohmrefresh/android-accordion-view
@@ -33522,7 +33172,7 @@ ohdonghoon/ChocoLMS Java
 /okohll/abImport
 /okohll/TextSound
 /okorokhina/spark
-okoye/snippet-extractor Java
+/okoye/snippet-extractor
 /okulikov/ceylon-runtime
 /okulikov/modeshape
 /okulikov/modeshape-examples
@@ -33548,7 +33198,6 @@ okoye/snippet-extractor Java
 /oleander/Trainspotting
 /olegch/jsonsw-example-portlet
 /olegflo/json-schema-validator
-olegflo/json-schema-validator Java
 /OlegKrikun/S2E
 /OlegPan/BrandAnalytics
 /olegp/threedee
@@ -33567,7 +33216,7 @@ olegflo/json-schema-validator Java
 /olevrijenhoek/Vossen-en-Konijnen-1
 /olf77/Anki-Android
 /olgamelnichuk/gxa
-OLibutzki/xDoc Java
+/OLibutzki/xDoc
 /olibye/AndroViews
 /olibye/hamcrest
 /olibye/jmock-library
@@ -33664,14 +33313,14 @@ OLibutzki/xDoc Java
 /OmerE/jReddit
 /omermuhammed/android-api
 /OmerShapira/Syntactic
-Omertron/api-traileraddict Java
+/Omertron/api-traileraddict
 /omgwtfun/Bukkit
 /omilani/wicket
 /omixen/github-plugin
 /omkarc/EE579_FinalProjectRepo
 /Omlet/CitiSkins
 /Omlet/SignRank
-Ommy/MapApp Java
+/Ommy/MapApp
 /omnaest/JavaAPI4BMECatXML
 /omnicoder/BSPSource
 /Omnifarious/gerrit-trigger-plugin
@@ -33687,7 +33336,6 @@ Ommy/MapApp Java
 /oncereply/b3log-solo
 /onchange/game-of-life
 /ondrasej/GPlan
-ondrasej/GPlan Java
 /ondravondra/XobotOS
 /OndraZizka/arquillian
 /OndraZizka/expr
@@ -33873,7 +33521,6 @@ ondrasej/GPlan Java
 /OpenSourceFieldlinguistics/ark-tweet-nlp
 /Open-Source-GIS/elasticsearch
 /Open-Source-GIS/elasticsearch-mapper-attachments
-Open-Source-GIS/elasticsearch-mapper-attachments Java
 /Open-Source-GIS/elasticsearch-osmosis-plugin
 /Open-Source-GIS/geolatte-geom
 /Open-Source-GIS/gifsockets
@@ -34010,7 +33657,6 @@ Open-Source-GIS/elasticsearch-mapper-attachments Java
 /orrc/android-demo-project
 /orrc/android-large-test-failures
 /Ortner/tjpeditor
-Ortner/tjpeditor Java
 /ortolanph/senac-ccs
 /Orwell875/NameCoin-ReRoute
 /oryonatan/spaceGameGenericEx9Yon
@@ -34043,7 +33689,7 @@ Ortner/tjpeditor Java
 /oshothebig/netty
 /osi/clojure
 /osi/heysync
-osiloke/mavuno Java
+/osiloke/mavuno
 /osiloke/mongo-hadoop
 /osi/mulgara
 /osinka/camel-beanstalk
@@ -34282,7 +33928,7 @@ osiloke/mavuno Java
 /pakerfeldt/android-viewflow
 /pakerfeldt/jowfsclient
 /pakesson/mandroid
-p-a/kickass-plugin Java
+/p-a/kickass-plugin
 /PakL/DifferentRoom
 /pakmans/dwr-toplink
 /pakoito/XobotOS
@@ -34365,7 +34011,6 @@ p-a/kickass-plugin Java
 /papa99do/spring-framework
 /papagillou/android-color-picker
 /papajuans/bank-kata
-papajuans/bank-kata Java
 /papauschek/corvid-devrob
 /papegaaij/wicket-cdi
 /papegaaij/wicket-stuff-markup-validator
@@ -34414,7 +34059,7 @@ papajuans/bank-kata Java
 /parksra/cw-android
 /parkvu/facebook-android-sdk
 /parrt/antlr3
-parrt/antlr4 Java
+/parrt/antlr4
 /parrt/stringtemplate4
 /parryjacob/ModularDialog
 /parsafatehi/HNdroid
@@ -34467,7 +34112,6 @@ parrt/antlr4 Java
 /patheticpat/todo.txt-touch
 /path/facebook-android-sdk
 /path/greenDAO
-path/greenDAO Java
 /pathikrit/Kotha
 /pathikrit/Quora-Challenges
 /path/mixpanel-android
@@ -34592,11 +34236,9 @@ path/greenDAO Java
 /pauloiam/scribe-java
 /paulojr83/tubaina
 /paulomuggler/couchdb-lucene
-paulomuggler/couchdb-lucene Java
 /paulopessoa/jasper-bridge
 /paulopinheiro1234/wdoit
 /pauloppenheim/connection_pool_scaffold
-pauloppenheim/connection_pool_scaffold Java
 /paulopwm/Joomla-Day-Brasil-2011
 /paul-oreilly/mcmmo-groups
 /pauloriordan/drools
@@ -34634,7 +34276,7 @@ pauloppenheim/connection_pool_scaffold Java
 /pavan5000/Dempsy
 /pavanbv25/head
 /pavandroid/facebook-android-sdk
-pavanred/Monster-Mash Java
+/pavanred/Monster-Mash
 /pavanvusirika/KooKoo-Java
 /pavelfatin/ninety-nine
 /pavelfatin/sleeparchiver
@@ -34779,7 +34421,7 @@ pavanred/Monster-Mash Java
 /pdurbin/todo.txt-touch
 /pdwryst/ZRL_GeoGameServer
 /peacefuleye/bigbluebutton
-Peacemaking/TrouspiNet Java
+/Peacemaking/TrouspiNet
 /peahayes/mav-mod
 /peas/twitter4j
 /peat/joption
@@ -34891,7 +34533,7 @@ Peacemaking/TrouspiNet Java
 /pepebril/spatial
 /pepechorva/brazo-robot
 /pepellou/KataEuler
-PepeuCps/greenDAO Java
+/PepeuCps/greenDAO
 /PEPGenEd/imeji
 /pepigno75/SpeakBird
 /pepijndevos/clojure
@@ -34935,7 +34577,7 @@ PepeuCps/greenDAO Java
 /Perlover/android-nfc-paycardreader
 /perlow/robolectric
 /Permafrost/Tundra
-pero-ict-solutions/cwac-wakeful Java
+/pero-ict-solutions/cwac-wakeful
 /peroksid/clojure
 /perplexingcabinet/Terasology
 /Perry04/phonegap-plugins
@@ -35128,7 +34770,7 @@ pero-ict-solutions/cwac-wakeful Java
 /phaggood/nakamura
 /phalanx/Catacomb-Snatch--Reddit-Edition
 /phambryan/jedis
-phamernik/i18nchecker Java
+/phamernik/i18nchecker
 /phamhuungon/SkyDoor
 /phamtuanchip/exogtn
 /phamtuanchip/juzu
@@ -35273,7 +34915,6 @@ phamernik/i18nchecker Java
 /phuctbui/cw-advandroid
 /phueper/titanium_mobile
 /phungleson/elasticsearch-river-jdbc
-phungleson/elasticsearch-river-jdbc Java
 /phunt/avro-maven-plugin
 /phuonglm/exo-router
 /phw/Android-PwdHash
@@ -35312,7 +34953,7 @@ phungleson/elasticsearch-river-jdbc Java
 /pickardjoe/GPR
 /pickardjoe/NetherBan
 /picken19/Post-Office-Project
-pickerel/bot-bot Java
+/pickerel/bot-bot
 /picketbox/picketbox-cdi
 /picketlink/federation
 /picketlink/integration-tests
@@ -35437,7 +35078,6 @@ pickerel/bot-bot Java
 /piscisaureus/owl2java
 /pistacchio/StreamConnection
 /pitchum/henplus
-pitchum/henplus Java
 /pitiphong-p/amf
 /pitosalas/blogbridge
 /PitSimulatorDotCom/AlgorithmsNYC
@@ -35482,7 +35122,7 @@ pitchum/henplus Java
 /pjolszewski/aperte-workflow-core
 /pjolszewski/aperte-workflow-plugins
 /pjolszewski/signavio-core-mirror
-pjordan/tac-aa Java
+/pjordan/tac-aa
 /pjpaulin/clientjavatools
 /pjp/MarsRover
 /pjq/ActivityGroupDemo
@@ -35593,7 +35233,6 @@ pjordan/tac-aa Java
 /plevart/lambda-hacks
 /plevart/PushPipes
 /pliant/process
-pliant/process Java
 /pliljenberg/sshj
 /plimaye/LazyTag
 /pliniosantos/MC011
@@ -35621,7 +35260,6 @@ pliant/process Java
 /plytro/maven-git-commit-id-plugin
 /pmaingi/kodejava
 /pmaingi/SMSSync
-pmaingi/SMSSync Java
 /pmaingi/spring-social-github
 /pmaingi/wicket
 /pmalves/elasticsearch
@@ -35756,12 +35394,11 @@ pmaingi/SMSSync Java
 /pombredanne/carrot2
 /pombredanne/CassandraIndexedCollections
 /pombredanne/cassandra-queue
-pombredanne/elasticsearch-analysis-icu Java
+/pombredanne/elasticsearch-analysis-icu
 /pombredanne/elasticsearch-cloud-aws
 /pombredanne/elasticsearch-hadoop
 /pombredanne/elasticsearch-ls-plugins
 /pombredanne/elasticsearch-mapper-attachments
-pombredanne/elasticsearch-mapper-attachments Java
 /pombredanne/fcrepo
 /pombredanne/fig
 /pombredanne/grefine-rdf-extension
@@ -35886,7 +35523,7 @@ pombredanne/elasticsearch-mapper-attachments Java
 /ppke-nlpg/purepos
 /pplante/zxing-android
 /ppolabs/nest
-pponaldo/IdeaBoxes Java
+/pponaldo/IdeaBoxes
 /ppotter/ProjectEuler
 /ppparadox/gladoctor
 /pppd/Anki-Android
@@ -35912,7 +35549,6 @@ pponaldo/IdeaBoxes Java
 /pradeepjawahar/hive
 /pradeep-sharma/Lozzal-Android-Intent-Demo
 /pradeepsrinivasan/elasticsearch-river-jdbc
-pradeepsrinivasan/elasticsearch-river-jdbc Java
 /pradeepto/game-of-life
 /pradtke/methodvalidation-integration
 /praestigiare/bigbluebutton
@@ -35981,7 +35617,6 @@ pradeepsrinivasan/elasticsearch-river-jdbc Java
 /PrashantMahajan/SmartLearning
 /prashantvicky/elasticsearch
 /prashmohan/Project3Skeleton
-prashmohan/Project3Skeleton Java
 /prasithg/mongo-java-driver
 /prassh123/Rpal
 /prateek20/facebook-android-sdk
@@ -36050,7 +35685,7 @@ prashmohan/Project3Skeleton Java
 /privatecoder/javaxpp
 /privat/sablecc
 /priyaaank/robolectric
-priyaaank/SMSDigger Java
+/priyaaank/SMSDigger
 /priya-I/twitter4j
 /PriyankaKapur/game-of-life
 /priyanshnarang/MeVIT
@@ -36148,7 +35783,6 @@ priyaaank/SMSDigger Java
 /pruivo/infinispan
 /pruivo/java-bloomier-filter
 /pruivo/JDBM3
-pruivo/JDBM3 Java
 /pruivo/JGroups
 /pruivo/stream-lib
 /prusnak/tripglasses
@@ -36370,7 +36004,7 @@ pruivo/JDBM3 Java
 /Pyrolistical/xml-free-spring
 /PyroMod/android_packages_apps_FileManager
 /Pyros2097/Dota-2-Guide
-pyr/snacktory Java
+/pyr/snacktory
 /pyspud/Combaist
 /pythonmania/guava-example
 /pzhang/emergency-pendant
@@ -36419,7 +36053,7 @@ pyr/snacktory Java
 /qingw/hubroid
 /qinhongsheng/spring-data-jpa
 /qiniu/java-sdk
-qinwenshi/jbehave-eclipse-plugin Java
+/qinwenshi/jbehave-eclipse-plugin
 /qiu198022/twitter4j
 /qiufenglingling/androidGameByHit-
 /Qiuzhuang/sms-backup-plus
@@ -36611,12 +36245,10 @@ qinwenshi/jbehave-eclipse-plugin Java
 /radzio/SlidingMenu
 /raedle/tetris
 /raedur/greenDAO
-raedur/greenDAO Java
 /RaemondBW/GPXTranslator
 /rafacm/camel
 /rafacm/cdi-camel-example
 /rafacm/henplus
-rafacm/henplus Java
 /rafacm/spring-batch-mongodb-loader
 /rafadaguiar/Book-Catalogue
 /rafael-ac-sa/Proyecto1-RafaelAcosta-RonaldRubi
@@ -36665,7 +36297,6 @@ rafacm/henplus Java
 /rafkhan/Draw-it
 /rafkhan/NoteBar
 /raganwald-deprecated/OldSource
-raganwald-deprecated/OldSource Java
 /rageandsin/android-uitableview
 /raggi/go-and-java
 /RaghavSood/AppaholicsUpdateChecker
@@ -36676,7 +36307,6 @@ raganwald-deprecated/OldSource Java
 /ragnarokkrr/mustache.java
 /ragnraok/android-image-filter
 /ragrawal/Algo
-ragrawal/Algo Java
 /rahar/SpoofIntentVK
 /RaHery/emvp
 /rah/generator-example
@@ -36810,7 +36440,7 @@ ragrawal/Algo Java
 /ralphlange/hudson-darcs
 /ralphleon/TeaTimer
 /ralphtiede/KataRedPencilPromotion
-ralphtiede/KataWordWrap Java
+/ralphtiede/KataWordWrap
 /ralscha/embeddedtc
 /ralucamartinescu/osmosis
 /ramana1266/Java-hands-on
@@ -36996,7 +36626,6 @@ ralphtiede/KataWordWrap Java
 /raul-saiz/SMA
 /raultt/sphinxsearch-grails-plugin
 /raumay/seck
-raumay/seck Java
 /raumzeitlabor/raumzeitstatus
 /raunak/Multiplexers
 /raunak/Twitlinks
@@ -37383,7 +37012,6 @@ raumay/seck Java
 /release14/openvazom
 /relet/freimap
 /relgames/idea-plugin-protobuf
-relgames/idea-plugin-protobuf Java
 /Relick/QuickWarp
 /relloder/MailSend
 /relmyring/clojure
@@ -37450,7 +37078,6 @@ relgames/idea-plugin-protobuf Java
 /reporter123/sms-backup-plus
 /reporter123/Superuser
 /reportgrid/JDBM3
-reportgrid/JDBM3 Java
 /reportgrid/leveldbjni
 /repos-android/bitcoin-android
 /repos-api/mashape-java-client-library
@@ -37493,7 +37120,6 @@ reportgrid/JDBM3 Java
 /Retinue/Bukkit
 /retobg/ese2010-better-ui
 /retobg/jsonld-java
-retobg/jsonld-java Java
 /retobg/slingrs
 /retobg/wymiwyg-commons-jena
 /retroryan/PlayBars2
@@ -37533,7 +37159,6 @@ retobg/jsonld-java Java
 /reynoldsm88/droolsjbpm-tools
 /reynoldsm88/infinispan
 /reyrodrigues/android-sms-relay
-reyrodrigues/android-sms-relay Java
 /reyzer/game-of-life
 /rezajp/spring-data-neo4j
 /rezapaya/cloudify
@@ -37541,7 +37166,6 @@ reyrodrigues/android-sms-relay Java
 /rezzo/tranguano-android
 /rezzza/facebook-android-sdk
 /rezzza/greenDAO
-rezzza/greenDAO Java
 /rezzza/mustache.java
 /rf5860/ivy
 /rf5860/JBoss-Configurator
@@ -37668,7 +37292,6 @@ rezzza/greenDAO Java
 /riboriori/security
 /ribot/StickyListHeaders
 /ribrdb/jmeta
-ribrdb/jmeta Java
 /ric03uec/jdoExample
 /ric1950/XRayHacker
 /Rican7/phonegap-plugins
@@ -37961,7 +37584,7 @@ ribrdb/jmeta Java
 /rlegendi/mason-examples
 /rlegendi/quickstart
 /rlespinasse/slf4j-over-spring
-rlevin/clj-json Java
+/rlevin/clj-json
 /rlewan/eNotepad
 /rlex/libvirtweb
 /rlf/exxam
@@ -38042,7 +37665,6 @@ rlevin/clj-json Java
 /rnentjes/Very-simple-templates
 /rnewman/clojure
 /rnewson/couchdb-lucene
-rnewson/couchdb-lucene Java
 /rnewson/elasticsearch
 /rngadam/ART
 /rngtng/earthvis
@@ -38076,7 +37698,7 @@ rnewson/couchdb-lucene Java
 /robbatt/game-of-life
 /robbertvs/IKE
 /robbiegr/game-of-life
-robbielynch/SantasLittleHelper Java
+/robbielynch/SantasLittleHelper
 /robbietjuh/computercraft-spout
 /robbiev/luhnybin
 /robbykraft/SchulzeMethod
@@ -38198,9 +37820,7 @@ robbielynch/SantasLittleHelper Java
 /Robotex/Shimeji-ie
 /robotfactory/FlexAuth
 /robotframework/JoyRide
-robotframework/JoyRide Java
 /robotframework/MavenPlugin
-robotframework/MavenPlugin Java
 /RobotGrrl/RoboGames_RoboBrrds
 /Robothelvete/assignment_template_light
 /roboticseq/rslibForArduino
@@ -38214,7 +37834,7 @@ robotframework/MavenPlugin Java
 /robrua/Blackjack-Optimize
 /robrua/Decision-Tree
 /robrua/trinkets
-robskillington/PlayFrameworkTwitterStreamTest Java
+/robskillington/PlayFrameworkTwitterStreamTest
 /rob-smallshire/MainsACv3
 /Robson309/head
 /robsonmrsp/GisApp
@@ -38239,7 +37859,6 @@ robskillington/PlayFrameworkTwitterStreamTest Java
 /Rockblue/maven-guide-zh
 /rockcampbell/todo.txt-touch
 /rocketraman/basicmon
-rocketraman/basicmon Java
 /rocketraman/JGroups
 /rocketraman/mongo-java-driver
 /rocketraman/scale7-pelops
@@ -38252,7 +37871,6 @@ rocketraman/basicmon Java
 /rockt/ChemSpot
 /rocky143/worldguard
 /rockybean/jafka
-rockybean/jafka Java
 /rocky-jaiswal/cucumber-jvm
 /rocy/jsoup
 /rod86/MyFeeds
@@ -38281,7 +37899,7 @@ rockybean/jafka Java
 /rodrigoap/scribe-java
 /rodrigocatalan/intag
 /rodrigocatalan/restfulie-java
-rodrigomanhaes/euphonia Java
+/rodrigomanhaes/euphonia
 /rodrigopalheiro/zkthemes
 /rodrigorgs/SkyscrapAR
 /rodrigorm/phonegap-plugins
@@ -38299,7 +37917,6 @@ rodrigomanhaes/euphonia Java
 /roffiscoder/facebook-android-sdk
 /Rofflarn/Gym-app
 /roflharrison/cwac-wakeful
-roflharrison/cwac-wakeful Java
 /roflharrison/robolectric
 /roganartu/csse2002-ass1
 /rogcg/pixellang
@@ -38336,7 +37953,7 @@ roflharrison/cwac-wakeful Java
 /rohdef/HelperManager
 /rohitandrews/cellbots
 /rohitbisht/blind-shot
-rohitbrai/bot-bot Java
+/rohitbrai/bot-bot
 /rohitbrai/bot-bot-server
 /rohitcern/game-of-life
 /rohitggarg/BankingEAR
@@ -38400,12 +38017,11 @@ rohitbrai/bot-bot Java
 /RomezzBorisov/jedis
 /romi74371/game-of-life
 /rominirani/Export-SalesForce-Content-to-DOCX
-rominirani/Veterans-Helper-Bot Java
+/rominirani/Veterans-Helper-Bot
 /romix/clj-ds
 /romix/hazelcast
 /romix/java-concurrent-hash-trie-map
 /romix/JDBM3
-romix/JDBM3 Java
 /romix/JMX-server-monitoring
 /romkk/androzip
 /romkk/scribe-java
@@ -38497,7 +38113,6 @@ romix/JDBM3 Java
 /rossim/XobotOS
 /rossj2/netty
 /rossj/elasticsearch-mapper-attachments
-rossj/elasticsearch-mapper-attachments Java
 /rossjones/JFluidDB
 /rossjourdain/XeroAPI-PrivateApplication-Java
 /rossjudson/beanprocessor
@@ -38510,7 +38125,6 @@ rossj/elasticsearch-mapper-attachments Java
 /rotoshine/spring-social
 /Rotten194/PoorManLambdas
 /Rotten194/Tenc
-Rotten194/Tenc Java
 /Rotten194/TinyHTTPServer
 /rotterdam-cs/liferayImageSlider
 /rotterdam-cs/liferayLinkedin
@@ -38569,7 +38183,7 @@ Rotten194/Tenc Java
 /rozzbrozz/CraftIRC
 /rozzbrozz/worldguard
 /rpainblanc/game-of-life
-rpanachi/loogle Java
+/rpanachi/loogle
 /rpardini/htmlToEpub
 /rpardini/TeamCityRedmine
 /rpatali/SpreadSheet
@@ -38848,7 +38462,6 @@ rpanachi/loogle Java
 /rvnovaes/hefesto_play
 /RvonMassow/MostHelp
 /RvonMassow/xDoc
-RvonMassow/xDoc Java
 /rvs/howl
 /RvZ/phonegap-plugins
 /rwandamoh-emr/openmrs-module-iqchartimport
@@ -38939,17 +38552,15 @@ RvonMassow/xDoc Java
 /ryanobjc/YCSB
 /ryanoneill/game-of-life
 /ryanoshea/crypto-test
-ryanramage/couchajeygsi/keyword Java
+/ryanramage/couchajeygsi/keyword
 /ryanramage/couchapp-takeout
 /ryanramage/couchdb-lucene
-ryanramage/couchdb-lucene Java
 /ryanschuhler/liferay-portal
 /ryanseys/bigbluebutton
 /ryanseys/Escape-From-Mouseville
 /ryanseys/ProjectEuler
 /ryanseys/SudokuSolver
 /ryanstout/jrae
-ryanstout/jrae Java
 /ryanstout/mlexample
 /RyanTech/android-mapviewballoons
 /RyanTech/Android-Universal-Image-Loader
@@ -39001,7 +38612,7 @@ ryanstout/jrae Java
 /Ryuumaru/mads-p1
 /ryuurei/LispArithmeticEvaluator
 /rywilli1/Terasology
-rz22/Tivoo Java
+/rz22/Tivoo
 /rzcoder/fsc
 /rzeszut/n-puzzle
 /rzezeski/riak-java-client
@@ -39051,13 +38662,12 @@ rz22/Tivoo Java
 /Saar22/neo4j-tutorial
 /saarikt1/Speed-Type
 /Sabaum/ns20
-sabbadini/keywordAuction Java
+/sabbadini/keywordAuction
 /sabbadini/markovChains
 /saberly/titan
 /Sabesto/Arduino_SerialGLCDLib
 /sabitante/guvnor
 /Sablednah/ChatFilter
-Sablednah/ChatFilter Java
 /Sablednah/Mandelbrot
 /Sablednah/MobHealth
 /Sablednah/WoodDye
@@ -39109,7 +38719,6 @@ Sablednah/ChatFilter Java
 /safdariqbal/frex
 /safdariqbal/soot
 /SaferMobile/SMSTester
-SaferMobile/SMSTester Java
 /safetytrick/infinispan
 /saf/Funcheck
 /Safinaz/epublib
@@ -39196,7 +38805,7 @@ SaferMobile/SMSTester Java
 /sakfa/Symfony-2-Eclipse-Plugin
 /sakhuja/blur
 /Sakimichi/cw-omnibus
-sakrafd/couchdb-lucene Java
+/sakrafd/couchdb-lucene
 /sakthig/BTAndroidWebViewSelection
 /SakuraServer/worldguard
 /Salaboy/bpm-console
@@ -39217,7 +38826,6 @@ sakrafd/couchdb-lucene Java
 /saleemshafi/titanium_mobile
 /saleh199/epublib
 /salehe/JDBM3
-salehe/JDBM3 Java
 /salient1/OMGen
 /salilk/JavaWhois
 /salimm/DynamicJavaReflectionToolkit
@@ -39273,7 +38881,6 @@ salehe/JDBM3 Java
 /SamirTalwar/Parallel-Design-Patterns
 /SamirTalwar/Texas-Hold-Em
 /samisarinc/SMSSync
-samisarinc/SMSSync Java
 /samithdisal/Moodle-Quiz-Editor
 /samitheberber/SpanDog
 /samitny/image-resize-servlet
@@ -39369,7 +38976,6 @@ samisarinc/SMSSync Java
 /sanbor/webapp-bootstrap
 /SancezZ/twitterBot
 /sancha/jrae
-sancha/jrae Java
 /sanchezajsa/spring-social-facebook
 /sanchit234/Diagonal-Pixel
 /sanchitsinghal/SalesforceMobileSDK-Android
@@ -39432,7 +39038,6 @@ sancha/jrae Java
 /sangupta/dribbble-java-client
 /sangupta/greplin
 /sangupta/image-unshred
-sangupta/image-unshred Java
 /sangupta/jerry
 /sangupta/luhnybin
 /sangupta/maer
@@ -39446,7 +39051,6 @@ sangupta/image-unshred Java
 /sanity/tahrir
 /SanJaroICS/maclawstudios_camera
 /sanjayayogi/couchdb-lucene
-sanjayayogi/couchdb-lucene Java
 /sanjeevonline/spring-framework
 /sanjibm/borrow-mate
 /sanjibnarzary/ClassRoomBooking
@@ -39528,7 +39132,6 @@ sanjayayogi/couchdb-lucene Java
 /sapparod/game-of-life
 /Sapphz13/One-Post
 /sapresearch/jrae
-sapresearch/jrae Java
 /saptarshiguha/akela
 /saptarshiguha/RHIPE
 /saptarshiguha/RhipeHbaseMozilla
@@ -39559,7 +39162,6 @@ sapresearch/jrae Java
 /sarnowski/eve-interfaces
 /sarnowski/google-go-lang-idea-plugin
 /sarowlwp/jafka
-sarowlwp/jafka Java
 /sartin/android-mapviewballoons
 /sarudra-ixxus/game-of-life
 /sarwara/oauth_for_android
@@ -39593,7 +39195,7 @@ sarowlwp/jafka Java
 /satifanie/commons
 /satifanie/jfinal
 /satinwood/java-apns
-satishvarmadandu/MyBigData Java
+/satishvarmadandu/MyBigData
 /satishv/OG-Platform
 /satof/game-of-life
 /satokano/spring-batch
@@ -39651,15 +39253,11 @@ satishvarmadandu/MyBigData Java
 /saxenaknp/NotificationMap
 /sayanchowdhury/car-parking-system
 /sayems/Data-Driven-Framework
-sayems/Data-Driven-Framework Java
 /sayems/Ebselen
 /sayems/Hybrid-Framework
-sayems/Hybrid-Framework Java
 /sayems/Keyword-Driven-Framework
-sayems/Keyword-Driven-Framework Java
 /sayems/kodejava
 /sayems/Selenium-Grid
-sayems/Selenium-Grid Java
 /saykent/android-mapviewballoons
 /saykent/android-pulltorefresh
 /saykent/android-support-v4-googlemaps
@@ -39693,7 +39291,6 @@ sayems/Selenium-Grid Java
 /sbhanot-sfdc/ChatterRESTAndroidClient
 /sbilde/NBDrupalDevel
 /sbisbee/couchdb-lucene
-sbisbee/couchdb-lucene Java
 /sbjroll/FJava
 /sblum/test-first-teaching
 /sblundy/ReviewBoard-IntelliJ-Plugin
@@ -39795,7 +39392,7 @@ sbisbee/couchdb-lucene Java
 /schleyfox/cascading-dbmigrate
 /schlingel/Chainlet-Environment
 /schlingel/soup-checker
-schlong/Simple-Tika-Server Java
+/schlong/Simple-Tika-Server
 /schmidi/ese2010-warmup
 /SchmidtMathias/MuteThaBot
 /SchmidtP/MyBar
@@ -39925,7 +39522,6 @@ schlong/Simple-Tika-Server Java
 /scottpreston/ScottsBots-Core
 /scottpreston/ScottsBots-Resources
 /scottraio/couchdb-lucene
-scottraio/couchdb-lucene Java
 /scottrcarlson/Android-TMX-Loader
 /scottwainstock/pbm-android
 /scottWakeling/java-web-server
@@ -39987,8 +39583,7 @@ scottraio/couchdb-lucene Java
 /SDG-Team/ROM-Updater
 /sdiawara/cudl
 /sdj2/Feedpaper
-sdj2/Feedpaper Java
-sdlab/bot-bot Java
+/sdlab/bot-bot
 /sdn-bbb/bigbluebutton
 /sdobberstein/magic-config-service
 /sdobberstein/magic-config-simple-service
@@ -40067,7 +39662,6 @@ sdlab/bot-bot Java
 /seanjensengrey/accumulo
 /seanjensengrey/http-request
 /seanjensengrey/intellij-erlang
-seanjensengrey/intellij-erlang Java
 /seanjreilly/mongo-java-driver
 /seankellner/intellij-starteam-plugin
 /seankerr/epf-java
@@ -40103,7 +39697,6 @@ seanjensengrey/intellij-erlang Java
 /sebastianbenz/xgherkin
 /sebastianbenz/xrepl
 /sebastiandeutsch/greenDAO
-sebastiandeutsch/greenDAO Java
 /sebastianengel/game-of-life
 /sebastiangonzalezbotasi/IMG_TO_VECTOR
 /sebastiangraf/jclouds
@@ -40163,7 +39756,6 @@ sebastiandeutsch/greenDAO Java
 /sedestrian/NoCheatPlus
 /sediqi/EmailValidator
 /sedler/greenDAO
-sedler/greenDAO Java
 /SeeD419/Parking-Meter-Timer
 /SeeD419/PortalWatch
 /seedboxer/seedboxer-standalone
@@ -40216,7 +39808,6 @@ sedler/greenDAO Java
 /selvakumarvr/google-app-engine-jappstart
 /selvakumarvr/java-workbook
 /selvakumarvr/SMSSync
-selvakumarvr/SMSSync Java
 /sem62/lombok
 /semahawk/harr-java
 /semantalytics/Empire
@@ -40254,10 +39845,8 @@ selvakumarvr/SMSSync Java
 /senecaso-rt/hector
 /senechow/StockWatcher
 /sengsengfyw/couchdb-lucene
-sengsengfyw/couchdb-lucene Java
 /sengsengfyw/d54
 /sengupta/SMSSync
-sengupta/SMSSync Java
 /sengupta/WirelessKeyboard
 /senkir/SlidingLayout
 /senku/HerbFamily
@@ -40275,7 +39864,6 @@ sengupta/SMSSync Java
 /SensibleUX/ant4fed
 /Sensis/hector
 /Sensis/sensis-api
-Sensis/sensis-api Java
 /sensormonkey/SensorMonkeySerialNet
 /senthilkumar-sh/phresco
 /senthilkumarv/contacts
@@ -40306,7 +39894,6 @@ Sensis/sensis-api Java
 /Sepph/cwac-endless
 /sequoiar/BSPAN---Bluetooth-Sensor-Processing-for-Android
 /sequoiar/couchdb-lucene
-sequoiar/couchdb-lucene Java
 /sequoiar/goldenorb
 /sequoiar/Kundera
 /sequoiar/mongo-hadoop
@@ -40327,7 +39914,6 @@ sequoiar/couchdb-lucene Java
 /seratch/taskun
 /serberoth/lombok
 /seredenko/cwac-wakeful
-seredenko/cwac-wakeful Java
 /SerendipMedia/3scale_ws_api_for_java
 /serenity182/c-geo-opensource
 /SERG-Delft/spicy-stonehenge
@@ -40477,7 +40063,7 @@ seredenko/cwac-wakeful Java
 /sgroschupf/jira-dashboard
 /sgroschupf/zkclient
 /sgrove/luhnybin
-sgsinclair/trombone Java
+/sgsinclair/trombone
 /SgtArtemis/assignment_template_light
 /Sgt-Tailor/ModReq
 /sguernion/play-github
@@ -40583,7 +40169,6 @@ sgsinclair/trombone Java
 /shaoxi/spring-framework
 /shapeoko/DrawBot
 /shaqal/bot-bot
-shaqal/bot-bot Java
 /sharadbhalla/game-of-life
 /sharadmv/spotify-remote
 /sharadr/nexus-rundeck-plugin
@@ -40618,7 +40203,7 @@ shaqal/bot-bot Java
 /sharpdrops/Yaaic
 /sharpshooting/cucumber-netbeans-plugin
 /sharrissf/Ehcache-Search-Sample
-sharwell/antlr4 Java
+/sharwell/antlr4
 /sharwell/stringtemplate4
 /shashankgroovy/nnrccar
 /Shashi-Avadhanam/crunch
@@ -40627,7 +40212,6 @@ sharwell/antlr4 Java
 /Shashi-Avadhanam/pignlproc
 /shashikantck/game-of-life
 /shashwat723/catalog-api-client
-shashwat723/catalog-api-client Java
 /shashwat723/cs130-shopzilla-webapp-mvc
 /shatteredbeam/Arcanum
 /shatteredbeam/SimpleInterest
@@ -40660,7 +40244,6 @@ shashwat723/catalog-api-client Java
 /sheetalparade/Dempsy
 /shekhardokania/game-of-life
 /shekhargulati/cdh-twitter-example
-shekhargulati/cdh-twitter-example Java
 /shekhargulati/fongo
 /shekhargulati/notebook
 /shekhargulati/OpenTripPlanner
@@ -40761,7 +40344,6 @@ shekhargulati/cdh-twitter-example Java
 /shirou/all-write
 /shirshbansal/elasticsearch
 /shitalm/shopzilla
-shitalm/shopzilla Java
 /shiumachi/hbase-book
 /shivager/game-of-life
 /shivakumars/AndroidTwitter
@@ -40805,7 +40387,6 @@ shitalm/shopzilla Java
 /Shoptap/robolectric
 /shopwise/facebook-android-sdk
 /shopzilla/catalog-api-client
-shopzilla/catalog-api-client Java
 /shopzilla/ducky
 /shopzilla/shopzilla-core
 /shorn/quick-query
@@ -40901,7 +40482,7 @@ shopzilla/catalog-api-client Java
 /SidneyAllen/invoicing-java-sdk
 /Sidnicious/0xfe-experiments
 /sidoh/song_recognition
-sidonath/smc-fork Java
+/sidonath/smc-fork
 /sidorares/android-xserver
 /sidorykp/aperte-workflow-core
 /sidreddy96/lohcate
@@ -40945,7 +40526,6 @@ sidonath/smc-fork Java
 /sile/igo-gae
 /silentdojo/Prestige
 /Silenthillnight/nachos
-Silenthillnight/nachos Java
 /silentmatt/dss
 /Silentneeb/Residence
 /Silentnight18/JukeBukkit-1
@@ -41041,7 +40621,7 @@ Silenthillnight/nachos Java
 /SimonVT/android-numberpicker
 /SimonVT/android-timepicker
 /simonvy/Servers
-SimonWaldherr/Arduino-EasyTransfer Java
+/SimonWaldherr/Arduino-EasyTransfer
 /simos/jx360burner
 /simphax/android-bankdroid
 /simplay/ese2011-simple-ui
@@ -41109,7 +40689,6 @@ SimonWaldherr/Arduino-EasyTransfer Java
 /sinmaniphel/NabAlive
 /sinnerschrader-mobile/droid-fu
 /sinnerschrader-mobile/greenDAO
-sinnerschrader-mobile/greenDAO Java
 /sinnerschrader-mobile/java-apns
 /sinnus/DevsmartLib-Android
 /Sinon/Elevator-Problem
@@ -41197,7 +40776,6 @@ sinnerschrader-mobile/greenDAO Java
 /sixtoad/plugin-seam-persistence
 /siyamed/cwac-endless
 /siyinyang/weka
-siyinyang/weka Java
 /SiyuanHe/jetty.project
 /SiyuanHe/netty
 /sizhang/android-pulltorefresh
@@ -41343,7 +40921,6 @@ siyinyang/weka Java
 /sky87/thewatcher
 /sk-y/big-xlsx-reporter
 /skybinbinwang/cloudwang
-skybinbinwang/cloudwang Java
 /skyboy/Shocky
 /skydomino/facebook-android-sdk
 /skyebook/OSMGenerator
@@ -41420,10 +40997,9 @@ skybinbinwang/cloudwang Java
 /slegge/JDE-Samples
 /sleicht/lesscss-engine
 /sleuthkit/autopsy
-sleuthkit/autopsy Java
 /sleuthkit/hadoop_framework
 /sleyzerzon/async-http-client
-sleyzerzon/clj-json Java
+/sleyzerzon/clj-json
 /sleyzerzon/drools
 /sleyzerzon/jvm-sizeof
 /sleyzerzon/krati
@@ -41480,7 +41056,6 @@ sleyzerzon/clj-json Java
 /slugify/slugify
 /slugify/slugify-taglib
 /slumos/henplus
-slumos/henplus Java
 /slushpupie/SlushpupieWidgets
 /sluther/cerb4-impex
 /slyfoxy/ttorrent
@@ -41603,7 +41178,6 @@ slumos/henplus Java
 /Smile-SA/liferay-meetups-portlet
 /Smiley43210/ClearInv
 /smilingleo/jade
-smilingleo/jade Java
 /smilingleo/loop
 /sming/PointOfSale
 /sming/Triangle
@@ -41619,9 +41193,8 @@ smilingleo/jade Java
 /smly/java-labelpropagation
 /smmckay/spring-jade4j
 /smmorneau/Compression
-smmorneau/MP3Player Java
+/smmorneau/MP3Player
 /smmorneau/SearchEngine
-smmorneau/SearchEngine Java
 /smmorneau/Sudoku
 /smoak/congress
 /smoe/eQTL-GWT-Cassandra
@@ -41632,7 +41205,6 @@ smmorneau/SearchEngine Java
 /smokku/jpt
 /smokku/mustache-spring-view
 /smola/couchdb-lucene
-smola/couchdb-lucene Java
 /smolloy/Shopify4J
 /smooks/smooks
 /smoothit/smoothit-server
@@ -41713,7 +41285,6 @@ smola/couchdb-lucene Java
 /snkinard/jOryx
 /snkinard/steam-condenser-java
 /snlei/jafka
-snlei/jafka Java
 /snodnipper/page-flipper-race-condition
 /snoopdave/rollarcus
 /snooper77/riak-java-client
@@ -41747,7 +41318,6 @@ snlei/jafka Java
 /snxskr/jclouds
 /soaexpert/loop
 /soaexpert/mql
-soaexpert/mql Java
 /SoapyIllusions/fly
 /soarcn/android-uitableview
 /soaringcats/Cature-The-Flag
@@ -41997,7 +41567,7 @@ soaexpert/mql Java
 /soufy/HEP-Mobile
 /soules/androidannotations
 /soules/bump-api-android
-soulgalore/crawler Java
+/soulgalore/crawler
 /soulgalore/image-resize-servlet
 /soulofpeace/jackson-databind
 /soulofpeace/jedis
@@ -42033,7 +41603,7 @@ soulgalore/crawler Java
 /Soxra/CommandShops
 /Soxra/worldguard
 /soycake/arduino-eclipse-plugin
-soycake/ArduinoEclipsePlugin Java
+/soycake/ArduinoEclipsePlugin
 /soycake/PullToRefresh-ListView
 /soyrochus/coil
 /Sp0i3eR/outlook-connector
@@ -42077,7 +41647,7 @@ soycake/ArduinoEclipsePlugin Java
 /spark85/android-support-v4-googlemaps
 /spark85/cwac-loaderex
 /spark85/cwac-richedit
-spark85/cwac-wakeful Java
+/spark85/cwac-wakeful
 /spark85/cw-advandroid
 /spark85/cw-android
 /spark85/cw-andtutorials
@@ -42415,13 +41985,13 @@ spark85/cwac-wakeful Java
 /srejv/Thereing
 /sresch/dhdl
 /SR-G/GCViewer
-SR-G/mirror4j Java
+/SR-G/mirror4j
 /SR-G/theadmiral
 /srid99/devcenter-java
 /srifai/visualizing-events
 /srigiriraju/game-of-life
 /sriisking/RadioAntennaSrc
-srijiths/jtopia Java
+/srijiths/jtopia
 /srikanthnadella/CONNECT
 /srikanth-nt/spring-framework
 /srikanthvege/guvnor
@@ -42531,7 +42101,6 @@ srijiths/jtopia Java
 /ssouza/def-proxy
 /sspboyd/processing-js
 /sspinc/couchdb-lucene
-sspinc/couchdb-lucene Java
 /sspinc/luke
 /sspinc/titanium_mobile
 /ssprick/guvnor
@@ -42659,7 +42228,6 @@ sspinc/couchdb-lucene Java
 /stefanhoth/geeklist-android
 /stefaniuk/example-project-java
 /stefankoegl/couchdb-lucene
-stefankoegl/couchdb-lucene Java
 /StefanLaity/android-mapviewballoons
 /stefanlenselink/maven-thrift-plugin
 /stefanmayer/cucumber-jvm
@@ -42760,7 +42328,7 @@ stefankoegl/couchdb-lucene Java
 /stepheneb/nokogiri
 /stephenfreund/RoadRunner
 /stephengaito/antlr3
-stephengaito/antlr4 Java
+/stephengaito/antlr4
 /stephenh/avow
 /stephenh/bindgen
 /stephenh/dtonator
@@ -42840,7 +42408,7 @@ stephengaito/antlr4 Java
 /StevenBoscarine/jboss-javaee6-webapp
 /StevenBoscarine/jboss-jsf-weld-servlet-webapp
 /stevencox/crcsim
-steveneal/Chorus Java
+/steveneal/Chorus
 /SteveNewson/debian-repository-parser
 /SteveNewson/play-jongo
 /stevengharris/game-of-life
@@ -42940,7 +42508,6 @@ steveneal/Chorus Java
 /Stivo/crunch
 /stjarna/game-of-life
 /st-js/st-js
-st-js/st-js Java
 /stkaushal/threeten
 /stkerr/RestaurantVoter
 /stkoev81/Timer
@@ -42983,7 +42550,6 @@ st-js/st-js Java
 /stormpath/stormpath-sdk-java
 /stormpath/stormpath-shiro
 /storset/DhisSMSSync
-storset/DhisSMSSync Java
 /StoryIQ/qunit-xBrowser-maven-plugin
 /stoyan/yuicompressor
 /stpinker/Bukkit
@@ -43078,7 +42644,7 @@ storset/DhisSMSSync Java
 /Studio-42/elfinder-servlet
 /studiodev/FluentLenium
 /studiomoob/LugaresInvisiveis
-studiopete/couchdb-lucene Java
+/studiopete/couchdb-lucene
 /studybreak/restfb
 /studyguru/Play--framework-Spring-module
 /studykaushik/SalesforceMobileSDK-Android
@@ -43098,7 +42664,6 @@ studiopete/couchdb-lucene Java
 /StupidCoder/StupidLib
 /stuppy/robolectric
 /Sturmeh/BorderLands
-Sturmeh/BorderLands Java
 /Sturmeh/Minecraft-Server-Mod
 /Sturmeh/Stargate
 /sturmin/hibernate-orm
@@ -43125,7 +42690,6 @@ Sturmeh/BorderLands Java
 /sudarshang/l4ia
 /sudduth/Aardin
 /sudeepster/catalog-api-client
-sudeepster/catalog-api-client Java
 /sudeepster/cs130-shopzilla-webapp-mvc
 /sudeepster/entertainmentetc
 /sudharshanc/netty
@@ -43143,7 +42707,6 @@ sudeepster/catalog-api-client Java
 /sugarcrm/VooDooDriver
 /sugark/Tiffus
 /sugestio/sugestio-java
-sugestio/sugestio-java Java
 /sugix/Starfish
 /sugiyasu-qr/game-of-life
 /sugizon/hazelcast
@@ -43181,14 +42744,13 @@ sugestio/sugestio-java Java
 /suma1/GCViewer
 /sumakki/Ushahidi_Android
 /suman-ganta/infinispan
-sumans/bot-bot Java
+/sumans/bot-bot
 /sumanthk2013/Android-mobile-client---server-API
 /sumim/HollingBerries
 /suminb/nagle
 /suminb/sbbs3
 /sumisu/facebook-android-sdk
 /SumitBisht/JoyRide
-SumitBisht/JoyRide Java
 /SumitBisht/jsoup
 /SumitBisht/Power-Calculator
 /sumitk/Drupoid
@@ -43412,9 +42974,8 @@ SumitBisht/JoyRide Java
 /swetavajjhala/Producer-Consumer-Example
 /swetharaksha/game-of-life
 /swfinch1277/spring-integration
-swfrm/ReimOnline Java
+/swfrm/ReimOnline
 /swGooF/play-morphia
-swGooF/play-morphia Java
 /swift1691/facebook-android-sdk
 /Swift-Team/UsbMassStorage
 /swiftugandan/YoPayments
@@ -43434,7 +42995,6 @@ swGooF/play-morphia Java
 /swixml/Two
 /swklein/wonder
 /swoertz/SMSSync
-swoertz/SMSSync Java
 /swordapp/JavaServer2.0
 /Swordslam46/Terasology
 /sworisbreathing/junit-benchmarks
@@ -43448,7 +43008,6 @@ swoertz/SMSSync Java
 /swung/ViewServer
 /swung/WAAT
 /sxs9174/Peer-to-peer-network-simulation
-sxs9174/Peer-to-peer-network-simulation Java
 /SY456/AgentBasedP2PVideoStreaming
 /syakhmi/flashy-java
 /syamantm/Semblog
@@ -43469,12 +43028,10 @@ sxs9174/Peer-to-peer-network-simulation Java
 /sylarrr/mobi-solutions-test-work-twitter-client
 /syllant/idea-plugin-xstructure
 /SylpheM/greenDAO
-SylpheM/greenDAO Java
 /SylpheM/NineOldAndroids
 /sylvainbouxin/wdp
 /sylvainhalle/TraceAdapter
 /sylvanaar/IDLua
-sylvanaar/IDLua Java
 /Sylvaner/FileDialog
 /symbiont/cdiqi
 /symcomp/org.symcomp.java
@@ -43500,7 +43057,7 @@ sylvanaar/IDLua Java
 /SynteZZZ/jackson-databind
 /synthable/Ezek-Bible
 /syntheticperson/abstracta
-Synthlight/ItemRepair Java
+/Synthlight/ItemRepair
 /synyx/arquillian-extension-warp
 /synyx/Liquibase-OracleClobImporter
 /synyx/messagesource
@@ -43517,7 +43074,7 @@ Synthlight/ItemRepair Java
 /system-xml/Graph-Analytics----Triangle-Counting
 /system-xml/gs-collections-kata
 /system-xml/Java-Chronicle
-system-xml/mavuno Java
+/system-xml/mavuno
 /system-xml/spring-batch
 /system-xml/XobotOS
 /sysudany/lightmusic_player
@@ -43648,7 +43205,6 @@ system-xml/mavuno Java
 /takezoux2/msgpack-rpc-java-old
 /takkaria/gametimer
 /takkaw/JumpToRubyML
-takkaw/JumpToRubyML Java
 /taknuki/game-of-life
 /taksan/Skype2Gmail
 /taksan/skype-java-api
@@ -43714,13 +43270,12 @@ takkaw/JumpToRubyML Java
 /tamsuiboy/phonegap-plugins
 /tamsuiboy/UltraStar-Lyrics-Rewriter
 /tamsuiboy/zerobpmfinput
-tan01/G05-NewtonToolbox Java
+/tan01/G05-NewtonToolbox
 /tanaka-takayoshi/fluent-logger-java
 /tanaki/ir-nyancat
 /tananaev/traccar
 /tananaev/traccar-client
 /tanarurkerem/couchdb-lucene
-tanarurkerem/couchdb-lucene Java
 /tanay46/Cancer-Classification
 /tanaza/luajava
 /tanbamboo/jersey-netty
@@ -43761,7 +43316,6 @@ tanarurkerem/couchdb-lucene Java
 /Tankiit/junto
 /TankNast/ExplosionsPlus
 /tanktarta/henplus
-tanktarta/henplus Java
 /tank-t-bird/MyFirstApp
 /tank-t-bird/SimpleListView
 /tanmally/hibernate-4-spring-3.1-samples
@@ -43834,7 +43388,7 @@ tanktarta/henplus Java
 /tatabatyo/camel-spring-amqp
 /Tatara88/PermissionsBukkit
 /TATDK/BankAccount
-tateisu/android-crop-wallpaper Java
+/tateisu/android-crop-wallpaper
 /tatemae/elasticsearch
 /tatemilio/agorava-core
 /tatepoon/gitblit
@@ -43869,7 +43423,7 @@ tateisu/android-crop-wallpaper Java
 /taymless/phonegap-plugins
 /tayoshida/jpagen
 /TazeTSchnitzel/64pixels
-tazija/TagCloud Java
+/tazija/TagCloud
 /tazjel/titanium_mobile
 /tazmaniax/greenscript
 /tazmaniax/play-html5-validation
@@ -43929,7 +43483,6 @@ tazija/TagCloud Java
 /tcrayford/jmock-fire
 /tcrews/android_packages_apps_GEMNotifications
 /tcripps/idea-plugin-protobuf
-tcripps/idea-plugin-protobuf Java
 /tcr/mug-android
 /tcummings/luhnybin
 /tcurdt/jdeb
@@ -44041,9 +43594,8 @@ tcripps/idea-plugin-protobuf Java
 /techtangents/oneof
 /techwiz24/jVox2d
 /techxplorer/ServalMapsDataMan
-tecknicaltom/autopsy Java
+/tecknicaltom/autopsy
 /tecnogram888/Project3Skeleton
-tecnogram888/Project3Skeleton Java
 /tecnogram888/Project4Skeleton
 /tecsinapse/glimpse
 /tedbrandston/ProcessingGcodeViewer
@@ -44227,7 +43779,6 @@ tecnogram888/Project3Skeleton Java
 /tetron/SparkleShare-Android
 /tetsuh/bazaar-plugin
 /teviopl/json-schema-validator
-teviopl/json-schema-validator Java
 /tewner/jmxtrans
 /TexasDigitalLibrary/Vireo
 /texasviking/EulerSolutions
@@ -44358,7 +43909,7 @@ teviopl/json-schema-validator Java
 /thanosa75/hibernate-orm
 /thanpolas/google-closure-compiler
 /tharikishore/game-of-life
-TharinduRusira/keyWord-Reader Java
+/TharinduRusira/keyWord-Reader
 /thasmin/Podax
 /thaste/scrum
 /ThatBox/Static
@@ -44373,7 +43924,7 @@ TharinduRusira/keyWord-Reader Java
 /thatsmydoing/javach
 /thatsnotright/rabbitmq-dsl
 /THATxGAM3R/MyIsle
-ThauEx/LauncherEx Java
+/ThauEx/LauncherEx
 /thaya/droid-fu
 /THDigi/RecipeManager
 /thdtjsdn/android-support-v4-googlemaps
@@ -44485,7 +44036,7 @@ ThauEx/LauncherEx Java
 /theJenix/multicore-mergesort
 /theJenix/ormada
 /thejh/Almighty
-thejh/pretty-java Java
+/thejh/pretty-java
 /theJohnnyBrown/acm_oldies
 /theJohnnyBrown/DanceOff
 /theJohnnyBrown/euler_problem2_johnny
@@ -44502,7 +44053,6 @@ thejh/pretty-java Java
 /TheMaestro42/Additional-Buildcraft-Objects-Mod
 /TheMalloum/elasticsearch
 /TheMalloum/elasticsearch-river-jdbc
-TheMalloum/elasticsearch-river-jdbc Java
 /themasch/bukkit-stats
 /TheMaxs/MyHome
 /themillhousegroup/cucumber-jvm
@@ -44549,7 +44099,7 @@ TheMalloum/elasticsearch-river-jdbc Java
 /theRobinator/League-of-Legends-Simulator
 /theRobinator/Stego
 /theschwag/phonegap-plugins
-TheScientist/MGT-Mobile-GUI-Testframework Java
+/TheScientist/MGT-Mobile-GUI-Testframework
 /theseason/phonegap-plugins
 /theseb/Mario-AI-Competition-2009
 /The-Sec/Bukkit
@@ -44578,14 +44128,12 @@ TheScientist/MGT-Mobile-GUI-Testframework Java
 /theUniC/netbeans-php-enhancements
 /theunique/mongo-java-driver
 /TheUnknownCylon/HadoopLang
-TheUnknownCylon/HadoopLang Java
 /theuntitled/anylib-js-toolkit
 /theute/Register-Portlet
 /thevalparekh/DBSI-Part2
 /TheVasari/Lacuna-Android-Client
 /thevash/vash
 /thevinnie/JavaSamples
-thevinnie/JavaSamples Java
 /thewave/Populator
 /thewave/RepositoryJPA
 /Theway2cool1/ServerProtect
@@ -44709,7 +44257,7 @@ thevinnie/JavaSamples Java
 /thomasgravina/cw-advandroid
 /ThomasGunther/wicket-stuff-markup-validator
 /thomashug/forge-formatter-plugin
-ThomasJaspers/robotframework-dblibrary Java
+/ThomasJaspers/robotframework-dblibrary
 /thomasknauth/projecteuler
 /thomasla/game-of-life
 /thomasletsch/cdiutils
@@ -44782,7 +44330,6 @@ ThomasJaspers/robotframework-dblibrary Java
 /throoze/proyecto0
 /throoze/proyecto1Digraph
 /throrin19/greenDAO
-throrin19/greenDAO Java
 /thrykol/hector
 /thschuel/Therapeutic_Skeleton
 /th-schwarz/CKEditor.Java
@@ -44840,7 +44387,7 @@ throrin19/greenDAO Java
 /tiagofsilva/hector
 /tiagojco/vraptor
 /TiagoTi/tomighty
-TiagoVeloso/Bib2CSV Java
+/TiagoVeloso/Bib2CSV
 /tian2992/farebot
 /tian-github/spring-framework
 /tianjiaguo/jetty.project
@@ -44905,7 +44452,7 @@ TiagoVeloso/Bib2CSV Java
 /tikkisetty/game-of-life
 /tikonen/phonegap-plugins
 /tiksteri/modeshape
-tildedave/jlift-frontend Java
+/tildedave/jlift-frontend
 /tildedave/Octobot
 /tilgovi/elasticsearch
 /tilgovi/TeleHash
@@ -44951,7 +44498,6 @@ tildedave/jlift-frontend Java
 /timkill/MinecraftSkinSystem
 /timknip/easel-gwt
 /timkuijsten/couchdb-lucene
-timkuijsten/couchdb-lucene Java
 /timmattison/JGAP
 /timmbo/eonum-client
 /timmbo/eonum-server
@@ -45002,7 +44548,7 @@ timkuijsten/couchdb-lucene Java
 /timroes/aXMLRPC
 /timromanowski/facebook-android-sdk
 /tims/lasthbase
-tim-slater-bu/Hubspot-API-java Java
+/tim-slater-bu/Hubspot-API-java
 /timsquared/wonder
 /timsu/android-aac-enc
 /timt/xpather
@@ -45061,14 +44607,13 @@ tim-slater-bu/Hubspot-API-java Java
 /tisa007/droidkit
 /tisa007/HubSpot-Android-Utilities
 /tisba/couchdb-lucene
-tisba/couchdb-lucene Java
 /tischda/almira-archetype-gen
 /tischda/properties-maven-plugin
 /tisevelyn/Git_Stockwatcher
 /tisevelyn/StockWatcher
 /tispratik/TracksGivingJ
 /tistaharahap/ARBrowser
-tistaharahap/Urbanesia-API---Java Java
+/tistaharahap/Urbanesia-API---Java
 /titanpad/titanpad
 /titokone/kohahdus
 /titokone/koskelo
@@ -45109,8 +44654,8 @@ tistaharahap/Urbanesia-API---Java Java
 /tjsnell/camel-rabbitmq
 /tjulk/facebook-android-sdk
 /tjulk/Superuser
-tjunghans/Keyword-Analyzer Java
-tjunghans/seminarthesis-informationretrieval Java
+/tjunghans/Keyword-Analyzer
+/tjunghans/seminarthesis-informationretrieval
 /tjun/storm-contrib
 /tjun/storm-growl
 /tjwizking/facebook-android-sdk
@@ -45243,7 +44788,6 @@ tjunghans/seminarthesis-informationretrieval Java
 /tobeee/phonegap-plugins
 /tobert/jmxtrans
 /tobiasandtobias/apache-nutch-fork
-tobiasandtobias/apache-nutch-fork Java
 /Tobias-Eggert/VDI-Portal
 /tobiasgeibinger/User-interface-tester
 /tobiasheine/Android-Universal-Image-Loader
@@ -45252,7 +44796,6 @@ tobiasandtobias/apache-nutch-fork Java
 /tobias/jruby-maven-plugins
 /tobiaslidskog/mars
 /tobiasquinn/SMSSync
-tobiasquinn/SMSSync Java
 /tobiassodergren/hum
 /tobibo/droid-fu
 /tobilg/spring-social-xing
@@ -45264,7 +44807,7 @@ tobiasquinn/SMSSync Java
 /tobsch/jgeoip
 /toby1984/bonecp
 /toby1984/boolean-algebra
-toby1984/jASM_16 Java
+/toby1984/jASM_16
 /toby1984/maven-dependency-analyzer-spring
 /tobybaier/feedburnerdailystats
 /tobybaier/TimeCodeWriter
@@ -45280,7 +44823,7 @@ toby1984/jASM_16 Java
 /toddbernhard/Boids
 /todd-cook/JPT
 /Todd-Davies/ProgressWheel
-ToddG/intellij-erlang Java
+/ToddG/intellij-erlang
 /toddlipcon/jetty-hadoop-fix
 /toddlipcon/YCSB
 /toddmowen/polyglot-rovers
@@ -45494,7 +45037,6 @@ ToddG/intellij-erlang Java
 /tonyg/presence-exchange
 /tonyg/reversehttp
 /tonyg/stoj
-tonyg/stoj Java
 /tonyheadford/m68k
 /TonyHoyle/gesture-imageview
 /tonylee224/storm-contrib
@@ -45503,11 +45045,9 @@ tonyg/stoj Java
 /tonypujals/droidex
 /tonyskn/jotify
 /tonytw1/guardian-lite
-tonytw1/guardian-lite Java
 /tonytw1/jrobotx
 /tonytw1/nominatim-ac
 /tonyvelichko/searchable
-tonyvelichko/searchable Java
 /TonyWhite/ArtHTML
 /tonyyan518/Springies
 /Toobian/SimplyActions
@@ -45553,7 +45093,6 @@ tonyvelichko/searchable Java
 /tor5/cucumber-jvm
 /tor5/logback-gelf
 /toramoss/seck
-toramoss/seck Java
 /torao/xslt-servlet
 /torarnek/constretto-core
 /torarnv/jotify
@@ -45655,7 +45194,7 @@ toramoss/seck Java
 /TracyLu/JavaStudyProjects
 /Tradeshift/junit-remote
 /tradi/CoverageWebApplication
-trading-agents/tac-aa Java
+/trading-agents/tac-aa
 /tradi/OJ-with-Java-1.6
 /traffic22/RomUpdater
 /traffic/Airstrike
@@ -45695,7 +45234,6 @@ trading-agents/tac-aa Java
 /travisbrown/itm
 /traviscrawford/hive
 /travisdesell/salsa_lite
-travisdesell/salsa_lite Java
 /travisennis/invokebinder
 /travisennis/jcifs
 /travisfw/clojure
@@ -45835,15 +45373,14 @@ travisdesell/salsa_lite Java
 /trishagee/mongo-java-driver
 /TristanAllwood/JavaStaticFieldResetter
 /tristan/jsonld-java
-tristan/jsonld-java Java
-Tristan-Sun/greenDAO Java
+/Tristan-Sun/greenDAO
 /tristantarrant/amanuensis
 /tristantarrant/cohesive
 /tristantarrant/echo3
 /tristantarrant/infinispan
 /tristero/game-of-life
 /Trixarian/Werewolf
-trixon/android-confqual Java
+/trixon/android-confqual
 /trlai/DevsmartLib-Android
 /trnl/game-of-life
 /trnl/hector
@@ -45878,7 +45415,6 @@ trixon/android-confqual Java
 /truegff/xebia-petclinic
 /trueicecold/titanium_mobile
 /truemped/couchdb-lucene
-truemped/couchdb-lucene Java
 /truemped/jcouchdb
 /truemped/svenson
 /truestephen/Cancer-KBS_
@@ -45886,7 +45422,6 @@ truemped/couchdb-lucene Java
 /trumbitta/entando-core-engine
 /trumbitta/jAPS2
 /Trump211/ArduinoEclipsePlugin
-Trump211/ArduinoEclipsePlugin Java
 /trunet/trunetclock
 /trungie/Ebselen
 /trungjc/exogtn
@@ -45939,8 +45474,7 @@ Trump211/ArduinoEclipsePlugin Java
 /tsong/programming-challenges
 /tspatel02/Dempsy
 /tspurling/Compiler
-tspurling/Compiler Java
-TSSG/MRGanterPlus Java
+/TSSG/MRGanterPlus
 /tssp/elasticsearch
 /t-ssuno/game-of-life
 /tstamm/phonegap-plugins
@@ -46002,7 +45536,7 @@ TSSG/MRGanterPlus Java
 /tuanz/farebot
 /tubergen/Deduplication
 /tuchengyuan/frostwire-android
-tucif/RSSNinja Java
+/tucif/RSSNinja
 /tud-stg-lang/caesar-compiler
 /tuenti/checkstyle-plugin
 /tuenti/programming-challenge-2
@@ -46039,8 +45573,8 @@ tucif/RSSNinja Java
 /tunitowen/Tweetification
 /tunjos/android-mapviewballoons
 /tunnuz/GPFramework
-TUNYK/htmlcompressor-maven-plugin Java
-TUNYK/json-batch-translate Java
+/TUNYK/htmlcompressor-maven-plugin
+/TUNYK/json-batch-translate
 /tuomastanner/JavaMetricsAndProfiler
 /tuope/VarioML
 /tuor713/blueprint-namespaces
@@ -46053,7 +45587,6 @@ TUNYK/json-batch-translate Java
 /tuppari/tuppari-java
 /Tuqe/BanHammer
 /turacma/Amazon-DynamoDB-Demo
-turacma/Amazon-DynamoDB-Demo Java
 /Turayen/gwt-calculator
 /turbidsoul/b3log-solo
 /turbospaces/turbospaces
@@ -46063,7 +45596,6 @@ turacma/Amazon-DynamoDB-Demo Java
 /turf00/java2apns
 /turgay/jdepend
 /turian/textrank
-turian/textrank Java
 /turian/wikiprep-esa
 /turicas/arduinoMakefile
 /turicas/DS1307
@@ -46107,7 +45639,6 @@ turian/textrank Java
 /tuyen03a128/hazelcast
 /tvaughan77/spring-batch
 /tvdstorm/derric
-tvdstorm/derric Java
 /tvec/picture-compress-m552
 /tvelykyy/afeeder
 /tvgulck/sesam
@@ -46133,7 +45664,6 @@ tvdstorm/derric Java
 /twilliamson/mogwee-push
 /twinforces/SMC
 /twistresources/TracTicketsToGithub
-twistresources/TracTicketsToGithub Java
 /twitter/cloudhopper-commons-charset
 /twitter/cloudhopper-commons-gsm
 /twitter/cloudhopper-commons-util
@@ -46251,15 +45781,15 @@ twistresources/TracTicketsToGithub Java
 /uboness/msgpack-rpc
 /ubourdon/FluentLenium
 /ubreu/org.pluginbuilder.autotestsuite
-ubudog/bukkit-weather Java
+/ubudog/bukkit-weather
 /ucam-cl-dtg/minibus
 /ucam-cl-dtg/ucam-webauth
 /ucheng/cassandra
 /ucheng/hibernate-4-spring-3.1-samples
 /uci-sdcl/lighthouse
 /uckelman/tp
-UCLan-MobileApps/CourseCompare-Android Java
-UCLan-MobileApps/CourseExplorer-Android Java
+/UCLan-MobileApps/CourseCompare-Android
+/UCLan-MobileApps/CourseExplorer-Android
 /UCOnline/nakamura
 /uded/hornetq
 /uded/jAlarmsNG
@@ -46285,7 +45815,6 @@ UCLan-MobileApps/CourseExplorer-Android Java
 /ugenlik/Java-Beans-Chat
 /ugeshgali/game-of-life
 /Ugghhh/61b-game-of-life
-Ugghhh/61b-game-of-life Java
 /ugocen/asterisk-java
 /ugodiggi/commons
 /ugol/spring-gemfire
@@ -46299,7 +45828,7 @@ Ugghhh/61b-game-of-life Java
 /UISpec4J/UISpec4J
 /uiuc-hy/greengps-android
 /ujhelyiz/Presentation-Theme
-ujhelyiz/xDoc Java
+/ujhelyiz/xDoc
 /ukcrpb6/maven-marklogic-plugin
 /ukcrpb6/wmb-mock
 /ukd1/DiabloMiner
@@ -46368,7 +45897,7 @@ ujhelyiz/xDoc Java
 /undees/rawr
 /underhilllabs/iosched
 /unders/test-http-clients
-Undev/clj-json Java
+/Undev/clj-json
 /UnexpectedEOF/Sh0rtCut
 /unframework/store
 /unguiculus/GCViewer
@@ -46517,12 +46046,11 @@ Undev/clj-json Java
 /userswlwork/Android-Universal-Image-Loader
 /uShadow/camera
 /ushahidi/SMSSync
-ushahidi/SMSSync Java
 /ushahidi/Ushahidi_Android
 /ushahidi/Ushahidi_FrontlineSMS
 /ushkinaz/command-me
 /ushkinaz/dwarf-guide
-ushkinaz/language-sugar Java
+/ushkinaz/language-sugar
 /uskr/NMAClientLib
 /usmanismail/maven-protoc-plugin
 /usmansaleem/uziblog
@@ -46569,7 +46097,6 @@ ushkinaz/language-sugar Java
 /UWS-Software-Service/spring-framework
 /UXScripts/elasticsearch
 /UXScripts/elasticsearch-mapper-attachments
-UXScripts/elasticsearch-mapper-attachments Java
 /UXScripts/gifsockets
 /uyjco0/geli
 /uzegonemad/processing-js
@@ -46639,7 +46166,6 @@ UXScripts/elasticsearch-mapper-attachments Java
 /valerioventuri/https-utils
 /valerioventuri/test
 /valgnu/henplus
-valgnu/henplus Java
 /valib/ps3mediaserver
 /validator/syntax
 /validator/xmlparser
@@ -46688,9 +46214,7 @@ valgnu/henplus Java
 /vanniksoftware/HudsonPluginForPlay
 /vanniksoftware/Japid
 /vanniksoftware/play-morphia
-vanniksoftware/play-morphia Java
 /Vanquish59/seck
-Vanquish59/seck Java
 /vanrein/android6bed4
 /vans239/SmartAnt3
 /vanship82/hadoop-hbase-streaming
@@ -46740,7 +46264,7 @@ Vanquish59/seck Java
 /vatsala/elasticsearch
 /vatula/gwt.threejs
 /vaurum/BullionPrompt
-Vav1lon/ReadSolidWorksFiles Java
+/Vav1lon/ReadSolidWorksFiles
 /Vayner/Minecraft-Console
 /vazexqi/JFLow
 /vazexqi/JVMFuturesExploration
@@ -46936,7 +46460,6 @@ Vav1lon/ReadSolidWorksFiles Java
 /vibhavgarg/erma
 /VibroAxe/Multiverse-Portals
 /vicgrad/cwac-wakeful
-vicgrad/cwac-wakeful Java
 /vichak/warnings-plugin
 /vic/ioke
 /vic/ioke-outdated
@@ -46984,7 +46507,6 @@ vicgrad/cwac-wakeful Java
 /VidMind/droid-fu
 /viecode09/cw-android
 /viei/BloomFilter
-viei/BloomFilter Java
 /Vierware/Decentralised-Anonymous-Messaging
 /vietj/aptvir
 /vietj/chromattic
@@ -47010,10 +46532,8 @@ viei/BloomFilter Java
 /vieux/OpenUDID
 /viezel/Ti2DScrollView
 /vight/st-js
-vight/st-js Java
 /vignesh07/TrainTrack
 /vigsterkr/subgrep
-vigsterkr/subgrep Java
 /viictorhugo/maclawstudios_camera
 /vIiRuS/Omnomagon
 /vIiRuS/trakt-java
@@ -47271,7 +46791,6 @@ vigsterkr/subgrep Java
 /vladdu/mylang_demo
 /vladica/scraper
 /vladimirk/intellij-erlang
-vladimirk/intellij-erlang Java
 /vladimirkl/cucumber-jvm
 /vladimirvivien/jmx-cli
 /vladimirvivien/workbench
@@ -47302,7 +46821,6 @@ vladimirk/intellij-erlang Java
 /vmachuca/whereisthat
 /vmaletic/testng-plugin-plugin
 /vmanisha/PhraseRank
-vmanisha/PhraseRank Java
 /vmariusvv/game-of-life
 /vmarteev/battery-fuel-gauge
 /vmharrel/android-api
@@ -47324,7 +46842,7 @@ vmanisha/PhraseRank Java
 /vocado/facelets
 /VodafoneGroup/AlwaysOnTwitter
 /vodzord/resty-gwt
-vogdb/jawr-i18 Java
+/vogdb/jawr-i18
 /vogella/eclipse4book
 /vogella/us.icitapled.smc.e4
 /vogella/vogella
@@ -47519,7 +47037,7 @@ vogdb/jawr-i18 Java
 /wadael/GWTCleaner
 /wadahiro/struts-spring-example
 /wadem/titan
-wadey/twitter-stream Java
+/wadey/twitter-stream
 /wagnerandrade/coollection
 /wagnerlopes/ambrose
 /wagnerpulido/framework
@@ -47631,7 +47149,6 @@ wadey/twitter-stream Java
 /warmerq/elephantdb
 /warmonger256/Forever-Alone-Android
 /warmwaffles/kwic-pipe-and-filter
-warmwaffles/kwic-pipe-and-filter Java
 /warmwaffles/Noise
 /warmwaffles/Strassen
 /warmwind/aDoubanReader
@@ -47659,7 +47176,6 @@ warmwaffles/kwic-pipe-and-filter Java
 /wathrog/flumebase
 /wathrog/shortsubstring
 /watsoncj/henplus
-watsoncj/henplus Java
 /watsoncj/team-piazza
 /wave2/dbinterrogator
 /wave2/dbplayback
@@ -47694,9 +47210,7 @@ watsoncj/henplus Java
 /wblakecaldwell/eurekastreams
 /wbotelhos/blacklist
 /wbotelhos/controle-login-vraptor-3
-wbotelhos/controle-login-vraptor-3 Java
 /wbotelhos/controle-permissao-vraptor-3
-wbotelhos/controle-permissao-vraptor-3 Java
 /wbotelhos/hibernate-manytomany-com-atributos
 /wbotelhos/hibernate-manytomany-com-atributos-e-chave-composta
 /wbotelhos/hibernate-manytomany-sem-atributos
@@ -47706,27 +47220,19 @@ wbotelhos/controle-permissao-vraptor-3 Java
 /wbotelhos/jsf-loja-project
 /wbotelhos/manipulando-listas-jquery-vraptor-3
 /wbotelhos/movy-parte-1
-wbotelhos/movy-parte-1 Java
 /wbotelhos/movy-parte-2
-wbotelhos/movy-parte-2 Java
 /wbotelhos/movy-parte-3
-wbotelhos/movy-parte-3 Java
 /wbotelhos/movy-parte-4
-wbotelhos/movy-parte-4 Java
 /wbotelhos/spring-batch-database-flat-file
-wbotelhos/spring-batch-database-flat-file Java
 /wbotelhos/spring-batch-fixed-length-token
-wbotelhos/spring-batch-fixed-length-token Java
-wbotelhos/spring-batch-flat-file-database Java
+/wbotelhos/spring-batch-flat-file-database
 /wbotelhos/spring-batch-hello-world
-wbotelhos/spring-batch-hello-world Java
 /wbotelhos/struts2-jfreechart-boxsql-displaytag
 /wbotelhos/tags-selecao-jsf
 /wbotelhos/upload-e-download-com-vraptor-3
 /wbotelhos/vraptor
 /wbotelhos/vraptor-3-evitando-circularreferenceexception-do-xstream
 /wbotelhos/vraptor-starting-project
-wbotelhos/vraptor-starting-project Java
 /wbotelhos/vraptor-taglib
 /wburns/infinispan
 /wburns/JGroups
@@ -47757,7 +47263,7 @@ wbotelhos/vraptor-starting-project Java
 /weasel5i2/GPR
 /weasel5i2/HelpCenter
 /weasel5i2/Vegetation
-weavejester/clj-json Java
+/weavejester/clj-json
 /webair/ar.openCV
 /webair/ch.bfh.advancedWeb.jass
 /WebAndCodingClub-IITGuwahati/Sense-and-Sanity
@@ -47846,7 +47352,7 @@ weavejester/clj-json Java
 /weitao2012/Hacker-News-Droid-App
 /weitao2012/News
 /weitzj/closure-compiler
-weiweiwang/elasticsearch-analysis-pinyin Java
+/weiweiwang/elasticsearch-analysis-pinyin
 /weixiaobo88/rich_old
 /wei-zhao/jetty.starter
 /weizhao/jetty.starter
@@ -47870,7 +47376,7 @@ weiweiwang/elasticsearch-analysis-pinyin Java
 /welterde/FlargMUD
 /welterde/ringmud
 /welterde/TeleHash
-Weltraumschaf/cacert-frontendtests Java
+/Weltraumschaf/cacert-frontendtests
 /Weltraumschaf/commons
 /Weltraumschaf/darcs-plugin
 /Weltraumschaf/jebnf
@@ -47886,7 +47392,7 @@ Weltraumschaf/cacert-frontendtests Java
 /wendell-bu/game-of-life
 /Wendigooor/facebook-android-sdk
 /wendlers/xzrem
-wendytyin/TivooTeam Java
+/wendytyin/TivooTeam
 /wengych/elasticsearch
 /WenkeL/tutorial
 /wenLiangcan/PatchRom
@@ -47970,7 +47476,6 @@ wendytyin/TivooTeam Java
 /whao601/spring-framework
 /whatevercode/mod-mongo-persistor
 /whatever-company/elasticsearch-mapper-attachments
-whatever-company/elasticsearch-mapper-attachments Java
 /whateverdood/solr-plugins
 /whatfield73/phonegap-plugins
 /whatnick/jna
@@ -48128,7 +47633,6 @@ whatever-company/elasticsearch-mapper-attachments Java
 /WillScottJackson/Light-And-Current-Sensor
 /willscott/OneSwarmDirectoryServer
 /WillSewell/jaml_compiler
-WillSewell/jaml_compiler Java
 /willshulman/mongo-java-driver
 /willsmart/puzzle
 /willtate/Will-Deux
@@ -48211,7 +47715,6 @@ WillSewell/jaml_compiler Java
 /wishabi/closure-compiler
 /wishabi/gjstags
 /wislocki/bank-kata
-wislocki/bank-kata Java
 /wislocki/maybe-java
 /wismax/beetng
 /wissenbach/fragment-context
@@ -48250,7 +47753,6 @@ wislocki/bank-kata Java
 /wjprakash/webdesigner
 /wjw465150/HttpsqsClient
 /wjw465150/JDBM3
-wjw465150/JDBM3 Java
 /wjw465150/JDBM4
 /wjw465150/jedis
 /wjw465150/jmx-annotations
@@ -48336,7 +47838,7 @@ wjw465150/JDBM3 Java
 /wolverian/Spundle
 /wolverine2k/OneSwarm
 /wonder/code_swarm
-wonderino/KeywordElection2012 Java
+/wonderino/KeywordElection2012
 /wongiseng/aida-plugin
 /WonkiJo/kakaolink-android
 /wonko9/yammer_android
@@ -48363,7 +47865,6 @@ wonderino/KeywordElection2012 Java
 /wordnik/wordnik-oss
 /workdocx/Cryptolite
 /worker8/keyreadr
-worker8/keyreadr Java
 /workhabitinc/dandy
 /workingBen/android-boilerplate
 /workplace/core
@@ -48444,7 +47945,7 @@ worker8/keyreadr Java
 /wstarcev/ttorrent
 /wstrange/OIFBPDemo
 /wsulej/nuxeo-imagemerger
-wsun/tweetography Java
+/wsun/tweetography
 /wt/curator
 /wthys/DiveCraft
 /wtokuno/jackson-core
@@ -48592,7 +48093,6 @@ wsun/tweetography Java
 /xbpeng/StockWatcher
 /xbroak/gesture-imageview
 /xbucchiotty/oobank-kata
-xbucchiotty/oobank-kata Java
 /xbucchiotty/sample_petclinic_continuousdelivery
 /xbucchiotty/vagrant-puppet
 /xburgos/nfc_hackathon
@@ -48602,7 +48102,6 @@ xbucchiotty/oobank-kata Java
 /xcanner/ChestShop-3
 /x-cellent/challenge
 /xch91/JDBM3
-xch91/JDBM3 Java
 /xch91/JDBM4
 /xclam/facebook-android-sdk
 /XCMer/progmethassignments
@@ -48621,7 +48120,6 @@ xch91/JDBM3 Java
 /xebia-france/anagram-kata
 /xebia-france/NIO
 /xebia-france/oobank-kata
-xebia-france/oobank-kata Java
 /xebia-france/romannumeral-kata
 /xebia-france-training/xebia-petclinic
 /xebia-france-training/xebia-petclinic-lite
@@ -48740,7 +48238,6 @@ xebia-france/oobank-kata Java
 /xiaocao/hadoop-book
 /xiaocao/nakamura
 /xiaocao/textrank
-xiaocao/textrank Java
 /xiaochunzhou/rest-fixture
 /xiaodianwang/projectofdoomjeffyinyindasol
 /XiaoGou/game-of-life
@@ -49003,7 +48500,6 @@ xiaocao/textrank Java
 /y12studio/Serial-to-USB-ANDROID
 /y29cheng/PeerVote
 /Y3PP3R/derric
-Y3PP3R/derric Java
 /Y3PP3R/rascal
 /y42sora/soraPKU
 /YAAD/sqwrGameworks
@@ -49182,7 +48678,7 @@ Y3PP3R/derric Java
 /ybq/Pretty-Painter
 /ybq/scribe-java
 /ybq/ShowcaseView
-ybq/SocialStreamFragment Java
+/ybq/SocialStreamFragment
 /ybq/webimageloader
 /ycechung/facebook-android-sdk
 /yciabaud/checkstyle-plugin
@@ -49290,7 +48786,6 @@ ybq/SocialStreamFragment Java
 /yigiter/DataMonitor
 /yigiter/Demo6DoF
 /yigit/greenDAO
-yigit/greenDAO Java
 /yigongliu/PeerDeviceNet
 /yigongliu/PeerDeviceNet_Chat
 /yigongliu/PeerDeviceNet_RemoteIntentActivity
@@ -49356,7 +48851,6 @@ yigit/greenDAO Java
 /yngui/jackson-databind
 /yngui/jackson-module-jaxb-annotations
 /yngui/json-schema-validator
-yngui/json-schema-validator Java
 /ynishi/spring-framework
 /ynniv/TrendrrBeanstalk
 /ynotscript/ynot
@@ -49398,7 +48892,6 @@ yngui/json-schema-validator Java
 /yoni/MiA
 /yony258/openmrs-module-basicmodule
 /yoocos/JDBM3
-yoocos/JDBM3 Java
 /yoocos/JDBM4
 /yopa/Hackathon
 /yopa/OpenTripPlanner
@@ -49427,7 +48920,7 @@ yoocos/JDBM3 Java
 /youdevise/High-Speed-Dirt
 /youdevise/java-statsd-client
 /youdevise/JMSUtils
-youdevise/karg Java
+/youdevise/karg
 /youdevise/Matchers
 /youdevise/maybe-java
 /youdevise/narrative
@@ -49442,7 +48935,7 @@ youdevise/karg Java
 /youhuanzou/JavaTwitterApi
 /youmag/faces
 /youngbleeze/facebook-android-sdk
-YoungGunz/cwac-wakeful Java
+/YoungGunz/cwac-wakeful
 /younggyuchun/Minecraft-API
 /youngj/EnvayaSMS
 /youngm/dart-maven-plugin
@@ -49522,7 +49015,6 @@ YoungGunz/cwac-wakeful Java
 /yubingxing/java-apns
 /yubink/async-http-client
 /yuc8939/jafka
-yuc8939/jafka Java
 /yucc136/ActivityCompat2
 /yucc136/android-mapviewballoons
 /yucc136/android-sqlite-asset-helper
@@ -49620,13 +49112,11 @@ yuc8939/jafka Java
 /yyuu/jetty-nosql-kvs
 /yyuu/libmysql-java
 /yywill/json-schema-validator
-yywill/json-schema-validator Java
 /yyyar/lettuce
 /yz0075/vid5demo
 /yz-/bigbluebutton
 /yztaoj/sikuli
 /yzwings/Nextag-Results-Text-Scraper
-yzwings/Nextag-Results-Text-Scraper Java
 /yzwings/Query-probing-classification
 /z1z1z1z1l/maclawstudios_camera
 /z2/android-database-sqlcipher
@@ -49647,7 +49137,6 @@ yzwings/Nextag-Results-Text-Scraper Java
 /ZachBora/SupplySign
 zach-hinchy/BasicCirc
 /zach-hinchy/BasicCircuits
-zach-hinchy/BasicCircuits Java
 /zach-hinchy/Highlighter
 /zach-hinchy/RedstoneChips
 /zach-hinchy/Spoutcraft
@@ -49708,7 +49197,6 @@ zach-hinchy/BasicCircuits Java
 /zanson/jmx2munin
 /zanyking/zk
 /zapnap/mmeta
-zapnap/mmeta Java
 /zapodot/constretto-core
 /zapodot/sms-backup-plus
 /Zapotek/raw2vmdk
@@ -49744,7 +49232,6 @@ zapnap/mmeta Java
 /ZavCoding/ZavAutoMessager
 /ZavCoding/ZavItemSave
 /zavoloka/couchdb-lucene
-zavoloka/couchdb-lucene Java
 /ZawWin/Selenium
 /zaxon/game-of-life
 /zayass/ideavim
@@ -49779,7 +49266,6 @@ zavoloka/couchdb-lucene Java
 /zeebo404/play-html5-validation
 /zeebok/Bodies-of-Words
 /zeeshanlakhani/zeeshans_thesis
-zeeshanlakhani/zeeshans_thesis Java
 /zeevex/nokogiri
 /zeeZ/CompassNavi
 /zeffii/10ProcessingSketches
@@ -49799,9 +49285,8 @@ zeeshanlakhani/zeeshans_thesis Java
 /Zenedith/video-paste-java
 /Zenexer/mcXmlRpcSpike
 /Zenexer/SkyBlock-Multiplayer
-zengin/colorize-scheme Java
+/zengin/colorize-scheme
 /zengineerus/henplus
-zengineerus/henplus Java
 /ZenGirl/EmbeddedJettyRepository
 /zengjunfeng/phonegap-plugins
 /zengshengwen/asterisk-java
@@ -49937,7 +49422,7 @@ zengineerus/henplus Java
 /zhuomingliang/azkaban
 /zhuomingliang/curator
 /zhuomingliang/elasticsearch
-zhuomingliang/elasticsearch-analysis-pinyin Java
+/zhuomingliang/elasticsearch-analysis-pinyin
 /zhuomingliang/elasticsearch-carrot2
 /zhuomingliang/storm-contrib
 /zhuomingliang/wonderdog
@@ -49970,7 +49455,6 @@ zhuomingliang/elasticsearch-analysis-pinyin Java
 /zielonek/worldguard
 /zifnab06/JavaBot
 /zig158/JDBM3
-zig158/JDBM3 Java
 /zigama/ESRMS
 /ziglee/crosslasers
 /zigorsalvador/phoenix
@@ -50198,12 +49682,10 @@ zig158/JDBM3 Java
 /zyncro/java-api-sample
 /zynga/jbpm
 /Zynine/BasicCircuits
-Zynine/BasicCircuits Java
 /zypperin/appfuse
 /Zypr/Zypr-API-Access-Library---Java
 /Zypr/Zypr-Reference-Client---Java
 /zyrmpg/seck
-zyrmpg/seck Java
 /zyro23/grails-ide
 /zyv/warnings-plugin
 /zyxxy/chess
