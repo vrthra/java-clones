@@ -7,14 +7,14 @@
 --horline
 
 * Write the snippet
----
+--##---
 * Check for similar snippets in the repository
----
+--##---
 * Steal its test case
----
+--##---
 * Checkin
 
---huge PARTY !!!
+--##--huge PARTY !!!
 
 --newpage Find Similarities
 --heading Find Similarities
@@ -41,11 +41,11 @@ Problems
 --boldoff
 --color white
 - Mostly from 1990
----
+--##---
 - Very difficult to get implementations
----
+--##---
 - Analysis - if any - done on trivial projects (<1kloc)
----
+--##---
 
 --newpage Clone Detection
 --heading Clone Detection
