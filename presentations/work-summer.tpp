@@ -88,41 +88,12 @@ The industry standard is Simian, and of the tools I tried to use, it is the fast
 Run Simian for each pair of projects we have, Look at each instance of duplication reported by it; Run coverage analysis to get the test covering the duplicate snippets. If duplication on one side is missing, then copy the test case covering it to the other project.
 --endoutput
 
---newpage Coverage
---heading Coverage
---horline
-
-
---boldon
-Densitiy plot of coverage%
---boldoff
-
-r| txtdensity(cov$coverage_percentage,width=80)
-      +--+------------+------------+------------+-------------+------------+---+
- 0.02 +  ****                                                                  +
-      |     **                                                                 |
-      |      **                                                                |
-      |       *                                                                |
-      |        *                                                               |
-0.015 +        **                                                              +
-      |         **                                                             |
-      |          *                                                             |
-      |           *                                                            |
- 0.01 +           **                                                           +
-      |            ***                                                         |
-      |              ***                             *********                 |
-      |                ****                **********        *****             |
-      |                   ******************                     ****          |
-0.005 +                                                             ***        +
-      |                                                               ****     |
-      |                                                                  ***   |
-      +--+------------+------------+------------+-------------+------------+---+
-         0           20           40           60            80           100   
-
 - Mean 31.52% (Median 20.61%)
 
 - However it included a large number of projects with no tests at all.
   (Dr. Groce suggests that it is better to not consider these for comparison)
+
+- So we cleaned up projects that were less than 1000 loc, and had test coverage near zero.
 
 --newpage Only those who made an effort to test
 --heading Only those who made an effort to test
@@ -158,7 +129,6 @@ r| txtdensity(cov[cov$coverage_percentage > 0,]$coverage_percentage,width=80)
 
 
   - Mean without 0's = 50.202 (Median 53.434)
-  - Dr. Groce also thinks that we would have a higher impact if we concentrate on increasing the coverage of highest covered projects because they evidently care about testing.
 
 
 --newpage Similarity
@@ -244,112 +214,77 @@ Problems
 - Functions are not self contained:
   - Especially for above methods, object state becomes important. It is not clear how to deal with that.
 
---newpage Graphs
---heading Graphs
+--newpage Both
+--heading Both
 --horline
 
-r| txtplot(cov$share_percentage_fn, cov$coverage_percentage, width=80)
+- Used the signatures as a guide, and used similarity measures to check the similarity between functions with same signature.
+  - Results better than using simian alone, still not a lot (not enough to plot).
 
-    +--+-------------+------------+-------------+------------+------------+----+
-100 +  *       * *    *                * *                                *    +
-    |    * * *   *** * *    * *        *                                       |
-    |       ** ** * ***  ****    *                                             |
- 80 +        ***   *** *****  **                                               +
-    |  *   * ******* *****   **                                                |
-    |       **  ********** ***  *                                              |
- 60 +       * ***  * ** **** *                                                 +
-    |  *          **** ****  ** *      *     *                                 |
-    |        *** ****** *  *    *      *                                       |
-    |          *** *** ***                                                     |
- 40 +     *   *   * * * *   * * *       *                                 *    +
-    |              ****  ** *   ***   *                                        |
-    |       *  * * * ***** *  *   *     *                                      |
- 20 +    *   * * **** ***  *  *     *                                          +
-    |  *   *  ****  * **   ***    *                                            |
-    |          * ***** * *   ** *        *                    *                |
-  0 +  * ***************************** ***** **    **     *       *       *    +
-    +--+-------------+------------+-------------+------------+------------+----+
-       0            20           40            60           80           100    
-
---newpage
-
-
-r| txtplot(cov$share_percentage_fn, cov$total_fn, width=80)
+--newpage Theoretical Upperbound
+--heading Theoretical Upperbound
 --horline
 
-      +--+------------+------------+------------+-------------+------------+---+
-      |           *                                                            |
-20000 +        *                                                               +
-      |                                                                        |
-      |                                                                        |
-15000 +       *                                                                +
-      |                                                                        |
-      |                                                                        |
-      |           *    *  *                                                    |
-10000 +         *     *                                                        +
-      |                                                                        |
-      |            * *   **                                                    |
-      |          *  * **  *    *                                               |
- 5000 +          * * *     **                                                  +
-      |        *  * *** * * **                                                 |
-      |    **   * * ********  *    *                                           |
-      |      * ************* ***** *  *  *                                     |
-    0 +  ************************************ **    **    *   *    *       *   +
-      +--+------------+------------+------------+-------------+------------+---+
-         0           20           40           60            80           100   
+Aim: To find an upper bound for increase in coverage.
 
---newpage
+projectA/addFn (high coverage)
+--beginoutput
+1aaaaa
+2bbbbb
+3ccccc
+4ddddd
+5eeeee
+--endoutput
+- Has 20% coverage from testAddFn (say 12)
+- Contributes 5% of the projectA:loc
 
+projectB/addFn (low coverage)
+--beginoutput
+0zzzzz
+1aaaaa
+2bbbbb
+3ccccc
+4ddddd
+--endoutput
+- Contributes 10% of the projectB:loc
 
-r| txtplot(cov$share_percentage_fn, cov$contrib_count , width=80)
+Then we have 1234 that mathed; Copying testAddFn to projectB would increase the %coverage by two lines
+(assuming that it was not covered earlier by other test cases).
+
+So the new coverage of projectB would be
+
+--beginoutput
+projectB:originalcov_
+  = projectB:orig_coveredloc_ / projectB:totalloc_
+
+projectB:newcov
+  = projectB:new_coveredloc / projectB:totalloc_
+
+projectB:new_coveredloc
+  = projectB:orig_coveredloc_ + (projectA/testAddFn:contrib_lines - projectB/testAddFn:cov%addFn_)
+
+projectA/testAddFn:contrib_lines
+  = projectA/testAddFn%cov A projectB/addFn_
+
+--endoutput
+
+--newpage Current Status
+--heading Current Status
 --horline
 
-    +--+-------------+------------+-------------+------------+------------+----+
-    |               *                                                          |
-    |         *                                                                |
-100 +                                                                          +
-    |         *                                                                |
-    |                             *                                            |
- 80 +                                                                          +
-    |           * *  *                                                         |
-    |              ** *                                                        |
- 60 +                   **  *                                                  +
-    |               ***   *                                                    |
- 40 +      *         * *     * *                                               +
-    |          ***   ***    *                                                  |
-    |          *   * ** * *  *    *                                            |
- 20 +          ********* *** **                                                +
-    |    ******* ******* **** * **     *                                       |
-    |  * ** **********************  ** *      *                                |
-  0 +  * *********************************** **    **     *   *   *       *    +
-    +--+-------------+------------+-------------+------------+------------+----+
-       0            20           40            60           80           100    
+It is hard to obtain coverage per Test case.
+- Emma which I was using, does not provide it
+- Codecover (FOSS), and Clover (Commercial) are the ones who provide test specific data,
+  - unable to get either of them to work well with apache maven.
+  - fell back to the simple strategy of iterating through test cases, running them one by one
+    and collecting coverage, but it is time intensive, I have just 15 projects out of 532 now.
+    (still running the remaining)
 
---newpage
+- What I have:
+  - Test coverage per test case of each method in the projects analyzed
+  - Methods that are similar to given method in each of these.
 
-r| txtplot(cov$share_percentage_fn, cov$commit_count , width=80)
---horline
 
-      +--+------------+------------+------------+-------------+------------+---+
-      |         *                                                              |
-12000 +                                                                        +
-      |                                                                        |
-10000 +                                                                        +
-      |                                                                        |
-      |           *                                                            |
- 8000 +                                                                        +
-      |                                                                        |
- 6000 +             *                                                          +
-      |           *                                                            |
-      |               *      *                                                 |
- 4000 +          *   *                                                         +
-      |              * **                                                      |
-      |          ** *** ****                                                   |
- 2000 +        **  *  *** * ***                                                +
-      |   * *  ************ *** *  *                                           |
-    0 +  * ********************************** **    **    *   *    *       *   +
-      +--+------------+------------+------------+-------------+------------+---+
-         0           20           40           60            80           100   
 
 --newpage Recommendations
 --heading Recommendations
